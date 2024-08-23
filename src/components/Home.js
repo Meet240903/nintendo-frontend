@@ -5,6 +5,7 @@ import OnlineStoreSection from './homePages/OnlineStoreSection'
 import GamingSystemSection from './homePages/GamingSystemSection'
 import NewsSection from './homePages/NewsSection'
 import CharacterSection from './homePages/CharacterSection'
+import BestSellerSection from './homePages/BestSellerSection'
 
 const Home = () => {
     return (
@@ -20,6 +21,8 @@ const Home = () => {
             <NewsSection />
             <hr />
             <CharacterSection />
+            <hr />
+            <BestSellerSection />
             <hr />
         </>
     )

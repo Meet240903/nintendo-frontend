@@ -77,7 +77,7 @@ const NewsSection = () => {
 
                 </div>
                 <div className='my-4'>
-                    <button className='news-section-btn'><FontAwesomeIcon icon={faMessage} />&nbsp;&nbsp;See all articles</button>
+                    <button className='news-section-btn'><FontAwesomeIcon icon={faMessage} />&nbsp;&nbsp;See all news articles</button>
                 </div>
             </div>
         </>
