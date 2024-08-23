@@ -1,40 +1,167 @@
-.character-section-container {
-    max-width: 1200px;
+.feature-main-div {
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    position: relative;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
-.character-section-container h4 {
-    font-size: 24px;
+.slider-control-leftbtn{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 30px;
+    height: 300px;
+    border: none;
+    background-color: #dadada;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider-control-leftbtn:hover{
+    background-color: #c5bfbf;
+    font-weight: bold;
+}
+
+.slider-control-rightbtn{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 30px;
+    height: 300px;
+    border: none;
+    background-color: #dadada;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider-control-rightbtn:hover{
+    background-color: #c5bfbf;
+    font-weight: bold;
+}
+
+.feature-main-div h4 {
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #434343;
     text-align: left;
 }
 
-.char-img-div {
-    background: no-repeat;
-    background-position: center;
-    border-radius: 12px;
-    overflow: hidden; /* Ensure the image does not overflow the div */
-    position: relative;
-    width: 100%; /* Ensure the div takes full width of the column */
-    padding-bottom: 100%; /* Create a square aspect ratio */
+.feature-flex-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease; /* Animation effect for sliding */
 }
 
-.char-img-div img {
+.sliding {
+    transform: translateX(-100%); /* Sliding effect */
+}
+
+.features-box {
+    border: 1px solid lightgray;
+    max-width: 250px;
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the div without distortion */
-    transition: transform 0.3s ease-in-out;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
 }
 
-.char-img-div:hover img {
+.features-box img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    display: block;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.features-box:hover img{
     cursor: pointer;
-    transform: scale(1.1); /* Scale the image to zoom it */
+    zoom: 100%;
+    transform: scale(1.1);
+}
+
+.features-box-content {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure it takes up the full height of the box */
+}
+
+.features-box-content p {
+    font-size: 14px;
+    text-align: left;
+    flex-grow: 1; /* Push the footer content to the bottom */
+}
+
+.feature-box-footer {
+    margin-top: auto; /* Push this content to the bottom */
+    text-align: left;
+}
+
+.feature-box-span {
+    background-color: #4b5cce;
+    border-radius: 25px;
+    padding: 0px 8px 2px 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: smaller;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .feature-flex-box {
+        gap: 15px;
+    }
+
+    .features-box {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-flex-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .features-box {
+        max-width: 100%;
+    }
+
+    .feature-main-div h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .feature-flex-box {
+        gap: 10px;
+    }
+
+    .features-box {
+        max-width: 100%;
+    }
+
+    .feature-main-div h4 {
+        font-size: 20px;
+    }
 }
