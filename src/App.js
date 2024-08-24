@@ -4,17 +4,33 @@ import Header from './components/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import NintendoAccount from './components/NintendoAccount';
+import SignupHeader from './components/SignupHeader';
+import SignupFooter from './components/SignupFooter';
 
 function App() {
   return (
     <>
-      <Header />
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/'
+            element={
+              <>
+                <Header />
+                <Home />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/nintendo-account'
+            element={
+              <>
+                <SignupHeader />
+                <NintendoAccount />
+                <SignupFooter />
+              </>
+            } />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </>
   );
 }

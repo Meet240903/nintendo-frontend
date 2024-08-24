@@ -58,7 +58,7 @@ const NewsSection = () => {
                                     <small>{data?.date}</small>
                                     <h4>{data?.newsTitle}</h4>
                                     <div className='my-4'>
-                                        <small>{data?.newsContent}</small><br />
+                                        <p>{data?.newsContent}</p><br />
                                         <a className='read-more-link'>Read more</a>
                                     </div>
                                 </div>

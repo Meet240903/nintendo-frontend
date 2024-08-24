@@ -1,4 +1,4 @@
-/* General Header Styles */
+/* General Styles */
 .header, .second-header {
     background-color: #fff;
     border-bottom: 2px solid #ccc;
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-right: 10px;
     flex-wrap: wrap;
 }
 
@@ -63,7 +63,7 @@
     flex-wrap: wrap;
 }
 
-.mobile-screen-menu{
+.mobile-screen-menu {
     display: none;
 }
 
@@ -111,6 +111,144 @@
     color: #434242;
 }
 
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 350px; /* Adjust width as needed */
+    height: 100%;
+    background-color: #dadada;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.close-sidebar {
+    background-color: lightgray;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+
+}
+
+.sidebar-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Overlay Styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.sidebar-section-one{
+    background-color: #fff;
+    color: #434242;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.sidebar-section-one ul{
+    list-style-type: none;
+}
+
+.sidebar-section-one h5{
+    margin-left: 20px;
+}
+
+.sidebar-login-btn{
+    width: 100%;
+    border: none;
+    background-color: #e60012;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.sidebar-signup-btn{
+    width: 100%;
+    border: 1px solid;
+    background-color: #fff;
+    color: #e60012;
+    border-color: #e60012;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-radius: 12px;
+    transition: 1s ease;
+}
+
+.sidebar-signup-btn:hover{
+    background-color: #efaeb4;
+}
+
+.sidebar-orderstatus-btn{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    color: #434242;
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-radius: 12px;
+    transition: 1s ease;
+    text-align: left;
+}
+
+.sidebar-orderstatus-btn:hover{
+    color: #e60012;
+}
+
+.sidebar-bottom-section{
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.sidebar-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #434242;
+}
+
+/* Responsive Styles */
 @media (max-width: 992px) {
     .header {
         flex-direction: column;
@@ -197,34 +335,63 @@
     .header-left {
         justify-content: center;
     }
-    .header-right{
+    
+    .header-right {
         display: none;
     }
     
     .search-container {
         flex-direction: column;
     }
+
     .search-dropdown {
        display: none;
     }
 
-    .mobile-screen-menu{
+    .mobile-screen-menu {
         display: flex;
         align-items: center;
     }
-    .mobile-screen-menu a{
+
+    .mobile-screen-menu a {
         font-size: 10px;
     }
+
     .search-input {
         display: none;
     }
-    .logo{
+
+    .logo {
         max-width: 50px;
         margin-left: 0;
     }
+
     .header-content {
         flex-direction: column;
         row-gap: 10px;
         column-gap: 0;
+    }
+
+    .sidebar {
+        width: 250px; /* Adjust for smaller screens */
+    }
+
+    .sidebar-section-one{
+        font-size: small;
+    }
+
+    .sidebar-section-one h5{
+        font-size: medium;
+        margin: 0;
+    }
+
+    .sidebar-section-one ul{
+        padding: 0;
+    }
+    .sidebar-login-btn,.sidebar-signup-btn,.sidebar-orderstatus-btn{
+        font-size: small;
+    }
+    .sidebar-bottom-content{
+        font-size: 10px;
     }
 }

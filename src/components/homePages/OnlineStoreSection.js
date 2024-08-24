@@ -8,7 +8,7 @@ const OnlineStoreSection = () => {
       <div className='online-store-container'>
         <h4>Online Store</h4>
         <img src={onlineStoreImg} className='img-fluid' alt='online-store-img' />
-        <div className='row my-5'>
+        <div className='row my-5 mx-0'>
             <div className='col-md-10'>
                 <p>Shop games, exclusive Nintendo merchandise, and more! Plus, get free shipping on orders $50 and over.</p>
             </div>

@@ -1,0 +1,53 @@
+/* Container Styles */
+.nintendo-account-container {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Heading Styles */
+.nintendo-account-container h4 {
+    font-size: 24px; 
+    color: #434343; 
+    margin-bottom: 20px; 
+    margin-top: 3rem;
+}
+
+/* Content Styles */
+.nintendo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    max-width: 600px; 
+    padding: 0 20px; 
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 13.5rem;
+}
+
+.nintendo-content-p {
+    font-size: 16px; 
+    width: 50%;
+    color: #434343; 
+    margin: 0; 
+}
+
+.nintendo-row-content{
+    width: 100%;
+}
+
+.nintendo-account-btn{
+    background-color: #e60012;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}

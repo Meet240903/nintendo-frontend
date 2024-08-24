@@ -1,0 +1,38 @@
+/* General Footer Styles */
+.signup-footer {
+    background-color: #dfdfdf;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #ccc; /* Optional: for visual separation */
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Space between links */
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #434242;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    color: #e60012; /* Adjust color for hover effect */
+}
+
+.footer-language {
+    margin-bottom: 10px;
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+.footer-copy {
+    font-size: 12px; /* Adjust font size as needed */
+    color: #434242;
+}

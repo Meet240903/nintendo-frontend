@@ -10,6 +10,8 @@ import happinessParedImg from '../../assets/images/bestSellerSection/happinessPa
 import Mariokart8Img from '../../assets/images/bestSellerSection/mariokart8.avif';
 import marioSonicImg from '../../assets/images/bestSellerSection/marioSonic.avif';
 import thankyougoddessImg from '../../assets/images/bestSellerSection/thankyougoddess.avif';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const BestSellerSection = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -131,6 +133,7 @@ const BestSellerSection = () => {
                             <div className='feature-box-footer'>
                                 <span className='fw-bold'>{data?.price}</span><br/>
                                 <small><span className='fw-bold'>|</span> {data?.footerTitle}</small>
+                                <FontAwesomeIcon icon={faHeart} className='heart-icon' />
                             </div>
                         </div>
                     </div>

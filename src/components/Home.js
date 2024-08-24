@@ -6,6 +6,8 @@ import GamingSystemSection from './homePages/GamingSystemSection'
 import NewsSection from './homePages/NewsSection'
 import CharacterSection from './homePages/CharacterSection'
 import BestSellerSection from './homePages/BestSellerSection'
+import NewReleaseSection from './homePages/NewReleaseSection'
+import RecentlyViewedSection from './homePages/RecentlyViewedSection'
 
 const Home = () => {
     return (
@@ -24,6 +26,9 @@ const Home = () => {
             <hr />
             <BestSellerSection />
             <hr />
+            <NewReleaseSection />
+            <hr />
+            <RecentlyViewedSection />
         </>
     )
 }

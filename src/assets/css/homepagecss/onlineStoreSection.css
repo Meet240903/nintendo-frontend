@@ -1,12 +1,13 @@
-.online-store-container{
+.online-store-container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    padding: 0 15px; /* Added padding for smaller screens */
 }
 
-.online-store-container h4{
+.online-store-container h4 {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -14,29 +15,32 @@
     text-align: left;
 }
 
-.online-store-container img{
+.online-store-container img {
     border-radius: 12px;
+    width: 100%; /* Ensure the image is responsive */
+    height: auto;
 }
 
-.online-store-container p{
+.online-store-container p {
     font-size: 22px;
     font-weight: bold;
     color: #434343;
 }
 
-.online-store-btn{
+.online-store-btn {
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
     background-color: #e60012;
     color: #fff;
     font-weight: bold;
     margin-top: 10px;
+    width: 100%; /* Button takes full width on small screens */
+    max-width: 180px; /* Limit max-width on larger screens */
+    text-align: center;
 }
 
-.online-store-btn:hover{
+.online-store-btn:hover {
     background-color: #84040e;
     transition: 0.6s ease;
 }
@@ -44,15 +48,57 @@
 .gaming-system-btn{
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
     background-color: #e60012;
     color: #fff;
     font-weight: bold;
+    width: 100%; /* Button takes full width on small screens */
+    max-width: 180px; /* Limit max-width on larger screens */
+    text-align: center;
 }
 
-.gaming-system-btn:hover{
+.gaming-system-btn:hover {
     background-color: #84040e;
     transition: 0.6s ease;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .online-store-container h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .online-store-container p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .online-store-container img {
+        margin-bottom: 20px; /* Space out the image from the text */
+    }
+
+    .row {
+        text-align: center; /* Center align text on small screens */
+    }
+
+    .col-md-10,
+    .col-md-2 {
+        text-align: center; /* Center the content */
+        margin-bottom: 10px; /* Add spacing between the text and button */
+    }
+
+    .online-store-btn {
+        width: 100%; /* Button takes full width on small screens */
+        max-width: none; /* Remove max-width on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .online-store-container p {
+        font-size: 16px;
+    }
+
+    .online-store-btn {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 }

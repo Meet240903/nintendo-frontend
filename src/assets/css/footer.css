@@ -163,4 +163,7 @@
         margin-top: 1rem;
         justify-content: center;
     }
+    .footer-second-content{
+        padding-left: 20px;
+    }
 }

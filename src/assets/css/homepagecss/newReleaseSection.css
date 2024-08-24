@@ -1,4 +1,4 @@
-.feature-main-div {
+.newrelease-main-div {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +44,7 @@
     font-weight: bold;
 }
 
-.feature-main-div h4 {
+.newrelease-main-div h4 {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -52,7 +52,7 @@
     text-align: left;
 }
 
-.feature-flex-box {
+.newrelease-flex-box {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -66,11 +66,11 @@
     transform: translateX(-100%); /* Sliding effect */
 }
 
-.features-box {
+.newreleases-box {
     border: 1px solid lightgray;
     max-width: 250px;
     width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
     flex: 1;
@@ -79,7 +79,7 @@
     cursor: pointer;
 }
 
-.features-box img {
+.newreleases-box img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
@@ -88,13 +88,13 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.features-box:hover img{
+.newreleases-box:hover img{
     cursor: pointer;
     zoom: 100%;
     transform: scale(1.1);
 }
 
-.features-box-content {
+.newreleases-box-content {
     padding: 10px;
     text-align: center;
     display: flex;
@@ -102,26 +102,19 @@
     height: 100%; /* Ensure it takes up the full height of the box */
 }
 
-.features-box-content p {
+.newreleases-box-content p {
     font-size: 14px;
     text-align: left;
     flex-grow: 1; /* Push the footer content to the bottom */
 }
 
-.feature-box-footer {
+.newrelease-box-footer {
     margin-top: auto; /* Push this content to the bottom */
     text-align: left;
     position: relative;
 }
 
-.heart-icon{
-    color: red;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.feature-box-span {
+.newrelease-box-span {
     background-color: #4b5cce;
     border-radius: 25px;
     padding: 0px 8px 2px 8px;
@@ -132,48 +125,50 @@
     margin-bottom: 10px;
 }
 
+.heart-icon{
+    color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
 /* Responsive Design */
 @media (max-width: 992px) {
-    .feature-flex-box {
+    .newrelease-flex-box {
         gap: 15px;
     }
 
-    .features-box {
+    .newreleases-box {
         max-width: 45%;
     }
 }
 
 @media (max-width: 768px) {
-    .feature-flex-box {
+    .newrelease-flex-box {
         flex-direction: column;
         align-items: center;
     }
     
-    .features-box {
+    .newreleases-box {
         max-width: 100%;
     }
 
-    .feature-main-div h4 {
+    .newrelease-main-div h4 {
         font-size: 24px;
     }
 }
 
 @media (max-width: 576px) {
-    .feature-flex-box {
+    .newrelease-flex-box {
         gap: 10px;
     }
 
-    .features-box {
+    .newreleases-box {
         max-width: 100%;
     }
 
-    .feature-main-div h4 {
+    .newrelease-main-div h4 {
         font-size: 20px;
-    }
-
-    .slider-control-rightbtn,.slider-control-leftbtn{
-        display: none;
     }
 }
