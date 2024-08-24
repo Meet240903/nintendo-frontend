@@ -1,0 +1,162 @@
+.signin-page-container{
+    max-width: 100%;
+    padding-top: 5rem;
+}
+
+.signin-page-container h4{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.signin-content-section{
+    background-color: #fff;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #434343;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.signin-page-btn {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    cursor: not-allowed;
+    background-color: #b1b1b1; /* Default inactive state */
+    color: #fff;
+}
+
+.signin-page-btn.active {
+    background-color: #e60012; /* Active state background */
+    cursor: pointer;
+}
+
+.signin-page-btn.inactive {
+    background-color: #b1b1b1; /* Inactive state background */
+    cursor: not-allowed;
+}
+
+.forgot-link{
+    text-align: center;
+    margin-top: 2rem;
+    color: #3468dc;
+}
+
+.forgot-a-tag{
+    text-decoration: none;
+}
+
+.forgot-a-tag:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.passkey-content-section{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.signin-option-content{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 50px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.google-btn{
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.google-btn-div{
+    position: relative;
+}
+
+.google-img{
+    position: absolute;
+    height: 30px;
+    top: 8px;
+    left: 10px;
+}
+
+.apple-btn-div{
+    position: relative;
+    margin-top: 20px;
+}
+
+.apple-btn{
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.apple-icon{
+    color: #fff;
+    position: absolute;
+    height: 30px;
+    top: 8px;
+    left: 10px;
+}
+
+.signin-bottom-creation{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.create-account-btn{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #fff;
+    transition: 1s ease;
+}
+
+.create-account-btn:hover{
+    background-color: #dfdfdf;
+}
+

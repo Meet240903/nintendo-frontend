@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/nintendoAccount.css'
+import { Link } from 'react-router-dom';
 
 const NintendoAccount = () => {
     return (
@@ -10,11 +11,11 @@ const NintendoAccount = () => {
                 <div className='row mx-0 nintendo-row-content'>
                     <div className='col-md-6 my-4'>
                         <p className='fw-bold'>For existing users</p>
-                        <button className='nintendo-account-btn'>Sing in</button>
+                        <Link to='/sign-in'><button className='nintendo-account-btn'>Sing in</button></Link>
                     </div>
                     <div className='col-md-6 my-4'>
                         <p className='fw-bold'>Don't have an account?</p>
-                        <button className='nintendo-account-btn'>Create a Nintendo account?</button>
+                        <Link to='/signup-option'><button className='nintendo-account-btn'>Create a Nintendo account?</button></Link>
                     </div>
                 </div>
             </div>

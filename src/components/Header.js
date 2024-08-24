@@ -24,7 +24,7 @@ const Header = () => {
             <header className="header">
                 <div className="header-left">
                     <div className="logo">
-                        <img src={headerLogo} className='img-fluid' style={{ color: 'white' }} alt='website-logo' />
+                        <Link to='/'><img src={headerLogo} className='img-fluid' style={{ color: 'white' }} alt='website-logo' /></Link>
                     </div>
                     <div className='mobile-screen-menu'>
                         <a href="#" className="header-link">
@@ -109,7 +109,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to="/nintendo-account" ><button className='sidebar-login-btn'>Log in</button></Link>
-                    <button className='sidebar-signup-btn'>Sign up</button>
+                    <Link to="/signup-option"><button className='sidebar-signup-btn'>Sign up</button></Link>
                     <button className='sidebar-orderstatus-btn'><FontAwesomeIcon icon={faReceipt} style={{color:'#e60012'}} />&nbsp;&nbsp; Order status</button>
                     <div className='sidebar-bottom-section'>
                         <div className='sidebar-bottom-content'>

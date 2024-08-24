@@ -7,6 +7,11 @@ import Footer from './components/Footer';
 import NintendoAccount from './components/NintendoAccount';
 import SignupHeader from './components/SignupHeader';
 import SignupFooter from './components/SignupFooter';
+import SigninPage from './components/SigninPage';
+import SingUpOptionPage from './components/SingUpOptionPage';
+import SignUpPage from './components/SignUpPage';
+import ChildAccountPage from './components/ChildAccountPage';
+import CreateChildAccountPage from './components/CreateChildAccountPage';
 
 function App() {
   return (
@@ -26,6 +31,46 @@ function App() {
               <>
                 <SignupHeader />
                 <NintendoAccount />
+                <SignupFooter />
+              </>
+            } />
+          <Route exact path='/sign-in'
+            element={
+              <>
+                <SignupHeader />
+                <SigninPage />
+                <SignupFooter />
+              </>
+            } />
+          <Route exact path='/signup-option'
+            element={
+              <>
+                <SignupHeader />
+                <SingUpOptionPage />
+                <SignupFooter />
+              </>
+            } />
+          <Route exact path='/sign-up'
+            element={
+              <>
+                <SignupHeader />
+                <SignUpPage />
+                <SignupFooter />
+              </>
+            } />
+          <Route exact path='/child-account'
+            element={
+              <>
+                <SignupHeader />
+                <ChildAccountPage />
+                <SignupFooter />
+              </>
+            } />
+          <Route exact path='/create-child-account'
+            element={
+              <>
+                <SignupHeader />
+                <CreateChildAccountPage />
                 <SignupFooter />
               </>
             } />

@@ -1,0 +1,115 @@
+/* Base Styles */
+
+/* Container Styles */
+.signup-option-container {
+    margin-top: 3rem;
+    padding: 0 20px; /* Add padding to ensure spacing on small screens */
+}
+
+/* Heading Styles */
+.signup-option-container h4 {
+    text-align: center;
+    color: #434343;
+    font-size: 24px; /* Adjust font size for larger screens */
+}
+
+/* Content Styles */
+.signup-option-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap for better spacing on smaller screens */
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+/* Option Div Styles */
+.option-div {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adjust padding for smaller screens */
+    text-align: center;
+    width: 100%; /* Ensure full width on small screens */
+    max-width: 300px; /* Set max-width for larger screens */
+    border-radius: 8px; /* Optional: add rounded corners for better design */
+}
+
+/* Image Styles */
+.option-div img {
+    height: 120px; /* Adjust image height for smaller screens */
+}
+
+/* Paragraph Styles */
+.option-div p {
+    font-weight: bold;
+    margin-top: 15px; /* Adjust margin for better spacing on small screens */
+}
+
+/* Icon Styles */
+.option-icon {
+    color: #dfdfdf;
+    font-size: 18px; /* Adjust icon size for smaller screens */
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .signup-option-content {
+        flex-direction: row; /* Stack items horizontally on larger screens */
+        gap: 30px;
+    }
+
+    .option-div {
+        padding: 20px; /* Adjust padding for larger screens */
+    }
+
+    .option-div img {
+        height: 150px; /* Restore original image height on larger screens */
+    }
+
+    .option-div p {
+        margin-top: 20px; /* Restore original margin on larger screens */
+    }
+
+    .option-icon {
+        font-size: 20px; /* Restore original icon size on larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .signup-option-container {
+        padding: 0 40px; /* Add more padding for larger screens */
+    }
+
+    .signup-option-content {
+        gap: 40px; /* Increase gap for better spacing on very large screens */
+    }
+
+    .option-div {
+        max-width: 350px; /* Increase max-width for very large screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .signup-option-container {
+        padding: 0 15px; /* Adjust padding for very small screens */
+    }
+
+    .option-div {
+        padding: 10px; /* Reduce padding for very small screens */
+        width: 300px;
+    }
+
+    .option-div img {
+        height: 100px; /* Further reduce image height on very small screens */
+    }
+
+    .option-div p {
+        font-size: 14px; /* Reduce font size for better readability on small screens */
+        margin-top: 10px; /* Reduce margin for better spacing on very small screens */
+    }
+
+    .option-icon {
+        font-size: 16px; /* Reduce icon size for very small screens */
+    }
+}
