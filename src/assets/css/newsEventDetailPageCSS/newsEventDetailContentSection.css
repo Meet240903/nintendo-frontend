@@ -1,0 +1,26 @@
+.news-detail-content-section-container{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.content-img{
+    width: 100%;
+}
+
+.news-detail-content-inner-title{
+    color: #e60012;
+    text-decoration: underline;
+}
+
+.news-detail-content-data{
+    line-height: 2rem;
+}
+
+.news-detail-content-list li{
+    line-height: 2rem;
+    margin-left: 2rem;
+    font-weight: 600;
+}

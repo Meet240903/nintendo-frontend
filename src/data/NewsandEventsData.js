@@ -4,7 +4,7 @@ import paperCapersArticleImg from '../assets/images/newsandEventsImgs/PaperCaper
 import babyPeachArticleImg from '../assets/images/newsandEventsImgs/baby_peach_gp.avif';
 import EMOManArticleImg from '../assets/images/newsandEventsImgs/EMOMan.avif';
 import NESArticleImg from '../assets/images/newsandEventsImgs/NWC_NES_CC.avif';
-import MonthlyNewsArticleImg from '../assets/images/newsandEventsImgs/MonthlyNewsletter.avif';
+import sportsArticleImg from '../assets/images/newsandEventsImgs/Sports.avif';
 import absoluteDoomArticleImg from '../assets/images/newsandEventsImgs/absoluteDoom.avif';
 import featuredDLCArticleImg from '../assets/images/newsandEventsImgs/FeaturedDLC.avif';
 import tetrisEventArticleImg from '../assets/images/newsandEventsImgs/TetrisEvent.avif';
@@ -23,6 +23,35 @@ import absoluteDoomSectionImg6 from '../assets/images/newsandEventsImgs/absolute
 import absoluteDoomSectionImg7 from '../assets/images/newsandEventsImgs/absoluteDoomImgs/Doom_s_Henchmen_Takeover_Screenshot.avif';
 import absoluteDoomSectionImg8 from '../assets/images/newsandEventsImgs/absoluteDoomImgs/Gwenpool_New_Mythic_Gwenpool.avif';
 import absoluteDoomSectionImg9 from '../assets/images/newsandEventsImgs/absoluteDoomImgs/New_Boss_Medallion_Mythic.avif';
+import teamRizeSectionImg from '../assets/images/newsandEventsImgs/Team_Rice_Results.avif';
+import neioSectionImg from '../assets/images/newsandEventsImgs/emioSectionimg.avif';
+import fortniteImg from '../assets/images/newsandEventsImgs/fortnite.avif';
+import winRiceImg1 from '../assets/images/newsandEventsImgs/winRiceImg1.avif';
+import winRiceImg2 from '../assets/images/newsandEventsImgs/winRiceImg2.avif';
+import winRiceImg3 from '../assets/images/newsandEventsImgs/winRiceImg3.avif';
+
+import zeldaimg1 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg1.avif';
+import zeldaimg2 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg2.avif';
+import zeldaimg3 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg3.avif';
+import zeldaimg4 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg4.avif';
+import zeldaimg5 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg5.avif';
+import zeldaimg6 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg6.avif';
+import zeldaimg7 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/zeldaimg7.avif';
+import pikimin4 from '../assets/images/newsandEventsImgs/zeldaLearnMoreSection/pikmin4.avif';
+
+import papercaperImg1 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg1.avif'
+import papercaperImg2 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg2.avif'
+import papercaperImg3 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg3.avif'
+import papercaperImg4 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg4.avif'
+import papercaperImg5 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg5.avif'
+import papercaperImg6 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg6.avif'
+import papercaperImg7 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg7.avif'
+import papercaperImg8 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg8.avif'
+import papercaperImg9 from '../assets/images/newsandEventsImgs/papercapersectionimg/papercaperImg9.avif'
+
+import tetrisImg1 from '../assets/images/newsandEventsImgs/tretritSectionimg/tetrisImg1.avif';
+import tetrisImg2 from '../assets/images/newsandEventsImgs/tretritSectionimg/tetrisImg2.avif';
+import tetrisImg3 from '../assets/images/newsandEventsImgs/tretritSectionimg/tetrisImg3.avif';
 
 const newsEventsData = [
     {
@@ -85,6 +114,43 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: zeldaimg1,
+                title: 'The Legend of Zelda™: Echoes of Wisdom',
+                price: '$59.99',
+            },
+            {
+                sectionImg: zeldaimg2,
+                title: 'The Legend of Zelda™: Tears of the Kingdom',
+                price: '$69.99',
+            },
+            {
+                sectionImg: zeldaimg3,
+                title: 'The Legend of Zelda™: Breath of the Wild',
+                price: '$59.99',
+            },
+            {
+                sectionImg: zeldaimg4,
+                title: 'The Legend of Zelda™: Skyward Sword HD',
+                price: '$59.99',
+            },
+            {
+                sectionImg: zeldaimg5,
+                title: 'Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda',
+                price: '$59.99',
+            },
+            {
+                sectionImg: zeldaimg6,
+                title: 'Hyrule Warriors: Age of Calamity',
+                price: 'Free',
+            },
+            {
+                sectionImg: zeldaimg7,
+                title: 'Nintendo Entertainment System™ - Nintendo Switch Online',
+                price: 'Free',
+            },
+        ],
     },
     {
         articleImg : pikminArticleImg,
@@ -135,6 +201,13 @@ const newsEventsData = [
                         contentData: "If you’d like to find more Pikmin-themed activities, you can visit the Pikmin section of Play Nintendo: https://play.nintendo.com/themes/friends/pikmin/",
                     },
                 ],
+            },
+        ],
+        learnMoreSection: [
+            {
+                sectionImg: pikimin4,
+                title: 'Pikmin™ 4',
+                price: '$59.99',
             },
         ],
     },
@@ -189,6 +262,53 @@ const newsEventsData = [
                         contentData: "Enter a bizarre and unexplored world full of strange creatures, dangers, and surprises. Whether you’re facing the wilderness or the seas, learn to exploit the environment and its inhabitants to escape and find your way back home. Keep your guard up—even the plants are known to be dangerous when angry!",
                     },
                 ],
+            },
+        ],
+        learnMoreSection: [
+            {
+                sectionImg: papercaperImg1,
+                title: 'Paper Mario™: The Thousand-Year Door',
+                price: '$59.99',
+            },
+            {
+                sectionImg: papercaperImg2,
+                title: 'Arranger: A Role-Puzzling Adventure',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg3,
+                title: 'Duck Detective - The Secret Salami',
+                price: '$9.99',
+            },
+            {
+                sectionImg: papercaperImg4,
+                title: 'Paper Trail',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg5,
+                title: 'Yoshi’s Crafted World™',
+                price: '$59.99',
+            },
+            {
+                sectionImg: papercaperImg6,
+                title: 'Bug Fables: The Everlasting Sapling',
+                price: '$24.99',
+            },
+            {
+                sectionImg: papercaperImg7,
+                title: 'Chicory: A Colorful Tale',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg8,
+                title: 'Snipperclips™ – Cut it out, together! bundle',
+                price: '$29.98',
+            },
+            {
+                sectionImg: papercaperImg9,
+                title: "Don't Starve: Nintendo Switch Edition",
+                price: '$19.99',
             },
         ],
     },
@@ -306,6 +426,13 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: neioSectionImg,
+                title: 'Emio – The Smiling Man: Famicom Detective Club™',
+                price: '$49.99',
+            },
+        ],
     },
     {
         articleImg : NESArticleImg,
@@ -356,10 +483,17 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: NESArticleImg,
+                title: 'Nintendo World Championships: NES™ Edition',
+                price: '$29.99',
+            },
+        ],
     },
     {
         articleImg : absoluteDoomArticleImg,
-        slugs: 'article-no-8',
+        slugs: 'article-no-7',
         date: '11/22/24',
         newstitle: 'Be a Marvel Hero in Fortnite Battle Royale Chapter 5 Season 4: Absolute Doom',
         contentSection: [
@@ -443,10 +577,17 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: fortniteImg,
+                title: 'Fortnite',
+                price: 'Free',
+            },
+        ],
     },
     {
         articleImg : featuredDLCArticleImg,
-        slugs: 'article-no-9',
+        slugs: 'article-no-8',
         date: '08/22/24',
         newstitle: 'Extend the fun with some extra content!',
         contentSection: [
@@ -461,10 +602,57 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: papercaperImg1,
+                title: 'Paper Mario™: The Thousand-Year Door',
+                price: '$59.99',
+            },
+            {
+                sectionImg: papercaperImg2,
+                title: 'Arranger: A Role-Puzzling Adventure',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg3,
+                title: 'Duck Detective - The Secret Salami',
+                price: '$9.99',
+            },
+            {
+                sectionImg: papercaperImg4,
+                title: 'Paper Trail',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg5,
+                title: 'Yoshi’s Crafted World™',
+                price: '$59.99',
+            },
+            {
+                sectionImg: papercaperImg6,
+                title: 'Bug Fables: The Everlasting Sapling',
+                price: '$24.99',
+            },
+            {
+                sectionImg: papercaperImg7,
+                title: 'Chicory: A Colorful Tale',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg8,
+                title: 'Snipperclips™ – Cut it out, together! bundle',
+                price: '$29.98',
+            },
+            {
+                sectionImg: papercaperImg9,
+                title: "Don't Starve: Nintendo Switch Edition",
+                price: '$19.99',
+            },
+        ],
     },
     {
         articleImg : tetrisEventArticleImg,
-        slugs: 'article-no-10',
+        slugs: 'article-no-9',
         date: '08/22/24',
         newstitle: 'Play the 42nd MAXIMUS CUP online event and you could earn an in-game collaborative theme!',
         contentSection: [
@@ -479,10 +667,27 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: tetrisImg1,
+                title: 'Tetris® 99',
+                price: 'Free',
+            },
+            {
+                sectionImg: tetrisImg2,
+                title: 'Splatoon™ 3',
+                price: '$59.99',
+            },
+            {
+                sectionImg: tetrisImg3,
+                title: 'Splatoon™ 3: Expansion Pass',
+                price: '$24.99',
+            },
+        ],
     },
     {
         articleImg : NESArticleImg,
-        slugs: 'article-no-11',
+        slugs: 'article-no-10',
         date: '08/22/24',
         newstitle: 'Competition #5 is on now in Nintendo World Championships: NES Edition',
         contentSection: [
@@ -529,24 +734,208 @@ const newsEventsData = [
                 ],
             },
         ],
+        learnMoreSection: [
+            {
+                sectionImg: NESArticleImg,
+                title: 'Nintendo World Championships: NES™ Edition',
+                price: '$29.99',
+            },
+        ],
     },
     {
         articleImg : winRiceArticleImg,
-        slugs: 'article-no-12',
+        slugs: 'article-no-11',
         date: '08/22/24',
         newstitle: 'And the latest Splatfest winner is…',
+        contentSection: [
+            {
+                content: [
+                    {
+                        contentData: "The results are in, squiddos! The clout is tallied, the numbers are crunched, and a winner is crowned for the latest Splatfest* in-game event in the Splatoon™ 3 game.",
+                        contentImg: teamRizeSectionImg,
+                    },
+                ],
+            },
+            {
+                contentMainTitle: 'Congratulations to Rice on the win!',
+                content: [
+                    {
+                        contentData: "The theme for this event was “Which could you eat every day?” with Bread, Rice, and Pasta splatting it out for the win.",
+                    },
+                    {
+                        contentData: "Make sure to visit the official Splatoon 3 website for the full score breakdown. If you’d like to participate in future Splatfest events, you can buy the Splatoon 3 game from Nintendo.com or Nintendo eShop on your device.",
+                    },
+                ],
+            },
+            {
+                contentMainTitle: 'So, uh, what’s a Splatfest?',
+                content: [
+                    {
+                        contentData: "Splatfests are special in-game events in Splatoon 3. They’re a time to experience a festive atmosphere while you give your opinion on themes that spark great debate and then fight for your side.",
+                    },
+                ],
+            },
+            {
+                contentMainTitle: 'What changes during a Splatfest?',
+                content: [
+                    {
+                        contentData: "A bunch of stuff does! In addition to how Splatsville looks and sounds, these Splatfest Battle types will replace the normal ones: Open, Pro, and (halfway through the event) Tricolor. In “Open,” you can enter a match with a group of friends. Pick “Pro” if you’re more of a solo player—everyone on the teams will be randomized.",
+                    },
+                ],
+            },
+            {
+                contentMainTitle: 'What do you get for winning a Splatfest?',
+                content: [
+                    {
+                        contentData: "Everyone who participates will get Super Sea Snails after the Splatfest, with the winning side getting more. Talk to Murch who hangs outside the Lobby if you’re not sure what to do with those (the short version is that Super Sea Snails can be used as a shortcut to upgrade your gear and get abilities that match your needs better).",
+                    },
+                ],
+            },
+        ],
+        learnMoreSection: [
+            {
+                sectionImg: winRiceImg1,
+                title: 'Splatoon™ 3',
+                price: '$59.99',
+            },
+            {
+                sectionImg: winRiceImg2,
+                title: 'Splatoon™ 3 Bundle (Game + Expansion Pass)',
+                price: '$84.98',
+            },
+            {
+                sectionImg: winRiceImg3,
+                title: 'Splatoon™ 3: Expansion Pass',
+                price: '$24.99',
+            },
+        ],
     },
     {
         articleImg : goldMemberArticleImg,
-        slugs: 'article-no-13',
+        slugs: 'article-no-12',
         date: '09/23/24',
         newstitle: 'Last chance to earn 1,000 Gold Points when you start or renew a Family Membership!',
+        contentSection: [
+            {
+                content: [
+                    {
+                        contentData: "For a limited time, you can earn 1,000 My Nintendo™ Gold Points* when you opt-in to this offer and purchase or renew a 12-month Nintendo Switch Online Family Membership or Nintendo Switch Online + Expansion Pack Family Membership**.",
+                    },
+                    {
+                        contentData: "Already have a Family Membership? You can renew early to “stack” your membership and participate in this offer. Nintendo Switch Online memberships don’t typically earn Gold Points, so act fast—this offer ends on 8/11 at 11:59 p.m. PT.",
+                    },
+                ],
+            },
+            {
+                contentMainTitle: 'Save on multiplayer games during the Play Together Sale!',
+                content: [
+                    {
+                        contentData: "Gather friends and family and share good times with games for the Nintendo Switch™ system! For a limited time, find great deals on select multiplayer*** games when you shop on Nintendo.com or Nintendo eShop on your device.",
+                    },
+                    {
+                        contentData: "Nintendo Switch Online memberships let you play together online with friends, family, and other players around the world! Get in on the fun and share the smiles anywhere, anytime with great deals on select multiplayer games.",
+                    },
+                ],
+            },
+        ],
     },
     {
         articleImg : auggaNSOArticleImg,
-        slugs: 'article-no-14',
+        slugs: 'article-no-13',
         date: '08/22/24',
         newstitle: 'New update for Nintendo Switch Online + Expansion Pack members!',
+        contentSection: [
+            {
+                contentMainTitle: 'Pokémon™ Mystery Dungeon: Red Rescue Team',
+                content: [
+                    {
+                        contentData: "What if you woke up one day as a Pokémon?",
+                    },
+                    {
+                        contentData: "All of a sudden, you've found yourself in a strange world, where you can speak and interact with other Pokémon. The adventure begins when you and your partner Pokémon set out on rescue missions in a world ravaged by natural disasters. But what is your true purpose and destiny in this Pokémon world? That's the REAL mystery...",
+                    },
+                ],
+            },
+            {
+                contentMainTitle: 'About Nintendo Switch Online + Expansion Pack',
+                content: [
+                    {
+                        contentData: "In addition to the classic game libraries, the Nintendo Switch Online + Expansion Pack membership plan gives you access to select DLC** (Animal Crossing™: New Horizons - Happy Home Paradise, Mario Kart™ 8 Deluxe – Booster Course Pass, and Splatoon™ 2: Octo Expansion) and all the benefits of a Nintendo Switch Online membership (online play, access to special offers, and more).",
+                    },
+                    {
+                        contentData: "Members can access the games with the Game Boy Advance – Nintendo Switch Online + Expansion Pack app. If you want more info on membership plans, please click below!",
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        articleImg : sportsArticleImg,
+        slugs: 'article-no-14',
+        date: '08/22/24',
+        newstitle: 'Compete to be a champion with these sporty sports games!',
+        contentSection: [
+            {
+                content: [
+                    {
+                        contentData: "Whether you’re into proving your personal excellence or winning a championship, sports are all about hard work, practice, and competition*.",
+                    },
+                    {
+                        contentData: "(And sometimes there’s a shiny medal at the end!)",
+                    },
+                    {
+                        contentData: "If you’re a sports fan, here’s a collection of games just for you. Some are more arcade-y/fantastical takes on classic sports, while others are more realistic simulations with famous athletes. However, all of them stay true to the spirit of sports!",
+                    },
+                ],
+            },
+        ],
+        learnMoreSection: [
+            {
+                sectionImg: papercaperImg1,
+                title: 'Paper Mario™: The Thousand-Year Door',
+                price: '$59.99',
+            },
+            {
+                sectionImg: papercaperImg2,
+                title: 'Arranger: A Role-Puzzling Adventure',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg3,
+                title: 'Duck Detective - The Secret Salami',
+                price: '$9.99',
+            },
+            {
+                sectionImg: papercaperImg4,
+                title: 'Paper Trail',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg5,
+                title: 'Yoshi’s Crafted World™',
+                price: '$59.99',
+            },
+            {
+                sectionImg: papercaperImg6,
+                title: 'Bug Fables: The Everlasting Sapling',
+                price: '$24.99',
+            },
+            {
+                sectionImg: papercaperImg7,
+                title: 'Chicory: A Colorful Tale',
+                price: '$19.99',
+            },
+            {
+                sectionImg: papercaperImg8,
+                title: 'Snipperclips™ – Cut it out, together! bundle',
+                price: '$29.98',
+            },
+            {
+                sectionImg: papercaperImg9,
+                title: "Don't Starve: Nintendo Switch Edition",
+                price: '$19.99',
+            },
+        ],
     },
 ]
 
