@@ -83,9 +83,9 @@ const Header = () => {
                     <a href="#" className="header-link">
                         <FontAwesomeIcon icon={faSwatchbook} /> Nintendo Switch
                     </a>
-                    <a href="#" className="header-link">
+                    <Link to="/news-and-events" className="header-link">
                         <FontAwesomeIcon icon={faComment} /> News & Events
-                    </a>
+                    </Link>
                     <a href="#" className="header-link">
                         <FontAwesomeIcon icon={faStar} /> Play Nintendo
                     </a>

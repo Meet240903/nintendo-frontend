@@ -12,6 +12,8 @@ import SingUpOptionPage from './components/SingUpOptionPage';
 import SignUpPage from './components/SignUpPage';
 import ChildAccountPage from './components/ChildAccountPage';
 import CreateChildAccountPage from './components/CreateChildAccountPage';
+import NewsandEvents from './components/NewsandEvents';
+import NewsandEventsDetail from './components/NewsandEventsDetail';
 
 function App() {
   return (
@@ -23,6 +25,22 @@ function App() {
               <>
                 <Header />
                 <Home />
+                <Footer />
+              </>
+            } />
+            <Route exact path='/news-and-events'
+            element={
+              <>
+                <Header />
+                <NewsandEvents />
+                <Footer />
+              </>
+            } />
+            <Route exact path='/news-and-events-details/:slug'
+            element={
+              <>
+                <Header />
+                <NewsandEventsDetail />
                 <Footer />
               </>
             } />
