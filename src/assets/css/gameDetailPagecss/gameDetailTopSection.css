@@ -1,0 +1,143 @@
+/* Existing CSS */
+.game-detail-top-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.game-detail-top-section-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    background-color: #000;
+    border-radius: 12px;
+    padding: 2rem;
+    color: #fff;
+}
+
+.game-detail-top-left-content, 
+.game-detail-top-right-content {
+    flex: 1; /* Allows each to take equal space */
+    min-width: 300px; /* Ensures they don't shrink too much */
+    padding: 1rem;
+}
+
+.game-detail-top-slider-container {
+    position: relative;
+}
+
+.game-detail-top-slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(252, 251, 251, 0.989);
+}
+
+.game-detail-top-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.game-detail-top-slide.active {
+    opacity: 1;
+    position: relative;
+}
+
+.game-detail-top-slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.slider-arrows {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.arrow {
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.game-detail-top-thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.game-detail-top-thumbnail {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.game-detail-top-thumbnail.active {
+    border: 2px solid #e60012;
+}
+
+.product-selection-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 1rem; /* Ensures space between selections */
+}
+
+.game-detail-price-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game-detail-download-btn {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #e60012;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out; /* Ensure smooth transitions */
+}
+
+.game-detail-download-btn:hover {
+    animation: pulse 0.6s infinite; /* Apply the pulsing animation on hover */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Slightly increase the button size */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

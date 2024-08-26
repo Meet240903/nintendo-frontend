@@ -14,6 +14,7 @@ import ChildAccountPage from './components/ChildAccountPage';
 import CreateChildAccountPage from './components/CreateChildAccountPage';
 import NewsandEvents from './components/NewsandEvents';
 import NewsandEventsDetail from './components/NewsandEventsDetail';
+import GameDetailPage from './components/GameDetailPage';
 
 function App() {
   return (
@@ -41,6 +42,14 @@ function App() {
               <>
                 <Header />
                 <NewsandEventsDetail />
+                <Footer />
+              </>
+            } />
+            <Route exact path='/game-details/:slug'
+            element={
+              <>
+                <Header />
+                <GameDetailPage />
                 <Footer />
               </>
             } />
