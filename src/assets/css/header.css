@@ -28,6 +28,10 @@
     flex-shrink: 0;
 }
 
+.router-link small:hover{
+    color: #e60012;
+}
+
 .search-container {
     display: flex;
     align-items: center;

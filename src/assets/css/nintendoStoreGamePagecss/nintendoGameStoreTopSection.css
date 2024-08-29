@@ -1,0 +1,19 @@
+.nintendo-store-game-top-section-container{
+    background-color: #e60012;
+    margin-bottom: 3rem;
+    padding: 30px;
+}
+
+.store-game-top-section-left{
+    border: none;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.store-game-top-section-content{
+    align-items: center;
+}
+

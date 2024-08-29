@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/commonStyle.css'
 import Header from './components/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
@@ -15,6 +14,8 @@ import CreateChildAccountPage from './components/CreateChildAccountPage';
 import NewsandEvents from './components/NewsandEvents';
 import NewsandEventsDetail from './components/NewsandEventsDetail';
 import GameDetailPage from './components/GameDetailPage';
+import MyNintendoStoreGame from './components/MyNintendoStoreGame';
+import NintendoGameDetail from './components/NintendoGameDetail';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
                 <Footer />
               </>
             } />
-            <Route exact path='/news-and-events'
+          <Route exact path='/news-and-events'
             element={
               <>
                 <Header />
@@ -37,7 +38,7 @@ function App() {
                 <Footer />
               </>
             } />
-            <Route exact path='/news-and-events-details/:slug'
+          <Route exact path='/news-and-events-details/:slug'
             element={
               <>
                 <Header />
@@ -45,11 +46,27 @@ function App() {
                 <Footer />
               </>
             } />
-            <Route exact path='/game-details/:slug'
+          <Route exact path='/game-details/:slug'
             element={
               <>
                 <Header />
                 <GameDetailPage />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/my-nintendo-store/games/:slug'
+            element={
+              <>
+                <Header />
+                <MyNintendoStoreGame />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/nintendo-game-detail/:slug'
+            element={
+              <>
+                <Header />
+                <NintendoGameDetail />
                 <Footer />
               </>
             } />
