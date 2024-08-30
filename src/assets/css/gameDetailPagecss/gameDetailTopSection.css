@@ -141,3 +141,64 @@
     }
 }
 
+/* Media queries for responsive adjustments */
+
+/* Tablets and larger phones */
+@media (max-width: 768px) {
+    .game-detail-top-left-content, 
+    .game-detail-top-right-content {
+        min-width: 100%; /* Stack columns vertically on smaller screens */
+        padding: 0.5rem; /* Reduce padding for better spacing */
+    }
+
+    .game-detail-top-slider {
+        max-height: 200px; /* Reduce height on smaller screens */
+    }
+
+    .game-detail-top-thumbnail {
+        width: 35px; /* Smaller thumbnails */
+        height: 35px;
+    }
+
+    .product-selection-div {
+        flex-direction: column; /* Stack items vertically in the selection div */
+        align-items: flex-start; /* Align items to the start for better readability */
+        padding: 0.5rem; /* Reduce padding */
+    }
+
+    .product-selection-left, 
+    .product-selection-middle, 
+    .product-selection-right {
+        text-align: left; /* Align text to the left for better readability */
+    }
+
+    .game-detail-price-section {
+        flex-direction: column; /* Stack price section items vertically */
+    }
+}
+
+/* Small screens and mobile phones */
+@media (max-width: 576px) {
+    .game-detail-top-slider {
+        max-height: 150px; /* Further reduce height for small screens */
+    }
+
+    .game-detail-download-btn {
+        padding: 8px 16px; /* Adjust button padding */
+    }
+
+    .game-detail-top-thumbnail {
+        width: 30px; /* Smaller thumbnails for very small screens */
+        height: 30px;
+    }
+    .game-detail-top-section-container {
+        padding: 0;
+        max-width: 350px;
+    }
+    .game-detail-top-section-content{
+        border-radius: 0;
+    }
+    .product-selection-left,.product-selection-middle,.product-selection-right{
+        text-align: center;
+    }
+}

@@ -200,9 +200,15 @@ import kirbyMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nin
 import bayenottaOriginBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/bayonettaOrigins/bgimg.avif';
 import bayenottaOriginMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/bayonettaOrigins/middleSectionImg1.jpg';
 
-
-
-
+import smBrosCharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/character-mario.avif';
+import smBrosCharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/character-luigi.avif';
+import smBrosCharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/character-princesspeach.avif';
+import smBrosCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/character-daisy.avif';
+import smBrosCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/character-toad.avif';
+import smBrosCharImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/character-toadette.avif';
+import smBrosCharBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/bgimg.png';
+import smBrosCharMainImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/sectionMainImg.avif';
+import smBrosCharImg7 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/nabbit.avif';
 
 const headerData = {
     MyNintendoStoreDropDownData: [
@@ -625,6 +631,58 @@ const headerData = {
                         sectionImg: middleSectionImg2,
                         contentColor: '#fff',
                         titleColor: '#fff',
+                    },
+                    {
+                        sectionTitle: "Welcome to the Flower Kingdom",
+                        sectionContent: "Mario and friends have been invited to visit the colorful Flower Kingdom, just a short hop away from the Mushroom Kingdom. Unfortunately, King Bowser has transformed into a flying castle and is causing chaos across their peaceful land. Now our heroes must save the day—and the Flower Kingdom—in this wonderous new adventure!",
+                        sectionImg: middleSectionImg3,
+                        titleColor: 'yellow',
+                        contentColor: '#fff',
+                    },
+                ]
+            },
+            characterSectionData:{
+                backgroundImg: smBrosCharBgImg,
+                sectionTitle: "Who will you pick?",
+                sectionContent: "You can play as one of these heroic Super Mario characters!",
+                sectionTitleColor: 'rgb(0, 100, 200)',
+                sectionContentColor: '#000',
+                sectionMainImg: smBrosCharMainImg,
+                sectionInnerData: [
+                    {
+                        characterImg: smBrosCharImg1,
+                        characterName: "Mario",
+                        backgroundColor: 'rgb(230, 45, 30)',
+                    },
+                    {
+                        characterImg: smBrosCharImg2,
+                        characterName: "Luigi",
+                        backgroundColor: 'rgb(0, 218, 49)',
+                    },
+                    {
+                        characterImg: smBrosCharImg3,
+                        characterName: "Peach",
+                        backgroundColor: 'rgb(255, 61, 158)',
+                    },
+                    {
+                        characterImg: smBrosCharImg4,
+                        characterName: "Daisy",
+                        backgroundColor: 'rgb(255, 210, 0)',
+                    },
+                    {
+                        characterImg: smBrosCharImg5,
+                        characterName: "Toads",
+                        backgroundColor: 'rgb(0, 100, 200)',
+                    },
+                    {
+                        characterImg: smBrosCharImg6,
+                        characterName: "Toadette",
+                        backgroundColor: 'rgb(255, 61, 158)',
+                    },
+                    {
+                        characterImg: smBrosCharImg7,
+                        characterName: "Nabbit",
+                        backgroundColor: 'rgb(0, 100, 200)',
                     },
                 ]
             }

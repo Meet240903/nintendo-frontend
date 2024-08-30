@@ -3,6 +3,7 @@ import NintendoGameTopSection from './NintendoGameDetailPages/NintendoGameTopSec
 import { useParams } from 'react-router-dom';
 import headerData from '../data/MyNintendoStoreDropDownData';
 import NintendoGameMiddleSection from './NintendoGameDetailPages/NintendoGameMiddleSection';
+import NintendoGameCharacterSection from './NintendoGameDetailPages/NintendoGameCharacterSection';
 
 const NintendoGameDetail = () => {
     const { slug } = useParams();
@@ -13,6 +14,7 @@ const NintendoGameDetail = () => {
     <>
       <NintendoGameTopSection data={data} />
       <NintendoGameMiddleSection sectionData={data?.middleSectionData} />
+      <NintendoGameCharacterSection sectionData={data?.characterSectionData} />
     </>
   )
 }

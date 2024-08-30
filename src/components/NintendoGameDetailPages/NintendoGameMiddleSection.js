@@ -13,6 +13,7 @@ const NintendoGameMiddleSection = ({ sectionData }) => {
                         : 'none', // No image if backgroundImg is not available
                     backgroundColor: `${sectionData?.backgroundColor}`,
                     backgroundSize: 'cover', // Optional: ensures the image covers the whole div
+                    backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center', // Optional: centers the image in the div
                 }}
             >
