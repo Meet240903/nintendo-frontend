@@ -1,4 +1,4 @@
-import {  faGamepad, faPersonRunning, faPlusSquare, faStar, faTshirt } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faPersonRunning, faPlusSquare, faStar, faTshirt } from '@fortawesome/free-solid-svg-icons';
 
 import gameTopSectionimg from '../assets/images/mynintendostoreGameImgs/Nintendo_Switch_games_hero.avif'
 import newReleaseTopSectionimg from '../assets/images/mynintendostoreGameImgs/TEST_Lifestyle.avif'
@@ -28,6 +28,7 @@ import smbroImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchIm
 import smbroImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/smBrosWonder/sectionImg5.avif';
 import smbroImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/smBrosWonder/sectionImg6.avif';
 import smbroImg7 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/smBrosWonder/sectionImg7.avif';
+import smbroImg8 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/smBrosWonder/sectionImg8.avif';
 
 import princessShowtimeImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/princessPeachShowtime/sectionImg1.avif'
 import princessShowtimeImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/princessPeachShowtime/sectionImg2.avif'
@@ -149,9 +150,62 @@ import bayonettaOriginImg5 from '../assets/images/mynintendostoreGameImgs/ninten
 import bayonettaOriginImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/bayonettaorigins/sectionImg6.avif'
 import bayonettaOriginImg7 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailPageImgs/bayonettaorigins/sectionImg7.avif'
 
+import middleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/smBrosWonder/middleSectionImg1.avif';
+import middleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/smBrosWonder/middleSectionImg2.avif';
+import middleSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/smBrosWonder/middleSectionImg3.avif';
+import middlebackgroundImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/backgroundimg.avif'
+
+import princessPeachmiddleSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/princessPeach/middleSectionImg1.avif';
+import princessPeachmiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/princessPeach/middleSectionImg2.png';
+
+import mariovsdkMiddleBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/mariovsdonkey/bg-buildings.avif'
+import mariovsdkMiddleImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/mariovsdonkey/middleSectionImg1.png'
+import mariovsdkMiddleImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/mariovsdonkey/middleSectionImg2.png'
+import mariovsdkMiddleImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/mariovsdonkey/middleSectionImg3.png'
+
+import smRPGbgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/smRPG/bgimg.avif';
+import smRPGMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/smRPG/middleSectionImg1.avif';
+
+import wariowareMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/warioware/middleSectionImg1.avif';
+
+import lm2BgImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/luigiMnasion2/bgimg.avif';
+import lm2MiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/luigiMnasion2/middleSectionImg1.avif';
+
+import paperMarioBgImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/paperMarioYeardoor/bgimg.avif';
+import paperMarioMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/paperMarioYeardoor/middleSectionImg1.avif';
+
+import detectivePikachuBgImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/detectivePikachu/bgimg.avif';
+import detectivePikachuMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/detectivePikachu/middleSectionImg1.jpg';
+import detectivePikachuleftDivBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/detectivePikachu/leftDivbg.png';
+
+import anotherCodeMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/anotherCode/middleSectionImg1.avif';
+import anotherCodeBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/anotherCode/bgimg.avif';
+
+import legendofZeldaBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/legendofZelda/bgimg.png';
+import legendofZeldaMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/legendofZelda/middleSectionImg1.avif';
+import legendofZeldaMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/legendofZelda/middleSectionImg2.avif';
+
+import pikmin4SwitchMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/pikmin4Switch/middleSectionImg1.avif';
+
+import pikmin12BundleMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/pikmin12Bundle/middleSectionImg1.avif';
+
+import metroidPrimeBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/metroidPrime/bgimg.avif';
+import metroidPrimeMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/metroidPrime/middleSectionImg1.avif';
+
+import everyBody12SwitchBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/everyBody12Switch/bgimg.avif';
+import everyBody12SwitchMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/everyBody12Switch/middleSectionImg1.avif';
+
+import kirbyMiddleSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/kirby/middleSectionImg1.webp';
+
+import bayenottaOriginBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/bayonettaOrigins/bgimg.avif';
+import bayenottaOriginMiddleSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailMiddleSectionImgs/bayonettaOrigins/middleSectionImg1.jpg';
+
+
+
+
 
 const headerData = {
-     MyNintendoStoreDropDownData : [
+    MyNintendoStoreDropDownData: [
         {
             title: 'Games',
             icon: faPlusSquare,
@@ -522,7 +576,7 @@ const headerData = {
             ]
         },
     ],
-    sectionTwoGameData : [
+    sectionTwoGameData: [
         {
             sectionImg: sectionImg1,
             gameTitle: "Super Mario Bros.™ Wonder",
@@ -531,6 +585,9 @@ const headerData = {
             slugs: "super-mario-game",
             detailTitle: "Super Mario Bros.™ Wonder",
             sliderimgs: [
+                {
+                    sliderImg: smbroImg8,
+                },
                 {
                     sliderImg: smbroImg1,
                 },
@@ -552,7 +609,25 @@ const headerData = {
                 {
                     sliderImg: smbroImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: middlebackgroundImg,
+                sectionData: [
+                    {
+                        sectionTitle: "The next evolution of Mario fun",
+                        sectionContent: "Classic Mario gameplay is turned on its head with Wonder Flowers in the Super Mario Bros. Wonder game! These game-changing items can make some wonderfully weird stuff happen. Witness pipes coming alive, wreak havoc as a giant Spike-Ball, and lots more!",
+                        sectionImg: middleSectionImg1,
+                        titleColor: 'yellow',
+                        contentColor: '#fff',
+                    },
+                    {
+                        sectionTitle: "Transform your world with Wonder Flowers!",
+                        sectionImg: middleSectionImg2,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg2,
@@ -584,7 +659,26 @@ const headerData = {
                 {
                     sliderImg: princessShowtimeImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundColor: 'rgb(188, 8, 9)',
+                sectionData: [
+                    {
+                        sectionTitle: "Take the stage as Peach",
+                        sectionContent: "Help Peach save the Sparkle Theater from the wicked Grape and the Sour Bunch, who have set the stage for the ultimate tragedy.",
+                        sectionImg: princessPeachmiddleSectionImg3,
+                        contentColor: '#fff',
+                        titleColor: 'yellow',
+                    },
+                    {
+                        sectionTitle: "Step into the spotlight!",
+                        sectionContent: "Power up with transformations and use showstopping abilities to call curtains on this tragedy. What transformations are hiding just behind the curtain?",
+                        sectionImg: princessPeachmiddleSectionImg2,
+                        contentColor: '#fff',
+                        titleColor: 'yellow',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg3,
@@ -616,7 +710,37 @@ const headerData = {
                 {
                     sliderImg: mariovsdonkeyImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: mariovsdkMiddleBgImg,
+                middleTopData: {
+                    title: "Puzzle your way through over 130 levels",
+                    content: "Put your brain to work and figure out the best way to reach the Mini-Mario toys in puzzle-platforming challenges across eight distinct worlds. Watch for enemies, dodge hazards, and use the tools scattered around. See if you can earn a Perfect rating on each level!",
+                },
+                sectionData: [
+                    {
+                        sectionTitle: "Take the stage as Peach",
+                        sectionContent: "Help Peach save the Sparkle Theater from the wicked Grape and the Sour Bunch, who have set the stage for the ultimate tragedy.",
+                        contentColor: '#000',
+                        titleColor: '#000',
+                        sectionImg: mariovsdkMiddleImg1,
+                    },
+                    {
+                        sectionTitle: "Step into the spotlight!",
+                        sectionContent: "Power up with transformations and use showstopping abilities to call curtains on this tragedy. What transformations are hiding just behind the curtain?",
+                        sectionImg: mariovsdkMiddleImg2,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                    },
+                    {
+                        sectionTitle: "Battle it out with the big lug",
+                        sectionContent: "At the end of each world, use everything you’ve learned to defeat Donkey Kong in an arcade-inspired platforming battle. Don’t go easy on him because he certainly won’t go easy on you!",
+                        sectionImg: mariovsdkMiddleImg3,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg4,
@@ -647,7 +771,19 @@ const headerData = {
                 {
                     sliderImg: supermarioRPGImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: smRPGbgImg,
+                sectionData: [
+                    {
+                        sectionTitle: "Take the stage as Peach",
+                        sectionContent: "Help Peach save the Sparkle Theater from the wicked Grape and the Sour Bunch, who have set the stage for the ultimate tragedy.",
+                        sectionImg: smRPGMiddleSectionImg1,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg5,
@@ -678,7 +814,19 @@ const headerData = {
                 {
                     sliderImg: warioWareImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundColor: 'rgb(255, 80, 90)',
+                sectionData: [
+                    {
+                        sectionTitle: "Get Moving with Wario!",
+                        sectionContent: "Find your perfect form with a multitude of motion-based microgames in a brand-new entry in the WarioWare series!",
+                        sectionImg: wariowareMiddleSectionImg1,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg6,
@@ -709,7 +857,19 @@ const headerData = {
                 {
                     sliderImg: LuigimansionImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: lm2BgImg1,
+                sectionData: [
+                    {
+                        sectionTitle: "Friendly ghosts turned fiendish?",
+                        sectionContent: "Sounds like a job for Luigi! The magical Dark Moon that hangs over Evershade Valley seems to calm the ghosts that live there. But when it suddenly breaks apart, the once-friendly ghosts become unruly! Luigi must stumble into action and find his courage to restore the Dark Moon to its rightful place in the sky.",
+                        sectionImg: lm2MiddleSectionImg1,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg7,
@@ -740,7 +900,19 @@ const headerData = {
                 {
                     sliderImg: paperMarioImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: paperMarioBgImg1,
+                sectionData: [
+                    {
+                        sectionTitle: "Join Mario and friends on an epic paper adventure",
+                        sectionContent: "A classic story unfolds on the Nintendo Switch system.",
+                        sectionImg: paperMarioMiddleSectionImg1,
+                        contentColor: 'yellow',
+                        titleColor: '#fff',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg8,
@@ -771,7 +943,20 @@ const headerData = {
                 {
                     sliderImg: detectivePikachuImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: detectivePikachuBgImg1,
+                sectionData: [
+                    {
+                        sectionTitle: "Solve mysteries with Detective Pikachu in this new Pokémon adventure",
+                        sectionContent: "In this new Pokémon game for the Nintendo Switch™ system, unravel a series of mysteries across Ryme City with a tough-talking, coffee-loving Pikachu and his human partner, Tim Goodman. When a jewel theft occurs, the case sets this great detective duo down a path filled with mystery. Why did Tim’s father, Harry, go missing? What is causing the Pokémon-related incidents around Ryme City? Answer these questions and more by searching for clues, investigating scenes, and using your case notebook to make deductions.",
+                        sectionImg: detectivePikachuMiddleSectionImg1,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                        leftDivBgImg: detectivePikachuleftDivBgImg,
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg9,
@@ -803,7 +988,22 @@ const headerData = {
                 {
                     sliderImg: anotherCodeImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: anotherCodeBgImg,
+                middleTopData: {
+                    title: "Unravel the truth behind the lost memories of your family",
+                },
+                sectionData: [
+                    {
+                        sectionContent: "Sleuth your way to the truth across two fully enhanced mystery adventures—including one previously unreleased in North America—in the Another Code: Recollection game.Help Ashley Mizuki Robins solve riddles, gather clues, and investigate the traces of the past to uncover the true fates of her parents.",
+                        sectionImg: anotherCodeMiddleSectionImg1,
+                        contentColor: '#fff',
+                        titleColor: '#000',
+                        leftDivBgColor: 'rgba(0, 0, 0, 0.6)',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg10,
@@ -834,7 +1034,28 @@ const headerData = {
                 {
                     sliderImg: legendofZeldaImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: legendofZeldaBgImg,
+                sectionData: [
+                    {
+                        sectionTitle: "Nintendo Switch™ Lite: Hyrule Edition available now for pre-order!",
+                        sectionContent: "The Nintendo Switch Lite: Hyrule Edition with Bonus Nintendo Switch Online + Expansion Pack bundle features a stunning gold-colored design inspired by the Legend of Zelda™ game series, with the iconic Hylian Crest proudly displayed on the back. This special edition Nintendo Switch Lite system also includes a 12-month Nintendo Switch Online + Expansion Pack Individual Membership, which features a rich catalog of classic games, including ten from the Legend of Zelda series.",
+                        sectionImg: legendofZeldaMiddleSectionImg1,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                        leftDivBgColor: 'rgba(0, 0, 0, 0.6)',
+                    },
+                    {
+                        sectionTitle: "Explore the vast land—and skies—of Hyrule",
+                        sectionContent: "An epic adventure awaits in the Legend of Zelda: Tears of the Kingdom game, only on the Nintendo Switch system. In this sequel to the Legend of Zelda: Breath of the Wild game, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+                        sectionImg: legendofZeldaMiddleSectionImg2,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                        leftDivBgColor: 'rgba(0, 0, 0, 0.6)',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg11,
@@ -866,7 +1087,19 @@ const headerData = {
                 {
                     sliderImg: Pikmin4Img7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundColor: 'rgb(230, 230, 0)',
+                sectionData: [
+                    {
+                        sectionTitle: "Guide pint-sized creatures in an endearing expedition!",
+                        sectionContent: "Meet Pikmin: small, plantlike creatures with distinct abilities that you can grow, pluck, guide, and overpower enemies with! Use your Pikmin’s miniature might (and a bit of strategy) to explore this mysterious planet in search of your crew—and treasure.",
+                        sectionImg: pikmin4SwitchMiddleSectionImg2,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg12,
@@ -897,7 +1130,18 @@ const headerData = {
                 {
                     sliderImg: pikmin12BundleImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                sectionData: [
+                    {
+                        sectionTitle: "Save on Pikmin™ 1 and Pikmin™ 2 when you purchase the bundle!*",
+                        sectionContent: "Reintroduce yourself to the plantlike Pikmin and strategic gameplay that this charming series is rooted in. From finding a way home to collecting treasure, Olimar (plus Louie in the Pikmin 2 game) must partner with a parade of Pikmin to survive the harshest of conditions. Both games support optional motion controls for more options when guiding your floral friends.",
+                        sectionImg: pikmin12BundleMiddleSectionImg2,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg13,
@@ -928,7 +1172,19 @@ const headerData = {
                 {
                     sliderImg: MetroidprimeImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: metroidPrimeBgImg,
+                sectionData: [
+                    {
+                        sectionTitle: "Suit up for an iconic adventure",
+                        sectionContent: "Intergalactic bounty hunter Samus Aran receives a distress signal from a wrecked frigate in orbit around planet Tallon IV. Upon investigation, the frigate reveals itself to be a Space Pirate research vessel home to terrifying genetic experiments using the mysterious Phazon substance. There, Samus encounters her nemesis, Meta Ridley, whom she pursues to the surface of Tallon IV. It’s up to her alone to explore the planet’s interconnected regions, investigate its dark secrets, and end the intergalactic threat posed by Phazon.",
+                        sectionImg: metroidPrimeMiddleSectionImg2,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg14,
@@ -959,7 +1215,20 @@ const headerData = {
                 {
                     sliderImg: everybodyswitchImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: everyBody12SwitchBgImg,
+                sectionData: [
+                    {
+                        sectionTitle: "Laugh it up at your next game night!",
+                        sectionContent: "Whether you’re summoning aliens or snapping colorful photos with your phone’s camera, mix up your next get-together with the Everybody 1-2-Switch! game. Grab some Joy-Con™ controllers* or a whole bunch of smart devices** for team-based games that are easy to set up.",
+                        sectionImg: everyBody12SwitchMiddleSectionImg2,
+                        contentColor: '#fff',
+                        titleColor: '#fff',
+                        leftDivBgColor: 'rgba(0, 0, 0, 0.6)'
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg15,
@@ -991,7 +1260,20 @@ const headerData = {
                 {
                     sliderImg: kirbyReturnDreamImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundColor: 'rgb(255, 210, 0)',
+                sectionData: [
+                    {
+                        sectionTitle: "An adventure of deluxe proportions awaits!",
+                        sectionContent: "The tough puff Kirby is back for a 1-4 player* platforming adventure across Planet Popstar. Help Magolor rebuild his ship with newly added Mecha and Sand Copy Abilities! Float and fight along with friends on the same system as you control Kirby. Each other player can control a different Kirby or one of Kirby’s iconic friends like King Dedede, Meta Knight, and Bandana Waddle Dee.",
+                        sectionImg: kirbyMiddleSectionImg2,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                        leftDivBgColor: 'rgba(255, 255, 255, 0.5)'
+                    },
+                ]
+            }
         },
         {
             sectionImg: sectionImg16,
@@ -1023,10 +1305,23 @@ const headerData = {
                 {
                     sliderImg: bayonettaOriginImg7,
                 },
-            ]
+            ],
+            middleSectionData: {
+                backgroundImg: bayenottaOriginBgImg,
+                sectionData: [
+                    {
+                        sectionTitle: "Once upon a time, there was a young witch named Cereza…",
+                        sectionContent: "Long before this trainee of the dark arts would come to be called Bayonetta, she took a fateful journey into the forbidden Avalon Forest. Alongside her was Cheshire, her very first demon, possessing Cereza’s stuffed toy. Play as both Cereza and Cheshire and search through the treacherous forest to look for the power to save Cereza’s mother.",
+                        sectionImg: bayenottaOriginMiddleSectionImg1,
+                        contentColor: '#000',
+                        titleColor: '#000',
+                        leftDivBgColor: 'rgba(255, 255, 255, 0.6)'
+                    },
+                ]
+            }
         },
     ]
-    
+
 }
 
 export default headerData;

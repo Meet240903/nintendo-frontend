@@ -2,6 +2,7 @@ import React from 'react'
 import NintendoGameTopSection from './NintendoGameDetailPages/NintendoGameTopSection'
 import { useParams } from 'react-router-dom';
 import headerData from '../data/MyNintendoStoreDropDownData';
+import NintendoGameMiddleSection from './NintendoGameDetailPages/NintendoGameMiddleSection';
 
 const NintendoGameDetail = () => {
     const { slug } = useParams();
@@ -11,6 +12,7 @@ const NintendoGameDetail = () => {
   return (
     <>
       <NintendoGameTopSection data={data} />
+      <NintendoGameMiddleSection sectionData={data?.middleSectionData} />
     </>
   )
 }
