@@ -1,19 +1,73 @@
-.nintendo-store-game-top-section-container{
+.nintendo-store-game-top-section-container {
     background-color: #e60012;
     margin-bottom: 3rem;
-    padding: 30px;
+    padding: 2rem;
 }
 
-.store-game-top-section-left{
+.store-game-top-section-left {
     border: none;
     border-radius: 10px;
     height: fit-content;
-    padding: 30px;
+    padding: 2rem;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
 }
 
-.store-game-top-section-content{
+.store-game-top-section-content {
     align-items: center;
 }
 
+.store-game-top-section-left h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.store-game-top-section-left p {
+    font-size: 1rem;
+}
+
+.top-section-img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 992px) {
+    .store-game-top-section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .store-game-top-section-left {
+        padding: 1rem;
+    }
+
+    .store-game-top-section-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .store-game-top-section-left p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .store-game-top-section-left {
+        padding: 1rem;
+    }
+
+    .store-game-top-section-left h2 {
+        font-size: 1.25rem;
+    }
+
+    .store-game-top-section-left p {
+        font-size: 0.75rem;
+    }
+
+    .top-section-img {
+        max-width: 100%;
+        height: auto;
+    }
+}

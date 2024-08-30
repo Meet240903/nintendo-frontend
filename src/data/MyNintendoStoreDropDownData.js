@@ -641,13 +641,15 @@ const headerData = {
                     },
                 ]
             },
-            characterSectionData:{
+            characterSectionData: {
                 backgroundImg: smBrosCharBgImg,
-                sectionTitle: "Who will you pick?",
-                sectionContent: "You can play as one of these heroic Super Mario characters!",
-                sectionTitleColor: 'rgb(0, 100, 200)',
-                sectionContentColor: '#000',
-                sectionMainImg: smBrosCharMainImg,
+                characterSectionTopData: {
+                    sectionTitle: "Who will you pick?",
+                    sectionContent: "You can play as one of these heroic Super Mario characters!",
+                    sectionTitleColor: 'rgb(0, 100, 200)',
+                    sectionContentColor: '#000',
+                    sectionMainImg: smBrosCharMainImg,
+                },
                 sectionInnerData: [
                     {
                         characterImg: smBrosCharImg1,
