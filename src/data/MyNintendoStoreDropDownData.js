@@ -210,6 +210,80 @@ import smBrosCharBgImg from '../assets/images/mynintendostoreGameImgs/nintendoSw
 import smBrosCharMainImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/sectionMainImg.avif';
 import smBrosCharImg7 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/smBros/nabbit.avif';
 
+import princessPeachBgimg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/bgimg2.avif';
+import princessPeachBgimg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/bgimg.avif';
+import princessPeachBgimg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/bgimg3.avif';
+import princessPeachCharTopImg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/characterTopImg.avif';
+import princessPeachCharimg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/characterImg1.avif';
+import princessPeachCharimg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/characterImg2.avif';
+import princessPeachCharimg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/characterImg3.avif';
+import princessPeachCharimg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/characterImg4.avif';
+import princessPeachCharimg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/princessPeach/characterImg5.avif';
+
+import smRPGCharBgimg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/superMarioRPG/bgimg.avif';
+import smRPGCharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/superMarioRPG/characterImg1.avif';
+import smRPGCharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/superMarioRPG/characterImg2.avif';
+import smRPGCharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/superMarioRPG/characterImg3.avif';
+import smRPGCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/superMarioRPG/characterImg4.avif';
+import smRPGCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/superMarioRPG/characterImg5.avif';
+
+import warioWareCharBgimg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/warioWare/bgimg.avif';
+import warioWareCharimg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/warioWare/charSectionImg1.avif';
+import warioWareCharimg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/warioWare/charSectionImg2.avif';
+
+import luigisMansion2CharBgimg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/bgimg.avif';
+import luigisMansion2CharBgimg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/bgimg2.avif';
+import luigisMansion2CharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/characterSectionImg1.avif';
+import luigisMansion2CharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/characterSectionImg2.avif';
+import luigisMansion2CharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/characterSectionImg3.avif';
+import luigisMansion2CharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/characterSectionImg4.avif';
+import luigisMansion2CharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/luigiMansion2/characterSectionImg5.png';
+
+import paperMarioCharBgimg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/bgimg.jpeg';
+import paperMarioCharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg1.avif';
+import paperMarioCharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg2.avif';
+import paperMarioCharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg3.avif';
+import paperMarioCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg4.avif';
+import paperMarioCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg5.avif';
+import paperMarioCharImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg6.avif';
+import paperMarioCharImg7 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg7.avif';
+import paperMarioCharImg8 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg8.avif';
+import paperMarioCharImg9 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg9.avif';
+import paperMarioCharImg10 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/paperMarioYearDoor/characterSectionImg10.avif';
+
+import detectivePikachuCharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/detectivePikachu/characterSectionImg1.avif';
+import detectivePikachuCharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/detectivePikachu/characterSectionImg2.avif';
+import detectivePikachuCharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/detectivePikachu/characterSectionImg3.avif';
+import detectivePikachuCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/detectivePikachu/characterSectionImg4.avif';
+import detectivePikachuCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/detectivePikachu/characterSectionImg5.avif';
+import detectivePikachuCharImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/detectivePikachu/characterSectionImg6.avif';
+
+import pikmin4CharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg1.avif';
+import pikmin4CharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg2.avif';
+import pikmin4CharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg3.avif';
+import pikmin4CharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg4.avif';
+import pikmin4CharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg5.avif';
+import pikmin4CharImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg6.avif';
+import pikmin4CharImg7 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg7.avif';
+import pikmin4CharImg8 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg8.avif';
+import pikmin4CharImg9 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/pikmin4/characterSectionImg9.avif';
+
+import kirbyCharBgimg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/kirby/bgimg.avif';
+import kirbyCharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/kirby/characterSectionImg1.avif';
+import kirbyCharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/kirby/characterSectionImg2.avif';
+import kirbyCharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/kirby/characterSectionImg3.avif';
+import kirbyCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/kirby/characterSectionImg4.avif';
+import kirbyCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/kirby/characterSectionImg5.avif';
+
+import bayenottaOriginsCharBgimg from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/bgimg.avif';
+import bayenottaOriginsCharImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg1.avif';
+import bayenottaOriginsCharImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg2.avif';
+import bayenottaOriginsCharImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg3.avif';
+import bayenottaOriginsCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg4.avif';
+import bayenottaOriginsCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg5.avif';
+
+
+
 const headerData = {
     MyNintendoStoreDropDownData: [
         {
@@ -643,6 +717,7 @@ const headerData = {
             },
             characterSectionData: {
                 backgroundImg: smBrosCharBgImg,
+                gridClass: 'smbros',
                 characterSectionTopData: {
                     sectionTitle: "Who will you pick?",
                     sectionContent: "You can play as one of these heroic Super Mario characters!",
@@ -655,36 +730,43 @@ const headerData = {
                         characterImg: smBrosCharImg1,
                         characterName: "Mario",
                         backgroundColor: 'rgb(230, 45, 30)',
+                        charSpan: true,
                     },
                     {
                         characterImg: smBrosCharImg2,
                         characterName: "Luigi",
                         backgroundColor: 'rgb(0, 218, 49)',
+                        charSpan: true,
                     },
                     {
                         characterImg: smBrosCharImg3,
                         characterName: "Peach",
                         backgroundColor: 'rgb(255, 61, 158)',
+                        charSpan: true,
                     },
                     {
                         characterImg: smBrosCharImg4,
                         characterName: "Daisy",
                         backgroundColor: 'rgb(255, 210, 0)',
+                        charSpan: true,
                     },
                     {
                         characterImg: smBrosCharImg5,
                         characterName: "Toads",
                         backgroundColor: 'rgb(0, 100, 200)',
+                        charSpan: true,
                     },
                     {
                         characterImg: smBrosCharImg6,
                         characterName: "Toadette",
                         backgroundColor: 'rgb(255, 61, 158)',
+                        charSpan: true,
                     },
                     {
                         characterImg: smBrosCharImg7,
                         characterName: "Nabbit",
                         backgroundColor: 'rgb(0, 100, 200)',
+                        charSpan: true,
                     },
                 ]
             }
@@ -736,6 +818,51 @@ const headerData = {
                         sectionImg: princessPeachmiddleSectionImg2,
                         contentColor: '#fff',
                         titleColor: 'yellow',
+                    },
+                ]
+            },
+            characterSectionData: {
+                backgroundImg: princessPeachBgimg1,
+                gridClass: 'princess-peach',
+                characterSectionTopData: {
+                    sectionTitle: "Meet the cast and crew",
+                    sectionContent: "Get to know the actors and stagehands of the Sparkle Theater.",
+                    sectionTitleColor: '#fff',
+                    sectionContentColor: '#fff',
+                    backgroundImg: princessPeachBgimg2,
+                    leftDivBackgroundImg: princessPeachBgimg3,
+                    sectionMainImg: princessPeachCharTopImg,
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: princessPeachCharimg1,
+                        characterName: "Peach",
+                        backgroundImg: princessPeachBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: princessPeachCharimg2,
+                        characterName: "Stella",
+                        backgroundImg: princessPeachBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: princessPeachCharimg3,
+                        characterName: "Grape",
+                        backgroundImg: princessPeachBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: princessPeachCharimg4,
+                        characterName: "Sour Bunch",
+                        backgroundImg: princessPeachBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: princessPeachCharimg5,
+                        characterName: "Theets",
+                        backgroundImg: princessPeachBgimg2,
+                        charSpan: true,
                     },
                 ]
             }
@@ -843,6 +970,48 @@ const headerData = {
                         titleColor: '#000',
                     },
                 ]
+            },
+            characterSectionData: {
+                backgroundImg: smRPGCharBgimg,
+                gridClass: 'super-mario-rpg',
+                characterSectionTopData: {
+                    sectionTitle: "A strange party unites to save Star Road",
+                    sectionContent: "Meet the team of oddballs setting out to thwart the troublesome Smithy Gang and protect everyone’s wishes. Even Bowser is lending a claw!",
+                    sectionTitleColor: '#fff',
+                    sectionContentColor: 'rgb(255, 234, 174)',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: smRPGCharImg1,
+                        characterName: "Mario",
+                        backgroundColor: '#FFFAF2',
+                        charSpan: false,
+                    },
+                    {
+                        characterImg: smRPGCharImg2,
+                        characterName: "Princess Peach",
+                        backgroundColor: '#FFFAF2',
+                        charSpan: false,
+                    },
+                    {
+                        characterImg: smRPGCharImg3,
+                        characterName: "Bowser",
+                        backgroundColor: '#FFFAF2',
+                        charSpan: false,
+                    },
+                    {
+                        characterImg: smRPGCharImg4,
+                        characterName: "Mallow",
+                        backgroundColor: '#FFFAF2',
+                        charSpan: false,
+                    },
+                    {
+                        characterImg: smRPGCharImg5,
+                        characterName: "Geno",
+                        backgroundColor: '#FFFAF2',
+                        charSpan: false,
+                    },
+                ]
             }
         },
         {
@@ -884,6 +1053,26 @@ const headerData = {
                         sectionImg: wariowareMiddleSectionImg1,
                         contentColor: '#fff',
                         titleColor: '#fff',
+                    },
+                ]
+            },
+            characterSectionData: {
+                backgroundImg: warioWareCharBgimg,
+                gridClass: 'wario-ware',
+                characterSectionTopData: {
+                    sectionTitle: "Story Mode",
+                    sectionContent: "Help Wario complete a series of lightning-fast microgames to escape the Woods Watchers! You can play Story Mode with a pair of Joy-Con controllers or a second player* can join in some couch co-op fun with another set of Joy-Con controllers.",
+                    sectionTitleColor: '#000',
+                    sectionContentColor: '#000',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: warioWareCharimg1,
+                        charSpan: false,
+                    },
+                    {
+                        characterImg: warioWareCharimg2,
+                        charSpan: false,
                     },
                 ]
             }
@@ -929,6 +1118,48 @@ const headerData = {
                         titleColor: '#fff',
                     },
                 ]
+            },
+            characterSectionData: {
+                backgroundImg: luigisMansion2CharBgimg1,
+                gridClass: 'luigi-mansion-2',
+                characterSectionTopData: {
+                    sectionTitle: "Who’s wh—AAAH!",
+                    sectionContent: "Get to know the players in this ghoulishly fun adventure.",
+                    sectionTitleColor: '#fff',
+                    sectionContentColor: '#fff',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: luigisMansion2CharImg1,
+                        characterName: "Luigi",
+                        backgroundImg: luigisMansion2CharBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: luigisMansion2CharImg2,
+                        characterName: "Professor E. Gadd",
+                        backgroundImg: luigisMansion2CharBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: luigisMansion2CharImg3,
+                        characterName: "Polterpup",
+                        backgroundImg: luigisMansion2CharBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: luigisMansion2CharImg4,
+                        characterName: "Toads",
+                        backgroundImg: luigisMansion2CharBgimg2,
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: luigisMansion2CharImg5,
+                        characterName: "Ghosts",
+                        backgroundImg: luigisMansion2CharBgimg2,
+                        charSpan: true,
+                    },
+                ]
             }
         },
         {
@@ -970,6 +1201,78 @@ const headerData = {
                         sectionImg: paperMarioMiddleSectionImg1,
                         contentColor: 'yellow',
                         titleColor: '#fff',
+                    },
+                ]
+            },
+            characterSectionData: {
+                backgroundImg: paperMarioCharBgimg,
+                gridClass: 'paper-mario-door',
+                characterSectionTopData: {
+                    sectionTitle: "The stars of the show",
+                    sectionContent: "Surprises abound in this deep and engaging tale, where everyone’s got something to say and it’s often not what you’d expect! Here are just a few of the colorful characters you’ll encounter along the way.",
+                    sectionTitleColor: 'rgb(0, 18, 177)',
+                    sectionContentColor: '#000',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: paperMarioCharImg1,
+                        characterName: "Mario",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg2,
+                        characterName: "Peach",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg3,
+                        characterName: "Bowser",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg4,
+                        characterName: "Goombella",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg5,
+                        characterName: "Koops",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg6,
+                        characterName: "Madame Flurrie",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg7,
+                        characterName: "Yoshi",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg8,
+                        characterName: "Three Shadows (Beldam, Marilyn, and Vivian)",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg9,
+                        characterName: "Lord Crump",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: paperMarioCharImg10,
+                        characterName: "Grodus",
+                        backgroundColor: '#fff',
+                        charSpan: true,
                     },
                 ]
             }
@@ -1014,6 +1317,48 @@ const headerData = {
                         contentColor: '#000',
                         titleColor: '#000',
                         leftDivBgImg: detectivePikachuleftDivBgImg,
+                    },
+                ]
+            },
+            characterSectionData: {
+                backgroundColor: 'rgb(107, 56, 2)',
+                gridClass: 'detective-pikachu',
+                characterSectionTopData: {
+                    sectionTitle: "Meet the stars of the story!",
+                    sectionContent: "Here are some of the colorful characters you’ll discover in the Detective Pikachu Returns game.",
+                    sectionTitleColor: '#fff',
+                    sectionContentColor: '#fff',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: detectivePikachuCharImg1,
+                        characterName: "Pikachu",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: detectivePikachuCharImg2,
+                        characterName: "Tim Goodman",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: detectivePikachuCharImg3,
+                        characterName: "Howard Myers",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: detectivePikachuCharImg4,
+                        characterName: "Rachel",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: detectivePikachuCharImg5,
+                        characterName: "Irene",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: detectivePikachuCharImg6,
+                        characterName: "Sophia",
+                        charSpan: true,
                     },
                 ]
             }
@@ -1157,6 +1502,72 @@ const headerData = {
                         sectionImg: pikmin4SwitchMiddleSectionImg2,
                         contentColor: '#000',
                         titleColor: '#000',
+                    },
+                ]
+            },
+            characterSectionData: {
+                backgroundColor: 'rgb(255, 165, 0)',
+                gridClass: 'pikmin-4',
+                characterSectionTopData: {
+                    sectionTitle: "Meet the Pikmin",
+                    sectionContent: "A mysterious mix of plant and animal, these creatures are loyal, clever, and ready to follow your lead. Be sure to call forward the right ones for the job!",
+                    sectionTitleColor: 'rgb(34, 74, 17)',
+                    sectionContentColor: '#000',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: pikmin4CharImg1,
+                        characterName: "Red Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg2,
+                        characterName: "Blue Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg3,
+                        characterName: "Yellow Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg4,
+                        characterName: "Ice Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg5,
+                        characterName: "Glow Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg6,
+                        characterName: "Purple Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg7,
+                        characterName: "Rock Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg8,
+                        characterName: "Winged Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: pikmin4CharImg9,
+                        characterName: "White Pikmin",
+                        backgroundColor: '#fff',
+                        charSpan: true,
                     },
                 ]
             }
@@ -1333,6 +1744,46 @@ const headerData = {
                         leftDivBgColor: 'rgba(255, 255, 255, 0.5)'
                     },
                 ]
+            },
+            characterSectionData: {
+                backgroundImg: kirbyCharBgimg,
+                gridClass: 'kirby',
+                characterSectionTopData: {
+                    sectionTitle: "Meet Kirby and his friends",
+                    sectionTitleColor: '#000',
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: kirbyCharImg1,
+                        characterName: "Kirby",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: kirbyCharImg2,
+                        characterName: "Magolor",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: kirbyCharImg3,
+                        characterName: "King Dedede",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: kirbyCharImg4,
+                        characterName: "Meta Knight",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: kirbyCharImg5,
+                        characterName: "Bandana Waddle Dee",
+                        backgroundColor: '#fff',
+                        charSpan: true,
+                    },
+                ]
             }
         },
         {
@@ -1376,6 +1827,43 @@ const headerData = {
                         contentColor: '#000',
                         titleColor: '#000',
                         leftDivBgColor: 'rgba(255, 255, 255, 0.6)'
+                    },
+                ]
+            },
+            characterSectionData: {
+                backgroundImg: bayenottaOriginsCharBgimg,
+                gridClass: 'bayenotta-origins',
+                characterSectionTopData: {
+                    sectionTitle: "Fairy-tale figures",
+                    sectionContent: "Meet some of the fantastical characters that Cereza and Cheshire encounter on their journey together.",
+                    sectionContentColor: '#fff',
+                    sectionTitleColor: '#fff'
+                },
+                sectionInnerData: [
+                    {
+                        characterImg: bayenottaOriginsCharImg1,
+                        characterName: "Morgana",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: bayenottaOriginsCharImg2,
+                        characterName: "Mysterious Boy",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: bayenottaOriginsCharImg3,
+                        characterName: "The White Wolf",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: bayenottaOriginsCharImg4,
+                        characterName: "Faeries",
+                        charSpan: true,
+                    },
+                    {
+                        characterImg: bayenottaOriginsCharImg5,
+                        characterName: "Faerie Leader",
+                        charSpan: true,
                     },
                 ]
             }

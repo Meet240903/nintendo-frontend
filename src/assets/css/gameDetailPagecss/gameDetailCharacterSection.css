@@ -1,119 +1,300 @@
-.game-detail-character-section-container{
-    padding: 3rem;
+.game-detail-character-section-top-content {
+  padding: 3rem;
+  align-items: center;
 }
 
-.game-detail-character-section-top-content{
-    align-items: center;
+.game-detail-character-section-top-left {
+  text-align: center;
+  border-radius: 12px;
 }
 
-.game-detail-character-section-top-left{
-    text-align: center;
+.game-detail-character-section-top-left h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
-.game-detail-character-section-top-left h2{
-    font-size: 3.5rem;
-    font-weight: bold;
+.game-detail-character-section-top-left p {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.game-detail-character-section-top-left p{
-    font-size: 1.5rem;
-    font-weight: bold;
+.game-detail-character-section-top-right {
+  text-align: center;
 }
 
-.game-detail-character-section-top-right{
-    text-align: center;
+.game-detail-character-section-box-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  row-gap: 3rem;
 }
 
-.game-detail-character-section-box-grid{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    row-gap: 3rem;
+.game-detail-character-section-smbros-boxs {
+  border: 4px solid;
+  height: 400px;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 80px 20px;
+  box-shadow: rgb(30, 40, 30) 2px 4px 2px 2px;
+  position: relative;
 }
 
-.game-detail-character-section-boxs{
-    border: 4px solid;
-    height: 400px;
-    margin: 0 auto;
-    width: 350px;
-    border-radius: 80px 20px;
+.game-detail-character-section-smbros-boxs-span {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  background-color: #fff;
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.game-detail-character-section-princess-peach-boxs {
+  border: 4px solid #eec762;
+  border-radius: 15px;
+  height: 500px;
+  margin: 2rem auto;
+  box-shadow: rgb(30, 40, 30) 2px 4px 2px 2px;
+  width: 400px;
+  position: relative;
+}
+
+.game-detail-character-section-princess-peach-boxs-span {
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+  background-color: #fff;
+  border: 4px solid;
+  border-radius: inherit;
+  padding: 10px;
+  text-align: center;
+  border-color: #eec762;
+  width: 180px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.game-detail-character-section-super-mario-rpg-boxs {
+    border-radius: 15px;
+    height: 450px;
+    margin: 2rem auto;
     box-shadow: rgb(30, 40, 30) 2px 4px 2px 2px;
+    width: 400px;
     position: relative;
-}
+  }
 
-.game-detail-character-section-boxs-span{
+  .game-detail-character-section-wario-ware-boxs {
+    border-radius: 15px;
+    height: auto;
+    margin: 2rem 10rem;
+    box-shadow: rgb(30, 40, 30) 2px 4px 2px 2px;
+    width: 400px;
+    position: relative;
+  }
+
+  .game-detail-character-section-luigi-mansion-2-boxs {
+    border-radius: 15px;
+    border: 10px solid rgb(110, 92, 0);
+    height: 500px;
+    margin: 2rem auto;
+    width: 400px;
+    position: relative;
+  }
+
+  .game-detail-character-section-luigi-mansion-2-boxs-span {
     position: absolute;
-    bottom: 0;
-    left: 30%;
-    background-color: #fff;
-    border: 3px solid;
-    border-radius: 25px;
-    padding: 10px 30px;
+    top: -30px;
+    left: 25%;
+    background-color: rgb(43, 121, 57);
+    color: #fff;
+    border: 4px solid;
+    padding: 10px;
+    text-align: center;
+    border-color: rgb(126, 171, 41);
+    width: 180px;
     font-size: large;
     font-weight: bold;
-}
+  }
 
+  .game-detail-character-section-paper-mario-door-boxs {
+    border-radius: 15px;
+    border: 10px solid rgb(110, 92, 0);
+    height: auto;
+    margin: 2rem auto;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .game-detail-character-section-paper-mario-door-boxs-span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(43, 121, 57);
+    color: #fff;
+    border: 4px solid;
+    padding: 10px;
+    text-align: center;
+    border-color: rgb(126, 171, 41);
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+  }
 /* Media queries for responsive adjustments */
 
 /* Tablets and larger phones */
 @media (max-width: 768px) {
-    .game-detail-character-section-container {
-        padding: 2rem; /* Reduce padding for smaller screens */
-    }
+  .game-detail-character-section-container {
+    padding: 0; /* Reduce padding for smaller screens */
+  }
 
-    .game-detail-character-section-top-left h2 {
-        font-size: 2.5rem; /* Adjust font size for heading */
-    }
+  .game-detail-character-section-top-left h2 {
+    font-size: 2.5rem; /* Adjust font size for heading */
+  }
 
-    .game-detail-character-section-top-left p {
-        font-size: 1.2rem; /* Adjust font size for paragraph */
-    }
+  .game-detail-character-section-top-left p {
+    font-size: 1.2rem; /* Adjust font size for paragraph */
+  }
 
-    .game-detail-character-section-box-grid {
-        grid-template-columns: 1fr 1fr; /* Stack items in 2 columns */
-    }
+  .game-detail-character-section-box-grid {
+    grid-template-columns: 1fr 1fr; /* Stack items in 2 columns */
+  }
 
-    .game-detail-character-section-boxs {
-        height: auto; /* Let height adjust based on content */
-        width: 100%; /* Full width for boxes on smaller screens */
-        max-width: 300px; /* Max width to maintain readability */
-    }
+  .game-detail-character-section-smbros-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+  }
 
-    .game-detail-character-section-boxs-span {
-        font-size: medium; /* Adjust font size */
-        padding: 8px 20px; /* Adjust padding */
-    }
+  .game-detail-character-section-smbros-boxs-span {
+    font-size: medium; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+  }
+  .game-detail-character-section-princess-peach-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+  }
+  
+  .game-detail-character-section-princess-peach-boxs-span {
+    font-size: medium; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+    width: auto;
+  }
+
+  .game-detail-character-section-super-mario-rpg-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+  }
+  .game-detail-character-section-wario-ware-boxs {
+    height: auto;
+    margin: 2rem 2rem;
+    width: 100%;
+    max-width: 300px; /* Max width to maintain readability */
+  }
+  .game-detail-character-section-luigi-mansion-2-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+  }
+  
+  .game-detail-character-section-luigi-mansion-2-boxs-span {
+    font-size: medium; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+    width: auto;
+  }
+  .game-detail-character-section-paper-mario-door-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+    height: 400px;
+  }
+  
+  .game-detail-character-section-paper-mario-door-boxs-span {
+    font-size: medium; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+    width: 100%;
+  }
 }
 
 /* Small screens and mobile phones */
 @media (max-width: 576px) {
-    .game-detail-character-section-container {
-        padding: 1rem; /* Further reduce padding for very small screens */
-    }
+  .game-detail-character-section-container {
+    padding: 0; /* Further reduce padding for very small screens */
+  }
 
-    .game-detail-character-section-top-left h2 {
-        font-size: 1.8rem; /* Smaller font size for heading */
-    }
+  .game-detail-character-section-top-left h2 {
+    font-size: 1.8rem; /* Smaller font size for heading */
+  }
 
-    .game-detail-character-section-top-left p {
-        font-size: 1rem; /* Smaller font size for paragraph */
-    }
+  .game-detail-character-section-top-left p {
+    font-size: 1rem; /* Smaller font size for paragraph */
+  }
 
-    .game-detail-character-section-box-grid {
-        grid-template-columns: 1fr; /* Stack items in a single column */
-    }
+  .game-detail-character-section-box-grid {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+  }
 
-    .game-detail-character-section-boxs {
-        height: auto; /* Let height adjust based on content */
-        width: 100%; /* Full width for boxes on very small screens */
-        max-width: 100%; /* Ensure full width */
-    }
+  .game-detail-character-section-smbros-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on very small screens */
+    max-width: 100%; /* Ensure full width */
+  }
 
-    .game-detail-character-section-boxs-span {
-        font-size: small; /* Smaller font size */
-        padding: 6px 30px; /* Adjust padding */
-        left: -2px;
-        bottom: -2px;
-    }
+  .game-detail-character-section-smbros-boxs-span {
+    font-size: small; /* Smaller font size */
+    padding: 6px 30px; /* Adjust padding */
+    left: -2px;
+    bottom: -2px;
+  }
+  .game-detail-character-section-princess-peach-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on very small screens */
+    max-width: 100%; /* Ensure full width */
+  }
+  
+  .game-detail-character-section-princess-peach-boxs-span {
+    font-size: small; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+    left: 40%;
+    width: auto;
+  }
+  .game-detail-character-section-super-mario-rpg-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on very small screens */
+  }
+  .game-detail-character-section-wario-ware-boxs {
+    height: auto;
+    margin: 2rem 2rem;
+    width: 100%;
+  }
+  .game-detail-character-section-luigi-mansion-2-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+  }
+  
+  .game-detail-character-section-luigi-mansion-2-boxs-span {
+    font-size: medium; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+    width: auto;
+    left: 0;
+  }
+  .game-detail-character-section-paper-mario-door-boxs {
+    height: auto; /* Let height adjust based on content */
+    width: 100%; /* Full width for boxes on smaller screens */
+    max-width: 300px; /* Max width to maintain readability */
+    height: 300px;
+  }
+  
+  .game-detail-character-section-paper-mario-door-boxs-span {
+    font-size: medium; /* Adjust font size */
+    padding: 8px 20px; /* Adjust padding */
+    width: 100%;
+    left: 0;
+  }
 }
