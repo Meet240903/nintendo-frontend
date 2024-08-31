@@ -1750,7 +1750,7 @@ const headerData = {
                 gridClass: 'kirby',
                 characterSectionTopData: {
                     sectionTitle: "Meet Kirby and his friends",
-                    sectionTitleColor: '#000',
+                    sectionTitleColor: 'rgb(1, 20, 96)',
                 },
                 sectionInnerData: [
                     {
