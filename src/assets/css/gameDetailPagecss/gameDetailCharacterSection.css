@@ -225,7 +225,6 @@
     /* overflow: hidden; */
     position: relative;
 }
-
 .game-detail-character-section-bayenotta-origins-boxs-span {
     position: absolute;
     top: -30px;
@@ -238,8 +237,9 @@
     width: 50%;
     font-size: large;
     font-weight: bold;
-    box-shadow: 0 4px 6px #fff, 0 6px 20px #827afc; /* Adds a dual-colored shadow effect */
+    box-shadow: 0 4px 6px #fff, 0 6px 20px #827afc; /* Dual-colored shadow effect */
 }
+
 
 /* Media queries for responsive adjustments */
 
@@ -383,7 +383,7 @@
   .game-detail-character-section-smbros-boxs {
     height: auto; /* Let height adjust based on content */
     width: 100%; /* Full width for boxes on very small screens */
-    max-width: 100%; /* Ensure full width */
+    max-width: 300px; /* Ensure full width */
   }
 
   .game-detail-character-section-smbros-boxs-span {

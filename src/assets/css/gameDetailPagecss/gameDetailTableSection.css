@@ -1,0 +1,109 @@
+/* Container Styles */
+.nintendo-game-detail-table-section-container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem; /* Add padding for small screens */
+}
+
+/* Rating and Support Section */
+.game-detail-rating-support-section {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 2rem 3rem;
+}
+
+/* Support Section Heading */
+.game-detail-rating-support-section h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Flex Container for Support Icons */
+.game-detail-support-section-flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-between; /* Center items horizontally */
+    /* gap: 1rem;  */
+}
+
+/* Individual Support Icon Section */
+.game-detail-support-inner-section{
+    background-color: rgb(72, 72, 72);
+    width: 120px;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+}
+
+/* Table Styles */
+.game-detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+
+/* Table Header and Cell Styles */
+.game-detail-table th,
+.game-detail-table td {
+    padding: 20px; /* Reduced padding for better fit on small screens */
+    text-align: left;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+/* Table Heading Styles */
+.game-detail-table-heading {
+    font-weight: bold;
+}
+
+/* Table Value Styles */
+.game-detail-table-value {
+    text-align: right;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .game-detail-rating-support-section {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .game-detail-support-inner-section {
+        width: auto; /* Allow width to adjust based on content */
+        padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .game-detail-table th,
+    .game-detail-table td {
+        padding: 8px; /* Reduced padding for smaller screens */
+    }
+
+    .game-detail-table-value {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+}
+
+@media (max-width: 576px) {
+    .game-detail-rating-support-section {
+        padding: 0.5rem; /* Further reduce padding */
+    }
+
+    .game-detail-support-inner-section{
+        width: 100px; /* Adjust width for small screens */
+        padding: 0.5rem; /* Adjust padding */
+    }
+
+    .game-detail-table-heading{
+        font-size: 12px;
+    }
+
+    .game-detail-table th,
+    .game-detail-table td {
+        padding: 6px; /* Further reduced padding */
+    }
+
+    .game-detail-table-value {
+        font-size: 12px; /* Further adjust font size for small screens */
+    }
+}
