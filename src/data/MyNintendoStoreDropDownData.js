@@ -282,6 +282,66 @@ import bayenottaOriginsCharImg3 from '../assets/images/mynintendostoreGameImgs/n
 import bayenottaOriginsCharImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg4.avif';
 import bayenottaOriginsCharImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailCharactersImgs/bayenottaOrigins/charSectionImg5.avif';
 
+//Related news section imgs
+import smBrosNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/smBros/relatedNewsSectionImg1.avif';
+import smBrosNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/smBros/relatedNewsSectionImg2.avif';
+import smBrosNewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/smBros/relatedNewsSectionImg3.avif';
+import smBrosNewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/smBros/relatedNewsSectionImg4.avif';
+import smBrosNewsSectionImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/smBros/relatedNewsSectionImg5.avif';
+
+import princessPeachNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/princessPeach/newsSectionImg1.avif';
+import princessPeachNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/princessPeach/newsSectionImg2.avif';
+import princessPeachNewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/princessPeach/newsSectionImg3.avif';
+import princessPeachNewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/princessPeach/newsSectionImg4.avif';
+import princessPeachNewsSectionImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/princessPeach/newsSectionImg5.avif';
+import princessPeachNewsSectionImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/princessPeach/newsSectionImg6.avif';
+
+import MariovsDonkeyNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/mariovsdonkeyKong/newsSectionImg1.avif';
+import MariovsDonkeyNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/mariovsdonkeyKong/newsSectionImg2.avif';
+import MariovsDonkeyNewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/mariovsdonkeyKong/newsSectionImg3.avif';
+import MariovsDonkeyNewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/mariovsdonkeyKong/newsSectionImg4.avif';
+
+import superMarioRPGNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/superMarioRPG/newsSectionImg1.avif';
+import superMarioRPGNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/superMarioRPG/newsSectionImg2.avif';
+import superMarioRPGNewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/superMarioRPG/newsSectionImg3.avif';
+import superMarioRPGNewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/superMarioRPG/newsSectionImg4.avif';
+import superMarioRPGNewsSectionImg5 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/superMarioRPG/newsSectionImg5.avif';
+import superMarioRPGNewsSectionImg6 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/superMarioRPG/newsSectionImg6.avif';
+
+import warioWareNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/warioWare/newsSectionImg1.avif';
+import warioWareNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/warioWare/newsSectionImg2.avif';
+
+import luigiMansion2NewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/luigiMansion2/newsSectionImg1.avif';
+import luigiMansion2NewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/luigiMansion2/newsSectionImg2.avif';
+import luigiMansion2NewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/luigiMansion2/newsSectionImg3.avif';
+import luigiMansion2NewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/luigiMansion2/newsSectionImg4.avif';
+
+import paperMarioYearDoorNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/paperMarioYearDoor/newsSectionImg1.avif';
+import paperMarioYearDoorNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/paperMarioYearDoor/newsSectionImg2.avif';
+import paperMarioYearDoorNewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/paperMarioYearDoor/newsSectionImg3.avif';
+import paperMarioYearDoorNewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/paperMarioYearDoor/newsSectionImg4.avif';
+
+import detectivePikachuNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/detectivePikachu/newsSectionImg1.avif';
+
+import anotherCodeNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/anotherCode/newsSectionImg1.avif';
+import anotherCodeNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/anotherCode/newsSectionImg2.avif';
+
+import legendOfZeldaNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/legendOfZelda/newsSectionImg1.avif';
+import legendOfZeldaNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/legendOfZelda/newsSectionImg2.avif';
+import legendOfZeldaNewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/legendOfZelda/newsSectionImg3.avif';
+import legendOfZeldaNewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/legendOfZelda/newsSectionImg4.avif';
+
+import pikmin4NewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/pikmin4/newsSectionImg1.avif';
+import pikmin4NewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/pikmin4/newsSectionImg2.avif';
+import pikmin4NewsSectionImg3 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/pikmin4/newsSectionImg3.avif';
+import pikmin4NewsSectionImg4 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/pikmin4/newsSectionImg4.avif';
+
+import kirbyNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/kirby/newsSectionImg1.avif';
+import kirbyNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/kirby/newsSectionImg2.avif';
+
+import bayenottaOriginsNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/bayenottaOrigins/newsSectionImg1.avif';
+
+
 
 
 const headerData = {
@@ -769,7 +829,39 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: smBrosNewsSectionImg1,
+                    date: '10/20/23',
+                    newsTitle: "Super Mario Bros. Wonder: Jump into the unexpected with Mario and his friends. Surprises ahead!",
+                },
+                {
+                    sectionImg: smBrosNewsSectionImg2,
+                    date: '10/18/23',
+                    newsTitle: "Ask the Developer Vol. 11, Super Mario Bros. Wonder—Part 3",
+                },
+                {
+                    sectionImg: smBrosNewsSectionImg2,
+                    date: '10/18/23',
+                    newsTitle: "Ask the Developer Vol. 11, Super Mario Bros. Wonder—Part 4",
+                },
+                {
+                    sectionImg: smBrosNewsSectionImg3,
+                    date: '08/31/23',
+                    newsTitle: "Experience the unexpected in Super Mario Bros. Wonder gameplay presentation",
+                },
+                {
+                    sectionImg: smBrosNewsSectionImg4,
+                    date: '10/09/23',
+                    newsTitle: "Get ready to jump into the unexpected—the Super Mario Bros. Wonder game demo is now",
+                },
+                {
+                    sectionImg: smBrosNewsSectionImg5,
+                    date: '06/13/24',
+                    newsTitle: "Have a spooktacular season with Luigi in these haunted game locations!",
+                },
+            ],
         },
         {
             sectionImg: sectionImg2,
@@ -865,7 +957,39 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: princessPeachNewsSectionImg1,
+                    date: '05/02/24',
+                    newsTitle: "Take the plunge in games with swimming",
+                },
+                {
+                    sectionImg: princessPeachNewsSectionImg2,
+                    date: '04/18/24',
+                    newsTitle: "Here are a few tips before you take the stage!",
+                },
+                {
+                    sectionImg: princessPeachNewsSectionImg3,
+                    date: '03/25/24',
+                    newsTitle: "Celebrate Princess Peach: Showtime! with limited-time missions in Super Mario Run",
+                },
+                {
+                    sectionImg: princessPeachNewsSectionImg4,
+                    date: '03/22/24',
+                    newsTitle: "Meet four leading ladies and girls from games on Nintendo Switch",
+                },
+                {
+                    sectionImg: princessPeachNewsSectionImg5,
+                    date: '03/07/24',
+                    newsTitle: "Try a free demo and watch the latest trailer for Princess Peach: Showtime!",
+                },
+                {
+                    sectionImg: princessPeachNewsSectionImg6,
+                    date: '02/28/24',
+                    newsTitle: "These games may have you shouting, “It’s Peach time!”",
+                },
+            ],
         },
         {
             sectionImg: sectionImg3,
@@ -927,7 +1051,29 @@ const headerData = {
                         titleColor: '#000',
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: MariovsDonkeyNewsSectionImg1,
+                    date: '04/09/24',
+                    newsTitle: "Donkey Kong has toy-napped the Mini-Marios! Can you get them back?!",
+                },
+                {
+                    sectionImg: MariovsDonkeyNewsSectionImg2,
+                    date: '02/15/24',
+                    newsTitle: "Icon elements inspired by the Mario vs. Donkey Kong game are here for a limited time!",
+                },
+                {
+                    sectionImg: MariovsDonkeyNewsSectionImg3,
+                    date: '01/31/24',
+                    newsTitle: "Try out the free Mario vs. Donkey Kong demo and save the Mini-Marios!",
+                },
+                {
+                    sectionImg: MariovsDonkeyNewsSectionImg4,
+                    date: '12/07/23',
+                    newsTitle: "Catch up with Mario and his pals with this ‘stache of games",
+                },
+            ],
         },
         {
             sectionImg: sectionImg4,
@@ -1012,7 +1158,39 @@ const headerData = {
                         charSpan: false,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: superMarioRPGNewsSectionImg1,
+                    date: '11/17/23',
+                    newsTitle: "Team up with Mario and an oddball group of heroes in Super Mario RPG, available now",
+                },
+                {
+                    sectionImg: superMarioRPGNewsSectionImg2,
+                    date: '02/28/24',
+                    newsTitle: "These games may have you shouting, “It’s Peach time!”",
+                },
+                {
+                    sectionImg: superMarioRPGNewsSectionImg3,
+                    date: '01/22/24',
+                    newsTitle: "Secrets you may have missed in Super Mario RPG!",
+                },
+                {
+                    sectionImg: superMarioRPGNewsSectionImg4,
+                    date: '12/07/23',
+                    newsTitle: "Catch up with Mario and his pals with this ‘stache of games",
+                },
+                {
+                    sectionImg: superMarioRPGNewsSectionImg5,
+                    date: '11/27/23',
+                    newsTitle: "Here’s all you need to know about battling in Super Mario RPG",
+                },
+                {
+                    sectionImg: superMarioRPGNewsSectionImg6,
+                    date: '11/09/23',
+                    newsTitle: "Super Mario RPG comes out next week! Until then, let’s meet the characters",
+                },
+            ],
         },
         {
             sectionImg: sectionImg5,
@@ -1075,7 +1253,24 @@ const headerData = {
                         charSpan: false,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: warioWareNewsSectionImg1,
+                    date: '11/03/23',
+                    newsTitle: "You think you got the moves? Bring ‘em!",
+                },
+                {
+                    sectionImg: warioWareNewsSectionImg2,
+                    date: '12/19/23',
+                    newsTitle: "Know someone less experienced with games? Ease them in with this selection!",
+                },
+                {
+                    sectionImg: warioWareNewsSectionImg1,
+                    date: '06/30/23',
+                    newsTitle: "WarioWare: Move It! – Get moving with a Wario twist",
+                },
+            ],
         },
         {
             sectionImg: sectionImg6,
@@ -1160,7 +1355,29 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: luigiMansion2NewsSectionImg1,
+                    date: '06/27/24',
+                    newsTitle: "Luigi’s Mansion™ 2 HD is available n–AAAAAAH!",
+                },
+                {
+                    sectionImg: luigiMansion2NewsSectionImg2,
+                    date: '06/21/24',
+                    newsTitle: "Get in the ghost-gustin’ spirit with a few basics for Luigi’s Mansion 2 HD",
+                },
+                {
+                    sectionImg: luigiMansion2NewsSectionImg3,
+                    date: '06/13/24',
+                    newsTitle: "Have a spooktacular season with Luigi in these haunted game locations!",
+                },
+                {
+                    sectionImg: luigiMansion2NewsSectionImg4,
+                    date: '05/31/24',
+                    newsTitle: "This waggly wisp is hauntingly cute!",
+                },
+            ],
         },
         {
             sectionImg: sectionImg7,
@@ -1275,7 +1492,34 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: paperMarioYearDoorNewsSectionImg1,
+                    date: '07/24/24',
+                    newsTitle: "Pack a papery punch with these tips!",
+                },
+                {
+                    sectionImg: paperMarioYearDoorNewsSectionImg2,
+                    date: '06/21/24',
+                    newsTitle: "Paper Mario: The Thousand-Year Door takes flight with paper airplane world record holder—and",
+                },
+                {
+                    sectionImg: paperMarioYearDoorNewsSectionImg3,
+                    date: '06/13/24',
+                    newsTitle: "Join Mario and a cast of oddballs in one of his strangest (and epic-est) RPG adventures!",
+                },
+                {
+                    sectionImg: paperMarioYearDoorNewsSectionImg4,
+                    date: '05/31/24',
+                    newsTitle: "7 new details in Paper Mario: The Thousand-Year Door!",
+                },
+                {
+                    sectionImg: paperMarioYearDoorNewsSectionImg3,
+                    date: '05/31/24',
+                    newsTitle: "Watch the new overview trailer for the Paper Mario: Thousand-Year Door game!",
+                },
+            ],
         },
         {
             sectionImg: sectionImg8,
@@ -1361,7 +1605,14 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: detectivePikachuNewsSectionImg1,
+                    date: '12/19/23',
+                    newsTitle: "Know someone less experienced with games? Ease them in with this selection!",
+                },
+            ],
         },
         {
             sectionImg: sectionImg9,
@@ -1408,7 +1659,24 @@ const headerData = {
                         leftDivBgColor: 'rgba(0, 0, 0, 0.6)',
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: anotherCodeNewsSectionImg1,
+                    date: '12/19/23',
+                    newsTitle: "Meet four leading ladies and girls from games on Nintendo Switch",
+                },
+                {
+                    sectionImg: anotherCodeNewsSectionImg2,
+                    date: '03/22/24',
+                    newsTitle: "Sleuth your way to the truth in Another Code: Recollection",
+                },
+                {
+                    sectionImg: anotherCodeNewsSectionImg2,
+                    date: '12/15/23',
+                    newsTitle: "A mysterious island, an impossible letter, and a ghostly past—learn more about Another Code:",
+                },
+            ],
         },
         {
             sectionImg: sectionImg10,
@@ -1460,7 +1728,29 @@ const headerData = {
                         leftDivBgColor: 'rgba(0, 0, 0, 0.6)',
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: legendOfZeldaNewsSectionImg1,
+                    date: '12/19/23',
+                    newsTitle: "Take the plunge in games with swimming",
+                },
+                {
+                    sectionImg: legendOfZeldaNewsSectionImg2,
+                    date: '03/22/24',
+                    newsTitle: "Icon elements inspired by The Legend of Zelda: Tears of the Kingdom game are here for a",
+                },
+                {
+                    sectionImg: legendOfZeldaNewsSectionImg3,
+                    date: '12/15/23',
+                    newsTitle: "Not sure where to start with your Nintendo Switch system? Here are some recommendations!",
+                },
+                {
+                    sectionImg: legendOfZeldaNewsSectionImg4,
+                    date: '12/15/23',
+                    newsTitle: "Nintendo Wins Best Action/Adventure Game, Best Family Game and Best",
+                },
+            ],
         },
         {
             sectionImg: sectionImg11,
@@ -1570,7 +1860,39 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: pikmin4NewsSectionImg1,
+                    date: '12/19/23',
+                    newsTitle: "Ask the Developer Vol. 10, Pikmin 4—Part 3",
+                },
+                {
+                    sectionImg: pikmin4NewsSectionImg1,
+                    date: '03/22/24',
+                    newsTitle: "Ask the Developer Vol. 10, Pikmin 4—Part 2",
+                },
+                {
+                    sectionImg: pikmin4NewsSectionImg1,
+                    date: '12/15/23',
+                    newsTitle: "Ask the Developer Vol. 10, Pikmin 4—Part 1",
+                },
+                {
+                    sectionImg: pikmin4NewsSectionImg2,
+                    date: '12/15/23',
+                    newsTitle: "Color in creatures from the Pikmin series of games with free printable pages from Play Nintendo!",
+                },
+                {
+                    sectionImg: pikmin4NewsSectionImg3,
+                    date: '12/15/23',
+                    newsTitle: "Know someone less experienced with games? Ease them in with this selection!",
+                },
+                {
+                    sectionImg: pikmin4NewsSectionImg4,
+                    date: '12/15/23',
+                    newsTitle: "Nintendo Wins Best Action/Adventure Game, Best Family Game and Best",
+                },
+            ],
         },
         {
             sectionImg: sectionImg12,
@@ -1784,7 +2106,19 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: kirbyNewsSectionImg1,
+                    date: '12/19/23',
+                    newsTitle: "Happy birthday, Kirby!",
+                },
+                {
+                    sectionImg: kirbyNewsSectionImg2,
+                    date: '04/27/24',
+                    newsTitle: "Know someone less experienced with games? Ease them in with this selection!",
+                },
+            ],
         },
         {
             sectionImg: sectionImg16,
@@ -1866,7 +2200,14 @@ const headerData = {
                         charSpan: true,
                     },
                 ]
-            }
+            },
+            relatedNewsSectionData: [
+                {
+                    sectionImg: bayenottaOriginsNewsSectionImg1,
+                    date: '03/22/24',
+                    newsTitle: "Meet four leading ladies and girls from games on Nintendo Switch",
+                },
+            ],
         },
     ]
 
