@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/css/nintendoStoreHardwarePageCSS/nintendoHardwareStoreTopSection.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const NintendoHardwareTopSection = ({ sectionData }) => {
     return (
@@ -18,7 +19,7 @@ const NintendoHardwareTopSection = ({ sectionData }) => {
             <div className='row m-0 store-hardware-top-section-content'>
                 {sectionData?.topSectionContent && (
                     <div className='col-md-6 store-hardware-top-section-left'>
-                        <h2>{sectionData?.listTitle}</h2>
+                        <h2><FontAwesomeIcon icon={sectionData?.titleIcon} /> {sectionData?.listTitle}</h2>
                         <p>{sectionData?.topSectionContent}</p>
                     </div>
                 )}

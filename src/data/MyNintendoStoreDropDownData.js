@@ -1,4 +1,4 @@
-import { faGamepad, faPersonRunning, faPlusSquare, faStar, faTshirt } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faPersonRunning, faPlusSquare, faStar, faTShirt, faTshirt } from '@fortawesome/free-solid-svg-icons';
 
 import gameTopSectionimg from '../assets/images/mynintendostoreGameImgs/Nintendo_Switch_games_hero.avif'
 import newReleaseTopSectionimg from '../assets/images/mynintendostoreGameImgs/TEST_Lifestyle.avif'
@@ -347,6 +347,15 @@ import joyConAndControllersTopImg from '../assets/images/mynintendostoreHardware
 import caseandMoreTopImg from '../assets/images/mynintendostoreHardwareImgs/caseandMore/topSectionImg.avif'
 import amiiboTopImg from '../assets/images/mynintendostoreHardwareImgs/amiibo/topSectionImg.avif'
 import amiiboTopBgImg from '../assets/images/mynintendostoreHardwareImgs/amiibo/Topbgimg.avif'
+
+import apparelTopBgImg from '../assets/images/mynintendostoreMerchandiseImgs/apparel/topSectionImg.avif'
+import homeandofficeTopBgImg from '../assets/images/mynintendostoreMerchandiseImgs/homeandoffice/sectionTopImg.avif'
+import plushTopBgImg from '../assets/images/mynintendostoreMerchandiseImgs/plush/sectionTopImg.avif'
+import toysTopBgImg from '../assets/images/mynintendostoreMerchandiseImgs/toys/sectionTopImg.avif'
+
+import exclusiveProductsTopImg from '../assets/images/mynintendostoreExclusiveImgs/exclusiveProducts/sectionTopImg.avif'
+import mynintendoRewardTopImg from '../assets/images/mynintendostoreExclusiveImgs/mynintendoReward/sectionTopImg.avif'
+import onlineOffersTopImg from '../assets/images/mynintendostoreExclusiveImgs/onlineOffers/sectionTopImg.avif'
 
 
 const headerData = {
@@ -731,6 +740,7 @@ const headerData = {
                 {
                     listTitle: 'Joy-Con & controllers',
                     mainSlugs: 'hardware',
+                    titleIcon: faGamepad,
                     slugs: 'joy-con-controllers',
                     topSectionBgColor: 'rgb(204, 204, 213)',
                     topSectionContent: "Get in the game with this selection of Joy-Con™ controllers, Pro Controllers, and more for the Nintendo Switch™ system.",
@@ -796,6 +806,7 @@ const headerData = {
                 {
                     listTitle: 'Cases & more',
                     mainSlugs: 'hardware',
+                    titleIcon: faGamepad,
                     slugs: 'cases-and-more',
                     topSectionBgColor: 'rgb(204, 204, 213)',
                     topSectionContent: "Show off your system and protect it from accidents with a cool case. And don't forget extra storage and other accessories.",
@@ -896,6 +907,7 @@ const headerData = {
                 {
                     listTitle: 'amiibo',
                     mainSlugs: 'hardware',
+                    titleIcon: faGamepad,
                     slugs: 'amiibo',
                     topSectionBgImg: amiiboTopBgImg,
                     topSectionContent: "Build a collection of your favorite characters! You can even use these accessories to score fun extras in compatible games.",
@@ -980,15 +992,363 @@ const headerData = {
             listData: [
                 {
                     listTitle: 'Apparel & accessories',
+                    mainSlugs: 'merchandise',
+                    titleIcon: faTShirt,
+                    slugs: 'apparel-and-accessories',
+                    topSectionBgColor: 'rgb(143, 173, 211)',
+                    topSectionContent: "Wear your fandom on your sleeve with fun Nintendo-themed clothing and accessories.",
+                    topSectionImg: apparelTopBgImg,
+                    sectionTwoFilterData: {
+                        defaultFilterData: [
+                            {
+                                filterTitle: "Deals",
+                            },
+                            {
+                                filterTitle: "Store exclusives",
+                            },
+                        ],
+                        otherFilterData: [
+                            {
+                                filterTitle: "Apparel & accessories",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Bags & backpacks",
+                                    },
+                                    {
+                                        innerFilterTitle: "Footwear",
+                                    },
+                                    {
+                                        innerFilterTitle: "Hats",
+                                    },
+                                    {
+                                        innerFilterTitle: "Hoodies & jackets",
+                                    },
+                                    {
+                                        innerFilterTitle: "Other",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Donkey Kong",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Home & office',
+                    mainSlugs: 'merchandise',
+                    titleIcon: faTShirt,
+                    slugs: 'home-and-office',
+                    topSectionBgColor: 'rgb(143, 173, 211)',
+                    topSectionContent: "Spruce up the place by bringing the worlds of Nintendo into your own.",
+                    topSectionImg: homeandofficeTopBgImg,
+                    sectionTwoFilterData: {
+                        defaultFilterData: [
+                            {
+                                filterTitle: "Store exclusives",
+                            },
+                            {
+                                filterTitle: "Collectibles",
+                            },
+                        ],
+                        otherFilterData: [
+                            {
+                                filterTitle: "Home & office",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Drinkware",
+                                    },
+                                    {
+                                        innerFilterTitle: "Décor",
+                                    },
+                                    {
+                                        innerFilterTitle: "Journals & stationery",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Fire Emblem",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Plush',
+                    mainSlugs: 'merchandise',
+                    titleIcon: faTShirt,
+                    slugs: 'plush',
+                    topSectionBgColor: 'rgb(143, 173, 211)',
+                    topSectionContent: "Pick up soft and cuddly plush versions of your favorite Nintendo characters.",
+                    topSectionImg: plushTopBgImg,
+                    sectionTwoFilterData: {
+                        defaultFilterData: [
+                            {
+                                filterTitle: "Deals",
+                            },
+                            {
+                                filterTitle: "Plush",
+                            },
+                        ],
+                        otherFilterData: [
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Donkey Kong",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Toys',
+                    mainSlugs: 'merchandise',
+                    titleIcon: faTShirt,
+                    slugs: 'toys',
+                    topSectionBgColor: 'rgb(143, 173, 211)',
+                    topSectionImg: toysTopBgImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Toys",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "All toys",
+                                    },
+                                    {
+                                        innerFilterTitle: "LEGO",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Donkey Kong",
+                                    },
+                                    {
+                                        innerFilterTitle: "Diddy Kong",
+                                    },
+                                    {
+                                        innerFilterTitle: "Isabelle",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
             ]
         },
@@ -998,12 +1358,345 @@ const headerData = {
             listData: [
                 {
                     listTitle: 'Exclusive products',
+                    mainSlugs: 'store-exclusives',
+                    titleIcon: faStar,
+                    slugs: 'exclusive-products',
+                    topSectionBgColor: 'rgb(204, 153, 153)',
+                    topSectionContent: "Check out the latest products you can only get at Nintendo Stores.",
+                    topSectionImg: exclusiveProductsTopImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch systems",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Other controllers",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Link",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'My Nintendo rewards',
+                    mainSlugs: 'store-exclusives',
+                    titleIcon: faStar,
+                    slugs: 'nintendo-rewards',
+                    topSectionBgColor: 'rgb(204, 153, 153)',
+                    topSectionContent: "Redeem your My Nintendo Platinum Points for fun rewards and have them shipped to your home. Check your balance by clicking on your My Nintendo profile at the top right of this page or sign up to get started!",
+                    topSectionImg: mynintendoRewardTopImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch systems",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Other controllers",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Link",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Nintendo Switch Online offers',
+                    mainSlugs: 'store-exclusives',
+                    titleIcon: faStar,
+                    slugs: 'online-offers',
+                    topSectionBgColor: 'rgb(204, 153, 153)',
+                    topSectionContent: "Check out the latest members-only offers.",
+                    topSectionImg: onlineOffersTopImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch systems",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Other controllers",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Link",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
             ]
         },

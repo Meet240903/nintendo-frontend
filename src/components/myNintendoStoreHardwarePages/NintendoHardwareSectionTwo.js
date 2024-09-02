@@ -102,7 +102,7 @@ const NintendoHardwareSectionTwo = ({ sectionData, hardwareData, breadcrumpTitle
                                     <div className='game-store-two-div-box-body'>
                                         <h6>{data?.title}</h6>
                                         <p>{data?.date}</p>
-                                        {data?.newLaunch && <span>Free Demo</span>}
+                                        {data?.exclusive && <span>Exclusive</span>}
                                         <p>{data?.price}</p>
                                         <small>| Hardware</small>
                                     </div>

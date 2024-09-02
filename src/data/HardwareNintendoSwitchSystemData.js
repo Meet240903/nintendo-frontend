@@ -50,6 +50,7 @@ const hardwareNintendoSwitchSystemData = [
         sectionImg: sectionImg6,
         title: 'Nintendo Switch™ Lite - Gray',
         date: '9/20/19',
+        exclusive: true,
         price: '$199.99'
     },
     {
@@ -74,6 +75,7 @@ const hardwareNintendoSwitchSystemData = [
         sectionImg: sectionImg10,
         title: 'Nintendo Switch™ Lite - Yellow',
         date: '9/20/19',
+        exclusive: true,
         price: '$199.99'
     },
     {
