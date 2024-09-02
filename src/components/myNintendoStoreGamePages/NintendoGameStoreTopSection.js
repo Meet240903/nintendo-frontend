@@ -1,10 +1,14 @@
 import React from 'react'
 import '../../assets/css/nintendoStoreGamePagecss/nintendoGameStoreTopSection.css'
 
-const NintendoGameStoreTopSection = ({sectionData}) => {
+const NintendoGameStoreTopSection = ({ sectionData }) => {
     return (
         <>
-            <div className='nintendo-store-game-top-section-container'>
+            <div className='nintendo-store-game-top-section-container'
+                style={{
+                    backgroundColor: sectionData?.topSectionBgColor ? sectionData?.topSectionBgColor : 'none'
+                }}
+            >
                 <div className='row m-0 store-game-top-section-content'>
                     <div className='col-md-6 store-game-top-section-left'>
                         <h2>{sectionData?.listTitle}</h2>

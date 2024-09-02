@@ -1,10 +1,10 @@
-import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState } from 'react'
-import '../../assets/css/nintendoStoreGamePagecss/nintendoGameStoreSectionTwo.css'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
+import '../../assets/css/nintendoStoreHardwarePageCSS/nintendoHardwareStoreSectionTwo.css'
 
-const NintendoGameStoreSectionTwo = ({ sectionData, gameData, breadcrumpTitle,breadcrumpTitle2 }) => {
+const NintendoHardwareSectionTwo = ({ sectionData, hardwareData, breadcrumpTitle, breadcrumpTitle2 }) => {
     const [activeFilterIndex, setActiveFilterIndex] = useState(null);
 
     const handleFilterClick = (index) => {
@@ -21,6 +21,7 @@ const NintendoGameStoreSectionTwo = ({ sectionData, gameData, breadcrumpTitle,br
         if (typeof str !== 'string') return '';
         return str.charAt(0).toUpperCase() + str.slice(1);
     };
+
     return (
         <>
             <div className='game-store-section-two-container'>
@@ -88,25 +89,25 @@ const NintendoGameStoreSectionTwo = ({ sectionData, gameData, breadcrumpTitle,br
                     </div>
                     <div className='col-md-9 game-store-section-two-content-right'>
                         {
-                            gameData?.map((data, index) => (
-                                <Link
-                                    to={`/nintendo-game-detail/${data?.slugs}`}
-                                    className='router-link'
-                                    key={index}
-                                >
-                                    <div className='game-store-section-two-content-right-boxs'>
-                                        <div className='game-store-two-div-box-img'>
-                                            <img src={data?.sectionImg} className='fluid-img' alt='section-img' />
-                                        </div>
-                                        <div className='game-store-two-div-box-body'>
-                                            <h6>{data?.gameTitle}</h6>
-                                            <p>{data?.date}</p>
-                                            {data?.newLaunch && <span>Free Demo</span>}
-                                            <p>{data?.price}</p>
-                                            <small>| Nintendo Switch</small>
-                                        </div>
+                            hardwareData?.map((data, index) => (
+                                // <Link
+                                //     to={`/nintendo-game-detail/${data?.slugs}`}
+                                //     className='router-link'
+                                //     key={index}
+                                // >
+                                <div className='game-store-section-two-content-right-boxs' key={index}>
+                                    <div className='hardware-store-two-div-box-img'>
+                                        <img src={data?.sectionImg} className='fluid-img' alt='section-img' />
                                     </div>
-                                </Link>
+                                    <div className='game-store-two-div-box-body'>
+                                        <h6>{data?.title}</h6>
+                                        <p>{data?.date}</p>
+                                        {data?.newLaunch && <span>Free Demo</span>}
+                                        <p>{data?.price}</p>
+                                        <small>| Hardware</small>
+                                    </div>
+                                </div>
+                                // </Link>
                             ))
                         }
                     </div>
@@ -116,4 +117,4 @@ const NintendoGameStoreSectionTwo = ({ sectionData, gameData, breadcrumpTitle,br
     )
 }
 
-export default NintendoGameStoreSectionTwo;
+export default NintendoHardwareSectionTwo

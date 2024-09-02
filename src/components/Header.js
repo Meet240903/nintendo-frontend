@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/css/header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare, faBars, faBullhorn, faCalendar, faCalendarAlt, faCheck, faClipboardQuestion, faClose, faComment, faGamepad, faGear, faGift, faHeart, faPersonRunning, faPlusSquare, faReceipt, faShoppingCart, faStar, faStore, faSwatchbook, faTshirt, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faBars, faBullhorn, faCalendar, faCalendarAlt, faCheck, faClipboardQuestion, faClose, faComment, faGamepad, faGear, faGift, faGreaterThan, faHeart, faPersonRunning, faPlusSquare, faReceipt, faShoppingCart, faStar, faStore, faSwatchbook, faTshirt, faUser } from '@fortawesome/free-solid-svg-icons';
 import headerLogo from '../assets/images/nintendu-logo.svg';
 import usFlag from '../assets/images/US-Flag.webp';
 import unauthImg from '../assets/images/liginsiginSection/unauthd-asset.avif'
@@ -17,7 +17,7 @@ import playNintendoImg2 from '../assets/images/playNintendoImg2.svg'
 
 import headerData from '../data/MyNintendoStoreDropDownData';
 
-const {MyNintendoStoreDropDownData} = headerData
+const { MyNintendoStoreDropDownData } = headerData
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,9 +25,7 @@ const Header = () => {
     const [myNintendoStoreDropDowwn, setMyNintendoStoreDropDown] = useState(false);
     const [gameDropDowwn, setGameDropDown] = useState(false);
     const [nintendoSwitchDropDowwn, setNintendoSwitchDropDown] = useState(false);
-    const [playNintendoDropDowwn, setPlayNintendoDropDown] = useState(false);
-
-
+    const [playNintendoDropDowwn, setPlayNintendoDropDown] = useState(false);    
 
     const gameDropdownData = [
         {
@@ -146,7 +144,11 @@ const Header = () => {
             <header className={`second-header ${isMenuOpen ? 'open' : ''}`}>
                 <div className='header-content'>
                     <a href="#" className="header-link" onClick={() => { setMyNintendoStoreDropDown(!myNintendoStoreDropDowwn); setGameDropDown(false); setNintendoSwitchDropDown(false); setPlayNintendoDropDown(false) }}>
-                        <FontAwesomeIcon icon={faStore} /> My Nintendo Store
+                        <FontAwesomeIcon icon={faStore} /> My Nintendo Store&nbsp;&nbsp; <FontAwesomeIcon
+                            icon={faGreaterThan}
+                            className="header-greater-than-icon"
+                            style={{ transform: myNintendoStoreDropDowwn ? 'rotate(90deg)' : 'none' }}
+                        />
                     </a>
                     {
                         myNintendoStoreDropDowwn && <div className='my-nintendo-store-header-dropdown'>
@@ -162,7 +164,7 @@ const Header = () => {
                                             {
                                                 data?.listData?.map((data, index) => (
                                                     <div key={index}>
-                                                        <Link to={`/my-nintendo-store/games/${data?.slugs}`} className='router-link'  onClick={()=>setMyNintendoStoreDropDown(false)}>
+                                                        <Link to={`/my-nintendo-store/${data?.mainSlugs}/${data?.slugs}`} className='router-link' onClick={() => setMyNintendoStoreDropDown(false)}>
                                                             <small>{data?.listTitle}</small>
                                                         </Link>
                                                     </div>
@@ -175,7 +177,7 @@ const Header = () => {
                         </div>
                     }
                     <a href="#" className="header-link" onClick={() => { setGameDropDown(!gameDropDowwn); setMyNintendoStoreDropDown(false); setNintendoSwitchDropDown(false); setPlayNintendoDropDown(false) }}>
-                        <FontAwesomeIcon icon={faPlusSquare} /> Games
+                        <FontAwesomeIcon icon={faPlusSquare} /> Games&nbsp;&nbsp; <FontAwesomeIcon icon={faGreaterThan} className='header-greater-than-icon' style={{ transform: gameDropDowwn ? 'rotate(90deg)' : 'none' }} />
                     </a>
                     {
                         gameDropDowwn && <div className='game-header-dropdown'>
@@ -195,7 +197,7 @@ const Header = () => {
                         </div>
                     }
                     <a href="#" className="header-link" onClick={() => { setNintendoSwitchDropDown(!nintendoSwitchDropDowwn); setGameDropDown(false); setMyNintendoStoreDropDown(false); setPlayNintendoDropDown(false) }}>
-                        <FontAwesomeIcon icon={faSwatchbook} /> Nintendo Switch
+                        <FontAwesomeIcon icon={faSwatchbook} /> Nintendo Switch&nbsp;&nbsp; <FontAwesomeIcon icon={faGreaterThan} className='header-greater-than-icon' style={{ transform: nintendoSwitchDropDowwn ? 'rotate(90deg)' : 'none' }} />
                     </a>
                     {
                         nintendoSwitchDropDowwn && <div className='game-header-dropdown'>
@@ -220,7 +222,7 @@ const Header = () => {
                         <FontAwesomeIcon icon={faComment} /> News & Events
                     </Link>
                     <a href="#" className="header-link" onClick={() => { setPlayNintendoDropDown(!playNintendoDropDowwn); setMyNintendoStoreDropDown(false); setNintendoSwitchDropDown(false); setGameDropDown(false) }}>
-                        <FontAwesomeIcon icon={faStar} /> Play Nintendo
+                        <FontAwesomeIcon icon={faStar} /> Play Nintendo&nbsp;&nbsp; <FontAwesomeIcon icon={faGreaterThan} className='header-greater-than-icon' style={{ transform: playNintendoDropDowwn ? 'rotate(90deg)' : 'none' }}/>
                     </a>
                     {
                         playNintendoDropDowwn && <div className='game-header-dropdown'>

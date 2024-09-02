@@ -1,0 +1,72 @@
+.nintendo-store-bottom-section-container {
+    margin-top: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row; /* Default direction for larger screens */
+}
+
+.nintendo-store-bottom-section-content-box {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    width: 100%; /* Set width to 100% for smaller screens */
+    max-width: 400px; /* Set a max-width for larger screens */
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.nintendo-store-bottom-section-content-box h1 {
+    color: #e60012;
+    font-size: 3.5rem;
+}
+
+.nintendo-store-bottom-section-content-box h5 {
+    color: #424343;
+    font-weight: bold;
+}
+
+.nintendo-store-bottom-section-content-box:hover .nintendo-store-bottom-title {
+    color: #e60012;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Medium screens (tablets, 768px and up) */
+@media (max-width: 992px) {
+    .nintendo-store-bottom-section-container {
+        flex-direction: row; /* Two items per row */
+    }
+
+    .nintendo-store-bottom-section-content-box {
+        width: calc(50% - 1rem); /* Two items per row */
+    }
+
+    .nintendo-store-bottom-section-content-box h1 {
+        font-size: 2.5rem; /* Adjust icon size */
+    }
+}
+
+/* Small screens (mobile phones, 576px and up) */
+@media (max-width: 576px) {
+    .nintendo-store-bottom-section-container {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .nintendo-store-bottom-section-content-box {
+        width: 100%; /* Full width on small screens */
+        padding: 1.5rem; /* Reduce padding */
+    }
+
+    .nintendo-store-bottom-section-content-box h1 {
+        font-size: 2rem; /* Smaller icon size */
+    }
+
+    .nintendo-store-bottom-section-content-box h5 {
+        font-size: 1rem; /* Adjust font size */
+    }
+}

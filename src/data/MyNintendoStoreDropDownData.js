@@ -341,7 +341,12 @@ import kirbyNewsSectionImg2 from '../assets/images/mynintendostoreGameImgs/ninte
 
 import bayenottaOriginsNewsSectionImg1 from '../assets/images/mynintendostoreGameImgs/nintendoSwitchImgs/gameDetailRelatedNewsImgs/bayenottaOrigins/newsSectionImg1.avif';
 
-
+//hardware imgs
+import nintendoStoreSystemTopImg from '../assets/images/mynintendostoreHardwareImgs/myNintendoSwitchSystemImgs/topSectionImg.avif'
+import joyConAndControllersTopImg from '../assets/images/mynintendostoreHardwareImgs/joyConAndControllers/topSectionImg.avif'
+import caseandMoreTopImg from '../assets/images/mynintendostoreHardwareImgs/caseandMore/topSectionImg.avif'
+import amiiboTopImg from '../assets/images/mynintendostoreHardwareImgs/amiibo/topSectionImg.avif'
+import amiiboTopBgImg from '../assets/images/mynintendostoreHardwareImgs/amiibo/Topbgimg.avif'
 
 
 const headerData = {
@@ -352,6 +357,8 @@ const headerData = {
             listData: [
                 {
                     listTitle: 'Nintendo Switch games',
+                    topSectionBgColor: '#e60012',
+                    mainSlugs: 'games',
                     slugs: 'nintendo-switch-games',
                     topSectionContent: 'Discover a wide range of games for the Nintendo Switch™ family of systems, including the latest releases, classics, and multiplayer titles.',
                     topSectionImg: gameTopSectionimg,
@@ -488,6 +495,8 @@ const headerData = {
                 },
                 {
                     listTitle: 'New releases',
+                    mainSlugs: 'games',
+                    topSectionBgColor: '#e60012',
                     slugs: 'new-releases',
                     topSectionContent: "Find your next favorite in this pipin'-hot batch of fresh games.",
                     topSectionImg: newReleaseTopSectionimg,
@@ -624,6 +633,8 @@ const headerData = {
                 },
                 {
                     listTitle: 'Sales & deals',
+                    mainSlugs: 'games',
+                    topSectionBgColor: '#e60012',
                     slugs: 'sales-and-deals',
                     topSectionContent: "Find your best deals to play a best game. Offers closing soon!",
                     topSectionImg: saleDealsTopSectionimg,
@@ -651,16 +662,315 @@ const headerData = {
             icon: faGamepad,
             listData: [
                 {
-                    listTitle: 'Nintendo Switch systems',
+                    listTitle: 'Nintendo Switch Systems',
+                    mainSlugs: 'hardware',
+                    topSectionBgColor: 'rgb(204, 204, 213)',
+                    slugs: 'nintendo-switch-systems',
+                    topSectionImg: nintendoStoreSystemTopImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                    {
+                                        innerFilterTitle: "Refurbished systems",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Super Mario",
+                                    },
+                                    {
+                                        innerFilterTitle: "The Legend of Zelda",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gold",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Pink",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Joy-Con & controllers',
+                    mainSlugs: 'hardware',
+                    slugs: 'joy-con-controllers',
+                    topSectionBgColor: 'rgb(204, 204, 213)',
+                    topSectionContent: "Get in the game with this selection of Joy-Con™ controllers, Pro Controllers, and more for the Nintendo Switch™ system.",
+                    topSectionImg: joyConAndControllersTopImg,
+                    sectionTwoFilterData: {
+                        defaultFilterData: [
+                            {
+                                filterTitle: "Nintendo Switch",
+                            },
+                            {
+                                filterTitle: "Nintendo Switch Lite",
+                            },
+                            {
+                                filterTitle: "Nintendo Switch – OLED Model",
+                            },
+                            {
+                                filterTitle: "Refurbished systems",
+                            },
+                        ],
+                        otherFilterData: [
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Super Mario",
+                                    },
+                                    {
+                                        innerFilterTitle: "The Legend of Zelda",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gold",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Pink",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Cases & more',
+                    mainSlugs: 'hardware',
+                    slugs: 'cases-and-more',
+                    topSectionBgColor: 'rgb(204, 204, 213)',
+                    topSectionContent: "Show off your system and protect it from accidents with a cool case. And don't forget extra storage and other accessories.",
+                    topSectionImg: caseandMoreTopImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Cases & more",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Docks, cables & chargers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Other accessories",
+                                    },
+                                    {
+                                        innerFilterTitle: "System cases",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Animal Crossing",
+                                    },
+                                    {
+                                        innerFilterTitle: "Kirby",
+                                    },
+                                    {
+                                        innerFilterTitle: "Link",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                    {
+                                        innerFilterTitle: "Mario",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gold",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'amiibo',
+                    mainSlugs: 'hardware',
+                    slugs: 'amiibo',
+                    topSectionBgImg: amiiboTopBgImg,
+                    topSectionContent: "Build a collection of your favorite characters! You can even use these accessories to score fun extras in compatible games.",
+                    topSectionImg: amiiboTopImg,
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Cases & more",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "amiibo",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Character or series",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Bowser",
+                                    },
+                                    {
+                                        innerFilterTitle: "Donkey Kong",
+                                    },
+                                    {
+                                        innerFilterTitle: "Ganon",
+                                    },
+                                    {
+                                        innerFilterTitle: "Link",
+                                    },
+                                    {
+                                        innerFilterTitle: "Luigi",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                    {
+                                        innerFilterTitle: "Pink",
+                                    },
+                                    {
+                                        innerFilterTitle: "Red",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
             ]
         },

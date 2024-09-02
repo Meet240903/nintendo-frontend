@@ -16,6 +16,8 @@ import NewsandEventsDetail from './components/NewsandEventsDetail';
 import GameDetailPage from './components/GameDetailPage';
 import MyNintendoStoreGame from './components/MyNintendoStoreGame';
 import NintendoGameDetail from './components/NintendoGameDetail';
+import MyNintendoStoreHardware from './components/MyNintendoStoreHardware';
+import MyNintendoStoreContent from './components/MyNintendoStoreContent';
 
 function App() {
   return (
@@ -54,11 +56,11 @@ function App() {
                 <Footer />
               </>
             } />
-          <Route exact path='/my-nintendo-store/games/:slug'
+          <Route exact path='/my-nintendo-store/:slug1/:slug'
             element={
               <>
                 <Header />
-                <MyNintendoStoreGame />
+                <MyNintendoStoreContent />
                 <Footer />
               </>
             } />

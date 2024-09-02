@@ -75,6 +75,10 @@
     color: #e60012;
 }
 
+.game-store-section-two-breadcrump span{
+    margin: 0 10px;
+}
+
 /* Media Queries for Responsive Design */
 
 @media (max-width: 768px) {
@@ -105,5 +109,10 @@
 
     .game-store-section-two-content-right {
         grid-template-columns: 1fr;
+    }
+
+    .game-store-section-two-breadcrump span{
+        font-size: 10px;
+        margin: 0 3px;
     }
 }
