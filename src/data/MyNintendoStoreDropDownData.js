@@ -357,6 +357,47 @@ import exclusiveProductsTopImg from '../assets/images/mynintendostoreExclusiveIm
 import mynintendoRewardTopImg from '../assets/images/mynintendostoreExclusiveImgs/mynintendoReward/sectionTopImg.avif'
 import onlineOffersTopImg from '../assets/images/mynintendostoreExclusiveImgs/onlineOffers/sectionTopImg.avif'
 
+import pikmincharacterTopSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/pikmin/topBgImg.avif';
+import pikmincharacterTopSectionImg1 from '../assets/images/myNintendoStoreCharactersImgs/pikmin/topSectionImg1.avif';
+import pikmincharacterTopSectionImg2 from '../assets/images/myNintendoStoreCharactersImgs/pikmin/topSectionImg2.avif';
+import pikmincharacterFeaturedCatSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/pikmin/featureCategoryBgImg.avif';
+import pikmincharacterFeaturedCatSectionImg from '../assets/images/myNintendoStoreCharactersImgs/pikmin/featuredCategorySectionImg1.avif';
+import pikmincharacterTopSectionTitleImg from '../assets/images/myNintendoStoreCharactersImgs/pikmin/topSectionTitleDecorateImg.png';
+
+import splatooncharacterTopSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/splatoon/topSectionBgImg.avif';
+import splatooncharacterTopSectionImg1 from '../assets/images/myNintendoStoreCharactersImgs/splatoon/topSectionImg1.avif';
+import splatooncharacterFeaturedCatSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/splatoon/featuredCategorySectionBgImg.avif';
+import splatooncharacterFeaturedCatSectionImg from '../assets/images/myNintendoStoreCharactersImgs/splatoon/featuredCategorySectionImg1.avif';
+import splatooncharacterTopSectionTitleImg from '../assets/images/myNintendoStoreCharactersImgs/splatoon/topSectionTitleDecorateImg.avif';
+
+import superMariocharacterTopSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/superMario/topSectionBgImg.avif';
+import superMariocharacterTopSectionImg1 from '../assets/images/myNintendoStoreCharactersImgs/superMario/topSectionImg1.avif';
+import superMariocharacterTopSectionImg2 from '../assets/images/myNintendoStoreCharactersImgs/superMario/topSectionImg2.avif';
+import superMariocharacterFeaturedCatSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/superMario/featuredChategorySectionBgImg.avif';
+import superMariocharacterFeaturedCatSectionImg from '../assets/images/myNintendoStoreCharactersImgs/superMario/featuredCategorySectionImg1.avif';
+import superMariocharacterTopSectionTitleImg from '../assets/images/myNintendoStoreCharactersImgs/superMario/topSectionTitleDecorateImg.png';
+import superMariocharacterListBgImg from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/bgImg.webp';
+import superMariocharacterListImg1 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg1.avif';
+import superMariocharacterListImg2 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg2.avif';
+import superMariocharacterListImg3 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg3.avif';
+import superMariocharacterListImg4 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg4.avif';
+import superMariocharacterListImg5 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg5.avif';
+import superMariocharacterListImg6 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg6.avif';
+import superMariocharacterListImg7 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg7.avif';
+import superMariocharacterListImg8 from '../assets/images/myNintendoStoreCharactersImgs/superMario/characterListImgs/characterImg8.avif';
+
+import legendOfZeldacharacterTopSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/topSectionBgImg.avif';
+import legendOfZeldacharacterTopSectionImg1 from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/topSectionImg1.avif';
+import legendOfZeldacharacterFeaturedCatSectionBgImg from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/featuredCategorySectionBgImg.webp';
+import legendOfZeldacharacterFeaturedCatSectionImg from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/featuredCategorySectionImg1.avif';
+import legendOfZeldacharacterTopSectionTitleImg from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/topSectionTitleDecorateImg.png';
+import legendOfZeldacharacterListBgImg from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/characterListImgs/bgimg.avif';
+import legendOfZeldacharacterListImg1 from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/characterListImgs/characterImg1.avif';
+import legendOfZeldacharacterListImg2 from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/characterListImgs/characterImg2.avif';
+import legendOfZeldacharacterListImg3 from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/characterListImgs/characterImg3.avif';
+import legendOfZeldacharacterListImg4 from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/characterListImgs/characterImg4.avif';
+import legendOfZeldacharacterListImg5 from '../assets/images/myNintendoStoreCharactersImgs/legendOfZelda/characterListImgs/characterImg5.avif';
+
 
 const headerData = {
     MyNintendoStoreDropDownData: [
@@ -1706,15 +1747,673 @@ const headerData = {
             listData: [
                 {
                     listTitle: 'Pikmin',
+                    mainSlugs: 'characters',
+                    slugs: 'pikmin-character',
+                    characterTopSectionData: {
+                        backgroundImg: pikmincharacterTopSectionBgImg,
+                        sectionImg1: pikmincharacterTopSectionImg1,
+                        sectionImg2: pikmincharacterTopSectionImg2,
+                        titleDivData: {
+                            title: "Explore the pint-sized world of Pikmin",
+                            content: "These plantlike creatures are curious, loyal, and ready for adventure. Shop these games and gear and get ready to guide them!",
+                            className: 'pikmin',
+                            titleIcon: pikmincharacterTopSectionTitleImg,
+                        },
+                        featuredCategorySection: {
+                            sectionImg: pikmincharacterFeaturedCatSectionImg,
+                            backgroundImg: pikmincharacterFeaturedCatSectionBgImg,
+                            gameTitle: "Pikmin 4 - Embark on an endearing expedition!",
+                            btnContent: "Buy now",
+                            featuredFilterData: [
+                                {
+                                    title: 'Games',
+                                },
+                                {
+                                    title: 'Merchandise',
+                                },
+                                {
+                                    title: 'Shop all',
+                                },
+                            ]
+                        }
+                    },
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Cases & more",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Gamepads",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Cases & more",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "System cases",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch Online features",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Online play",
+                                    },
+                                    {
+                                        innerFilterTitle: "Save Data Cloud",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "iOS / Android",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Availability",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Available now",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Splatoon',
+                    mainSlugs: 'characters',
+                    slugs: 'splatoon-character',
+                    characterTopSectionData: {
+                        backgroundImg: splatooncharacterTopSectionBgImg,
+                        sectionImg1: splatooncharacterTopSectionImg1,
+                        titleDivData: {
+                            title: "Make a splash with Splatoon",
+                            content: "Cop the Splatoon™ games and gear you need to ink your way through the Splatlands and beyond. Booyah!",
+                            className: 'splatoon',
+                            titleIcon: splatooncharacterTopSectionTitleImg,
+                        },
+                        featuredCategorySection: {
+                            sectionImg: splatooncharacterFeaturedCatSectionImg,
+                            backgroundImg: splatooncharacterFeaturedCatSectionBgImg,
+                            gameTitle: "Past, Present, or Future—which calls to you most? Celebrate the Splatoon™ 3 Grand Festival with these stylish limited edition tees!",
+                            btnContent: "Pre-purchase now",
+                            featuredFilterData: [
+                                {
+                                    title: 'Hardware and accessories',
+                                },
+                                {
+                                    title: 'Games',
+                                },
+                                {
+                                    title: 'Merchandise',
+                                },
+                                {
+                                    title: 'Shop all',
+                                },
+                            ]
+                        }
+                    },
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Cases & more",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Gamepads",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Cases & more",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "System cases",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch Online features",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Online play",
+                                    },
+                                    {
+                                        innerFilterTitle: "Save Data Cloud",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "iOS / Android",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Availability",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Available now",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'Super Mario',
+                    mainSlugs: 'characters',
+                    slugs: 'super-mario-character',
+                    characterTopSectionData: {
+                        backgroundImg: superMariocharacterTopSectionBgImg,
+                        sectionImg1: superMariocharacterTopSectionImg1,
+                        sectionImg2: superMariocharacterTopSectionImg2,
+                        titleDivData: {
+                            title: "Let's-a go!",
+                            content: "Join the fun with Mario and his many friends in the Mushroom Kingdom and beyond.",
+                            className: 'superMario',
+                            titleIcon: superMariocharacterTopSectionTitleImg,
+                        },
+                        characterList: {
+                            backgroundImg: superMariocharacterListBgImg,
+                            characterListData: [
+                                {
+                                    characterImg: superMariocharacterListImg1,
+                                    characterName: "Mario",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg2,
+                                    characterName: "Luigi",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg3,
+                                    characterName: "Bowser",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg4,
+                                    characterName: "Princess Peach",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg5,
+                                    characterName: "Yoshi",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg6,
+                                    characterName: "Donkey Kong",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg7,
+                                    characterName: "Toad",
+                                },
+                                {
+                                    characterImg: superMariocharacterListImg8,
+                                    characterName: "Baddies",
+                                },
+                            ]
+                        },
+                        featuredCategorySection: {
+                            backgroundImg: superMariocharacterFeaturedCatSectionBgImg,
+                            sectionImg: superMariocharacterFeaturedCatSectionImg,
+                            gameTitle: "Scare up some fun with Luigi's Mansion™ 2 HD",
+                            btnContent: "Buy now",
+                            featuredFilterData: [
+                                {
+                                    title: 'Hardware and accessories',
+                                },
+                                {
+                                    title: 'Games',
+                                },
+                                {
+                                    title: 'Apparel',
+                                },
+                                {
+                                    title: 'Toys and games',
+                                },
+                                {
+                                    title: 'Plush',
+                                },
+                                {
+                                    title: 'Shop all Super Mario',
+                                },
+                            ]
+                        }
+                    },
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Cases & more",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Gamepads",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Cases & more",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "System cases",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch Online features",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Online play",
+                                    },
+                                    {
+                                        innerFilterTitle: "Save Data Cloud",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "iOS / Android",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Availability",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Available now",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
                 {
                     listTitle: 'The Legend of Zelda',
+                    mainSlugs: 'characters',
+                    slugs: 'legend-of-zelda-character',
+                    characterTopSectionData: {
+                        backgroundImg: legendOfZeldacharacterTopSectionBgImg,
+                        sectionImg1: legendOfZeldacharacterTopSectionImg1,
+                        titleDivData: {
+                            title: "Your adventure begins here!",
+                            content: "Celebrate the kingdom of Hyrule and The Legend of Zelda with an epic collection of games, clothing, and more from different eras of the series. ",
+                            className: 'legendofZelda',
+                            titleIcon: legendOfZeldacharacterTopSectionTitleImg,
+                        },
+                        characterList: {
+                            backgroundImg: legendOfZeldacharacterListBgImg,
+                            characterListData: [
+                                {
+                                    characterImg: legendOfZeldacharacterListImg1,
+                                    characterName: "Shop The Legend of Zelda™: Tears of the Kingdom items",
+                                },
+                                {
+                                    characterImg: legendOfZeldacharacterListImg2,
+                                    characterName: "Shop The Legend of Zelda™: Breath of the Wild items",
+                                },
+                                {
+                                    characterImg: legendOfZeldacharacterListImg3,
+                                    characterName: "Shop The Legend of Zelda™: Skyward Sword items",
+                                },
+                                {
+                                    characterImg: legendOfZeldacharacterListImg4,
+                                    characterName: "Shop The Legend of Zelda™: Majora's Mask items",
+                                },
+                                {
+                                    characterImg: legendOfZeldacharacterListImg5,
+                                    characterName: "Shop classic The Legend of Zelda™ items",
+                                },
+                            ]
+                        },
+                        featuredCategorySection: {
+                            backgroundImg: legendOfZeldacharacterFeaturedCatSectionBgImg,
+                            sectionImg: legendOfZeldacharacterFeaturedCatSectionImg,
+                            gameTitle: "An epic adventure awaits in the Legend of Zelda: Tears of the Kingdom game, only on the Nintendo Switch system.",
+                            btnContent: "Start shopping",
+                            featuredFilterData: [
+                                {
+                                    title: 'Games',
+                                },
+                                {
+                                    title: 'Apparel',
+                                },
+                                {
+                                    title: 'Homes and office',
+                                },
+                                {
+                                    title: 'Plush',
+                                },
+                                {
+                                    title: 'Shop all Legend of Zelda',
+                                },
+                            ]
+                        }
+                    },
+                    sectionTwoFilterData: {
+                        otherFilterData: [
+                            {
+                                filterTitle: "Hardware",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Joy-Con & controllers",
+                                    },
+                                    {
+                                        innerFilterTitle: "Cases & more",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch systems",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch Lite",
+                                    },
+                                    {
+                                        innerFilterTitle: "Nintendo Switch – OLED Model",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Joy-Con & controllers",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Gamepads",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Cases & more",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "System cases",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Nintendo Switch Online features",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Online play",
+                                    },
+                                    {
+                                        innerFilterTitle: "Save Data Cloud",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Platform",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Nintendo Switch",
+                                    },
+                                    {
+                                        innerFilterTitle: "iOS / Android",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Availability",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Available now",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Price",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "$0 - $4.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$5 - $9.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$10 - $19.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$20 - $39.99",
+                                    },
+                                    {
+                                        innerFilterTitle: "$40+",
+                                    },
+                                ]
+                            },
+                            {
+                                filterTitle: "Color",
+                                innerFilterData: [
+                                    {
+                                        innerFilterTitle: "Black",
+                                    },
+                                    {
+                                        innerFilterTitle: "Blue",
+                                    },
+                                    {
+                                        innerFilterTitle: "Brown",
+                                    },
+                                    {
+                                        innerFilterTitle: "Gray",
+                                    },
+                                    {
+                                        innerFilterTitle: "Green",
+                                    },
+                                ]
+                            },
+                        ],
+                    },
                 },
             ]
         },

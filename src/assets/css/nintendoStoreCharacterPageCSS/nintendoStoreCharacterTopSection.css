@@ -1,0 +1,358 @@
+.nintendo-store-characters-top-section-container {
+  padding: 3rem;
+  position: relative;
+}
+
+.nintendo-store-characters-content {
+  align-items: center;
+  text-align: center;
+}
+
+.nintendo-store-characters-pikmin-top-section-title-div {
+  position: absolute;
+  bottom: 10px;
+  padding: 1rem 3rem;
+  left: 350px;
+  background-color: rgb(250, 180, 0);
+  border: 1px solid rgb(255, 255, 255);
+  max-width: 800px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.nintendo-store-characters-splatoon-top-section-title-div {
+  position: absolute;
+  bottom: -200px;
+  padding: 1rem 3rem;
+  left: 350px;
+  background-color: rgb(96, 59, 255);
+  border: 1px solid rgb(255, 255, 255);
+  max-width: 800px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.nintendo-store-characters-superMario-top-section-title-div {
+  position: absolute;
+  bottom: -30px;
+  padding: 1rem 3rem;
+  left: 400px;
+  background-color: rgb(255, 225, 0);
+  border: 5px solid #000;
+  max-width: 800px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.nintendo-store-characters-legendofZelda-top-section-title-div {
+  position: absolute;
+  bottom: -130px;
+  padding: 1rem 3rem;
+  left: 400px;
+  background-color: rgb(255, 243, 215);
+  border: 1px solid rgb(161, 141, 96);
+  max-width: 800px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.nintendo-store-characters-featured-category-section-container {
+  padding: 6rem 10rem;
+}
+
+.nintendo-store-characters-featured-category-section-content {
+  border-radius: 12px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+.nintendo-store-characters-featured-category-section-content img {
+  width: 100%;
+}
+
+.nintendo-store-characters-featured-category-section-content-body {
+  padding: 2.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.store-characters-pikmin-featured-cateogry-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 180, 0);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-pikmin-featured-cateogry-btn:hover {
+  background-color: rgb(11, 82, 11);
+}
+
+.nintendo-store-characters-featured-category-filter-content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.characters-splatoon-featured-content-h5 {
+  width: 70%;
+}
+
+.characters-legendofZelda-featured-content-h5 {
+  width: 70%;
+}
+
+.store-characters-pikmin-featured-cateogry-filter-btn {
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(0, 180, 0);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.title-decorate-img {
+  height: 30px;
+}
+
+.store-characters-pikmin-featured-cateogry-filter-btn:hover {
+  background-color: rgb(11, 82, 11);
+}
+
+.store-characters-splatoon-featured-cateogry-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-splatoon-featured-cateogry-btn:hover {
+  background-color: #f83367;
+}
+
+.store-characters-splatoon-featured-cateogry-filter-btn {
+  border: none;
+  border-radius: 25px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-splatoon-featured-cateogry-filter-btn:hover {
+  background-color: #f83367;
+}
+
+.store-characters-superMario-featured-cateogry-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #e60012;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-superMario-featured-cateogry-btn:hover {
+  background-color: #820611;
+}
+
+.store-characters-superMario-featured-cateogry-filter-btn {
+  border: none;
+  border-radius: 25px;
+  background-color: #e60012;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-superMario-featured-cateogry-filter-btn:hover {
+  background-color: #820611;
+}
+
+.store-characters-legendofZelda-featured-cateogry-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(25, 60, 58);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-legendofZelda-featured-cateogry-btn:hover {
+  background-color: #000;
+}
+
+.store-characters-legendofZelda-featured-cateogry-filter-btn {
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(25, 60, 58);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.store-characters-legendofZelda-featured-cateogry-filter-btn:hover {
+  background-color: #000;
+}
+
+.nintendo-store-characters-list-section-container {
+  padding: 6rem 4rem;
+}
+
+.nintendo-store-characters-superMario-list-section-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5rem;
+  row-gap: 3rem;
+  text-align: center;
+}
+
+.nintendo-store-characters-legendofZelda-list-section-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5rem;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nintendo-store-characters-list-section-content-box {
+  cursor: pointer;
+}
+
+.superMario-character-list-span {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: 1px solid #e60012;
+  color: #e60012;
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.legendofZelda-character-list-span {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: 1px solid rgb(25, 60, 58);
+  color: rgb(25, 60, 58);
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.nintendo-store-characters-list-section-content-box img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nintendo-store-characters-list-section-content-box:hover .character-list-img {
+  transform: scale(1.1);
+}
+
+.nintendo-store-characters-list-section-content-box:hover
+  .superMario-character-list-span {
+  background-color: #e60012;
+  color: #fff;
+}
+
+.nintendo-store-characters-list-section-content-box:hover
+  .legendofZelda-character-list-span {
+  background-color: rgb(25, 60, 58);
+  color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .nintendo-store-characters-featured-category-section-container {
+    padding: 3rem;
+  }
+
+  .nintendo-store-characters-featured-category-section-content-body {
+    padding: 1.5rem;
+    gap: 20px;
+  }
+
+  .nintendo-store-characters-list-section-container {
+    padding: 3rem 1rem;
+  }
+
+  .nintendo-store-characters-pikmin-top-section-title-div,
+  .nintendo-store-characters-splatoon-top-section-title-div,
+  .nintendo-store-characters-superMario-top-section-title-div,
+  .nintendo-store-characters-legendofZelda-top-section-title-div {
+    bottom: 20px;
+    left: 50%;
+    padding: 1rem;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .nintendo-store-characters-pikmin-top-section-title-div,
+  .nintendo-store-characters-splatoon-top-section-title-div,
+  .nintendo-store-characters-superMario-top-section-title-div,
+  .nintendo-store-characters-legendofZelda-top-section-title-div {
+    bottom: 0;
+    padding: 0.5rem 1rem;
+    left: 0;
+    max-width: 400px;
+    font-size: smaller;
+    position: relative;
+    border-radius: 0;
+  }
+  .nintendo-store-characters-pikmin-top-section-title-div {
+    border-color: rgb(250, 180, 0);
+  }
+  .nintendo-store-characters-pikmin-top-section-title-div h4,
+  .nintendo-store-characters-splatoon-top-section-title-div h4,
+  .nintendo-store-characters-superMario-top-section-title-div h4,
+  .nintendo-store-characters-legendofZelda-top-section-title-div h4 {
+    font-size: 14px;
+  }
+  .nintendo-store-characters-pikmin-top-section-title-div img,
+  .nintendo-store-characters-splatoon-top-section-title-div img,
+  .nintendo-store-characters-superMario-top-section-title-div img,
+  .nintendo-store-characters-legendofZelda-top-section-title-div img {
+    height: 20px;
+  }
+
+  .nintendo-store-characters-featured-category-filter-content {
+    flex-direction: column;
+  }
+  .nintendo-store-characters-featured-category-section-content-body {
+    flex-direction: column;
+  }
+  .characters-splatoon-featured-content-h5,
+  .characters-legendofZelda-featured-content-h5 {
+    width: 100%;
+    font-size: medium;
+    text-align: justify;
+  }
+  .store-characters-splatoon-featured-cateogry-btn,
+  .store-characters-legendofZelda-featured-cateogry-btn {
+    font-size: small;
+  }
+
+  .nintendo-store-characters-superMario-list-section-content {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+  .nintendo-store-characters-legendofZelda-list-section-content {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .superMario-character-list-span,
+  .legendofZelda-character-list-span {
+    font-size: small;
+  }
+}

@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { faCoins, faGreaterThan } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
-import '../../assets/css/nintendoStoreExclusivePageCSS/nintendoExclusiveStoreOnlineOffers.css'
+import { Link } from 'react-router-dom';
 
-const NintendoExclusiveSectionTwo = ({ sectionData, exclusiveData, breadcrumpTitle, breadcrumpTitle2 }) => {
+const NintendoStoreCharactersBottomSection = ({ sectionData,characterData, breadcrumpTitle, breadcrumpTitle2 }) => {
     const [activeFilterIndex, setActiveFilterIndex] = useState(null);
 
     const handleFilterClick = (index) => {
@@ -88,7 +87,7 @@ const NintendoExclusiveSectionTwo = ({ sectionData, exclusiveData, breadcrumpTit
                     </div>
                     <div className='col-md-9 game-store-section-two-content-right'>
                         {
-                            exclusiveData?.map((data, index) => (
+                            characterData?.map((data, index) => (
                                 // <Link
                                 //     to={`/nintendo-game-detail/${data?.slugs}`}
                                 //     className='router-link'
@@ -105,7 +104,7 @@ const NintendoExclusiveSectionTwo = ({ sectionData, exclusiveData, breadcrumpTit
                                             {data?.price === '$0.00' && <span className='free-download-span'>Free download</span>}
                                             <p>{data?.price}</p>
                                             {
-                                                data?.showCoin && <p className='fw-bold'><FontAwesomeIcon icon={faCoins} style={{color:'gray'}} /> {data?.showCoin} Platinum Points</p>
+                                                data?.showCoin && <p className='fw-bold'><FontAwesomeIcon icon={faCoins} style={{ color: 'gray' }} /> {data?.showCoin} Platinum Points</p>
                                             }
                                             <small>| Nintendo Switch</small>
                                         </div>
@@ -125,4 +124,4 @@ const NintendoExclusiveSectionTwo = ({ sectionData, exclusiveData, breadcrumpTit
     )
 }
 
-export default NintendoExclusiveSectionTwo
+export default NintendoStoreCharactersBottomSection

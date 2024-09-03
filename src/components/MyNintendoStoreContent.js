@@ -4,6 +4,7 @@ import MyNintendoStoreHardware from './MyNintendoStoreHardware';
 import MyNintendoStoreGame from './MyNintendoStoreGame';
 import MyNintendoStoreMerchandise from './MyNintendoStoreMerchandise';
 import MyNintendoStoreExclusives from './MyNintendoStoreExclusives';
+import MyNintendoStoreCharacters from './MyNintendoStoreCharacters';
 
 const MyNintendoStoreContent = () => {
     const { slug1, slug } = useParams();
@@ -15,6 +16,7 @@ const MyNintendoStoreContent = () => {
             {slug1 === 'hardware' && <MyNintendoStoreHardware />}
             {slug1 === 'merchandise' && <MyNintendoStoreMerchandise />}
             {slug1 === 'store-exclusives' && <MyNintendoStoreExclusives />}
+            {slug1 === 'characters' && <MyNintendoStoreCharacters />}
             {/* Add more conditions if needed */}
         </>
     );
