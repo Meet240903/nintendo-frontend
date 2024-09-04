@@ -5,6 +5,7 @@ import MyNintendoStoreGame from './MyNintendoStoreGame';
 import MyNintendoStoreMerchandise from './MyNintendoStoreMerchandise';
 import MyNintendoStoreExclusives from './MyNintendoStoreExclusives';
 import MyNintendoStoreCharacters from './MyNintendoStoreCharacters';
+import HeaderGamePage from './HeaderGamePage';
 
 const MyNintendoStoreContent = () => {
     const { slug1, slug } = useParams();
@@ -13,6 +14,7 @@ const MyNintendoStoreContent = () => {
     return (
         <>
             {slug1 === 'games' && <MyNintendoStoreGame />}
+            {slug1 === 'header-games' && <HeaderGamePage />}
             {slug1 === 'hardware' && <MyNintendoStoreHardware />}
             {slug1 === 'merchandise' && <MyNintendoStoreMerchandise />}
             {slug1 === 'store-exclusives' && <MyNintendoStoreExclusives />}

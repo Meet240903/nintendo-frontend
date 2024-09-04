@@ -18,6 +18,7 @@ import MyNintendoStoreGame from './components/MyNintendoStoreGame';
 import NintendoGameDetail from './components/NintendoGameDetail';
 import MyNintendoStoreHardware from './components/MyNintendoStoreHardware';
 import MyNintendoStoreContent from './components/MyNintendoStoreContent';
+import ShopAllGames from './components/ShopAllGames';
 
 function App() {
   return (
@@ -69,6 +70,14 @@ function App() {
               <>
                 <Header />
                 <NintendoGameDetail />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/shop-all-games'
+            element={
+              <>
+                <Header />
+                <ShopAllGames />
                 <Footer />
               </>
             } />

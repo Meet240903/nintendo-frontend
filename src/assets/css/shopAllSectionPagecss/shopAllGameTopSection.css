@@ -1,0 +1,162 @@
+.shop-all-games-top-section-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shop-all-games-top-section-img {
+    width: 100%;
+    height: 400px;
+}
+
+.shop-all-games-top-section-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop-all-games-top-section-content {
+    padding: 2rem 1rem;
+    align-items: center;
+}
+
+.shop-all-games-top-section-content-left {
+    margin-bottom: 2rem;
+}
+
+.shop-all-games-top-section-content-right {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.shop-all-games-top-section-content-right .item-merge {
+    grid-column: 1 / span 2;
+}
+
+.shop-all-games-btn {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background-color: #e60012;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.shop-all-games-btn:hover {
+    background-color: #b30513;
+}
+
+.shop-all-games-sales-and-details-container {
+    background-image: url('../../images/shopAllGamesImgs/bgImg.avif');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    max-width: 1500px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.shop-all-games-sales-and-details-img {
+    text-align: center;
+    flex: 1;
+}
+
+.shop-all-games-sales-and-details-img img {
+    height: 100px;
+}
+
+.shop-all-games-sales-and-details-middle p {
+    font-size: 20px;
+    margin: 1rem 0;
+}
+
+.shop-all-games-sales-and-details-right {
+    text-align: center;
+    flex: 1;
+}
+
+.shop-all-games-sales-and-details-right button {
+    border: none;
+    border-radius: 12px;
+    background-color: #e60012;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+@media (max-width: 992px) {
+    .shop-all-games-top-section-content {
+        flex-direction: column;
+    }
+
+    .shop-all-games-top-section-content-right {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .shop-all-games-top-section-content-right .item-merge {
+        grid-column: 1 / span 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .shop-all-games-top-section-content-right {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop-all-games-top-section-content-right .item-merge {
+        grid-column: 1 / span 2;
+    }
+
+    .shop-all-games-btn {
+        padding: 8px;
+    }
+
+    .shop-all-games-sales-and-details-container {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .shop-all-games-sales-and-details-middle p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .shop-all-games-top-section-content-right {
+        grid-template-columns: 1fr;
+    }
+
+    .shop-all-games-top-section-content-left{
+        text-align: left;
+    }
+
+    .shop-all-games-top-section-content-left p{
+        text-align: justify;
+        font-size: small;
+    }
+
+    .shop-all-games-btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .shop-all-games-sales-and-details-container {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .shop-all-games-sales-and-details-middle p {
+        font-size: 16px;
+    }
+    .shop-all-games-top-section-img {
+        height: 200px;
+    }
+}

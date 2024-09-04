@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/css/header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare, faBars, faBullhorn, faCalendar, faCalendarAlt, faCheck, faClipboardQuestion, faClose, faComment, faGamepad, faGear, faGift, faGreaterThan, faHeart, faPersonRunning, faPlusSquare, faReceipt, faShoppingCart, faStar, faStore, faSwatchbook, faTshirt, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faBars, faCheck, faClipboardQuestion, faClose, faComment, faGear, faGift, faGreaterThan, faHeart, faPlusSquare, faReceipt, faShoppingCart, faStar, faStore, faSwatchbook, faUser } from '@fortawesome/free-solid-svg-icons';
 import headerLogo from '../assets/images/nintendu-logo.svg';
 import usFlag from '../assets/images/US-Flag.webp';
 import unauthImg from '../assets/images/liginsiginSection/unauthd-asset.avif'
@@ -16,6 +16,7 @@ import playNintendoImg1 from '../assets/images/playNintendoImg1.svg'
 import playNintendoImg2 from '../assets/images/playNintendoImg2.svg'
 
 import headerData from '../data/MyNintendoStoreDropDownData';
+import gameDropdownData from '../data/GameDropDownDataPages/GameDropdownData';
 
 const { MyNintendoStoreDropDownData } = headerData
 
@@ -25,26 +26,7 @@ const Header = () => {
     const [myNintendoStoreDropDowwn, setMyNintendoStoreDropDown] = useState(false);
     const [gameDropDowwn, setGameDropDown] = useState(false);
     const [nintendoSwitchDropDowwn, setNintendoSwitchDropDown] = useState(false);
-    const [playNintendoDropDowwn, setPlayNintendoDropDown] = useState(false);    
-
-    const gameDropdownData = [
-        {
-            icon: faSwatchbook,
-            title: 'Nintendo Switch games',
-        },
-        {
-            icon: faBullhorn,
-            title: 'New releases',
-        },
-        {
-            icon: faCalendarAlt,
-            title: 'Comming Soon',
-        },
-        {
-            icon: faPlusSquare,
-            title: 'Shop games',
-        },
-    ]
+    const [playNintendoDropDowwn, setPlayNintendoDropDown] = useState(false);
 
     const nintendoSwitchDropdownData = [
         {
@@ -187,12 +169,20 @@ const Header = () => {
                             <div className='game-dropdown-box'>
                                 {
                                     gameDropdownData?.map((data, index) => (
-                                        <div className='game-dropdown-content' key={index}>
-                                            <button className='game-dropdown-btns'><FontAwesomeIcon icon={data?.icon} /></button><br />
-                                            <p>{data?.title}</p>
-                                        </div>
+                                        <Link to={`/my-nintendo-store/${data?.mainSlugs}/${data?.slugs}`} className='router-link' onClick={() => setGameDropDown(false)}>
+                                            <div className='game-dropdown-content' key={index}>
+                                                <button className='game-dropdown-btns'><FontAwesomeIcon icon={data?.icon} /></button><br />
+                                                <p>{data?.listTitle}</p>
+                                            </div>
+                                        </Link>
                                     ))
                                 }
+                                <Link to='/shop-all-games' className='router-link' onClick={() => setGameDropDown(false)}>
+                                    <div className='game-dropdown-content'>
+                                        <button className='game-dropdown-btns'><FontAwesomeIcon icon={faPlusSquare} /></button><br />
+                                        <p>Shop games</p>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     }
@@ -222,7 +212,7 @@ const Header = () => {
                         <FontAwesomeIcon icon={faComment} /> News & Events
                     </Link>
                     <a href="#" className="header-link" onClick={() => { setPlayNintendoDropDown(!playNintendoDropDowwn); setMyNintendoStoreDropDown(false); setNintendoSwitchDropDown(false); setGameDropDown(false) }}>
-                        <FontAwesomeIcon icon={faStar} /> Play Nintendo&nbsp;&nbsp; <FontAwesomeIcon icon={faGreaterThan} className='header-greater-than-icon' style={{ transform: playNintendoDropDowwn ? 'rotate(90deg)' : 'none' }}/>
+                        <FontAwesomeIcon icon={faStar} /> Play Nintendo&nbsp;&nbsp; <FontAwesomeIcon icon={faGreaterThan} className='header-greater-than-icon' style={{ transform: playNintendoDropDowwn ? 'rotate(90deg)' : 'none' }} />
                     </a>
                     {
                         playNintendoDropDowwn && <div className='game-header-dropdown'>
@@ -244,10 +234,11 @@ const Header = () => {
                         </div>
                     }
                 </div>
-            </header>
+            </header >
 
             {/* Sidebar */}
-            <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+            <div div className={`sidebar ${isSidebarOpen ? 'open' : ''}`
+            }>
                 <div className="sidebar-header">
                     <h2>Login / Signup</h2>
                     <FontAwesomeIcon icon={faClose} onClick={toggleSidebar} style={{ cursor: 'pointer' }} />
@@ -283,7 +274,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
             {/* Overlay */}
             {isSidebarOpen && <div className="overlay" onClick={toggleSidebar}></div>}
         </>

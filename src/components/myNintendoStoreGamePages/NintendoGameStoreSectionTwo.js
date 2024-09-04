@@ -31,7 +31,7 @@ const NintendoGameStoreSectionTwo = ({ sectionData, gameData, breadcrumpTitle,br
                     <span><FontAwesomeIcon icon={faGreaterThan} style={{ fontSize: 'smaller', color: 'lightgray' }} /></span>
                     <span>{capitalize(breadcrumpTitle2)}</span>
                     <span><FontAwesomeIcon icon={faGreaterThan} style={{ fontSize: 'smaller', color: 'lightgray' }} /></span>
-                    <span className='fw-bold'>{capitalize(breadcrumpTitle)}</span>
+                    <span className='fw-bold'>{breadcrumpTitle ? capitalize(breadcrumpTitle) : 'Shop all'}</span>
                 </div>
                 <div className='row mx-0 game-store-section-two-content' style={{ marginTop: '2rem' }}>
                     <div className='col-md-3 game-store-section-two-content-left'>
@@ -99,10 +99,10 @@ const NintendoGameStoreSectionTwo = ({ sectionData, gameData, breadcrumpTitle,br
                                             <img src={data?.sectionImg} className='fluid-img' alt='section-img' />
                                         </div>
                                         <div className='game-store-two-div-box-body'>
-                                            <h6>{data?.gameTitle}</h6>
+                                            <h6 className='fw-bold'>{data?.gameTitle}</h6>
                                             <p>{data?.date}</p>
                                             {data?.newLaunch && <span>Free Demo</span>}
-                                            <p>{data?.price}</p>
+                                            <p className='fw-bold'>{data?.price}</p>
                                             <small>| Nintendo Switch</small>
                                         </div>
                                     </div>
