@@ -6,17 +6,13 @@ import headerLogo from '../assets/images/nintendu-logo.svg';
 import usFlag from '../assets/images/US-Flag.webp';
 import unauthImg from '../assets/images/liginsiginSection/unauthd-asset.avif'
 import { Link } from 'react-router-dom';
-import nintendoSwtichImg1 from '../assets/images/nintendo-switch-header-img1.avif'
-import nintendoSwtichImg2 from '../assets/images/nintendo-switch-header-img2.svg'
-import nintendoSwtichImg3 from '../assets/images/nintendo-switch-header-img3.svg'
-import nintendoSwtichImg4 from '../assets/images/nintendo-switch-header-img4.avif'
-import nintendoSwtichImg5 from '../assets/images/nintendo-switch-header-img5.avif'
 
 import playNintendoImg1 from '../assets/images/playNintendoImg1.svg'
 import playNintendoImg2 from '../assets/images/playNintendoImg2.svg'
 
 import headerData from '../data/MyNintendoStoreDropDownData';
 import gameDropdownData from '../data/GameDropDownDataPages/GameDropdownData';
+import nintendoSwitchDropdownData from '../data/NintendoSwitchDropdownDataPages/NintendoSwitchLineupDrowpdownData';
 
 const { MyNintendoStoreDropDownData } = headerData
 
@@ -27,29 +23,6 @@ const Header = () => {
     const [gameDropDowwn, setGameDropDown] = useState(false);
     const [nintendoSwitchDropDowwn, setNintendoSwitchDropDown] = useState(false);
     const [playNintendoDropDowwn, setPlayNintendoDropDown] = useState(false);
-
-    const nintendoSwitchDropdownData = [
-        {
-            img: nintendoSwtichImg1,
-            title: 'Nintendo Switch lineup',
-        },
-        {
-            img: nintendoSwtichImg2,
-            title: 'Compare systems',
-        },
-        {
-            img: nintendoSwtichImg3,
-            title: 'Online service',
-        },
-        {
-            img: nintendoSwtichImg4,
-            title: 'Accessories',
-        },
-        {
-            img: nintendoSwtichImg5,
-            title: 'Shop systems',
-        },
-    ]
 
     const playNintendoDropdownData = [
         {
@@ -197,12 +170,14 @@ const Header = () => {
                             <div className='game-dropdown-box'>
                                 {
                                     nintendoSwitchDropdownData?.map((data, index) => (
-                                        <div className='game-dropdown-content' key={index}>
-                                            <div className='switch-dropdown-img-div'>
-                                                <img src={data?.img} className='switch-dropdown-img' alt='witch-dropdown-img' />
-                                            </div><br />
-                                            <p>{data?.title}</p>
-                                        </div>
+                                        <Link to={`/${data?.link}`} className='router-link' onClick={() => setNintendoSwitchDropDown(false)}>
+                                            <div className='game-dropdown-content' key={index}>
+                                                <div className='switch-dropdown-img-div'>
+                                                    <img src={data?.img} className='switch-dropdown-img' alt='witch-dropdown-img' />
+                                                </div><br />
+                                                <p>{data?.title}</p>
+                                            </div>
+                                        </Link>
                                     ))
                                 }
                             </div>

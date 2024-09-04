@@ -19,6 +19,11 @@ import NintendoGameDetail from './components/NintendoGameDetail';
 import MyNintendoStoreHardware from './components/MyNintendoStoreHardware';
 import MyNintendoStoreContent from './components/MyNintendoStoreContent';
 import ShopAllGames from './components/ShopAllGames';
+import NintendoSwitchLineup from './components/NintendoSwitchDropdownPages/NintendoSwitchLineup';
+import NintendoSwitchCompareSystem from './components/NintendoSwitchDropdownPages/NintendoSwitchCompareSystem';
+import NintendoSwitchOnlineService from './components/NintendoSwitchDropdownPages/NintendoSwitchOnlineService';
+import NintendoSwitchHardware from './components/NintendoSwitchDropdownPages/NintendoSwitchHardware';
+import NintendoSwitchShopSystem from './components/NintendoSwitchDropdownPages/NintendoSwitchShopSystem';
 
 function App() {
   return (
@@ -78,6 +83,46 @@ function App() {
               <>
                 <Header />
                 <ShopAllGames />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/nintendo-switch-lineup'
+            element={
+              <>
+                <Header />
+                <NintendoSwitchLineup />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/compare-system'
+            element={
+              <>
+                <Header />
+                <NintendoSwitchCompareSystem />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/online-services'
+            element={
+              <>
+                <Header />
+                <NintendoSwitchOnlineService />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/nintendo-switch-hardware'
+            element={
+              <>
+                <Header />
+                <NintendoSwitchHardware />
+                <Footer />
+              </>
+            } />
+          <Route exact path='/nintendo-switch-shop-system'
+            element={
+              <>
+                <Header />
+                <NintendoSwitchShopSystem />
                 <Footer />
               </>
             } />

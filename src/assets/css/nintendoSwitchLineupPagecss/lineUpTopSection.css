@@ -1,0 +1,88 @@
+.nintendo-switch-lineup-top-section-container {
+  background-color: #e60012;
+  padding: 5rem;
+  position: relative;
+  height: 800px;
+}
+
+.nintendo-switch-lineup-top-section-video {
+  position: absolute;
+  width: 900px;
+  top: 100px;
+  left: 320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.nintendo-switch-lineup-top-section-video-element {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  max-height: 500px;
+}
+
+.nintendo-switch-lineup-top-section-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0;
+}
+
+.nintendo-switch-lineup-top-section-img img {
+  height: 200px;
+}
+
+.nintendo-switch-lineup-top-section-content {
+  margin: 15rem 0;
+  text-align: center;
+}
+
+.nintendo-switch-lineup-top-section-content h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nintendo-switch-lineup-top-section-container {
+    height: auto;
+  }
+  .nintendo-switch-lineup-top-section-img {
+    display: none;
+  }
+  .nintendo-switch-lineup-top-section-video {
+    display: none;
+  }
+  .nintendo-switch-lineup-top-section-content {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .nintendo-switch-lineup-top-section-content h3 {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+@media (max-width: 576px) {
+  .nintendo-switch-lineup-top-section-container {
+    height: auto;
+  }
+  .nintendo-switch-lineup-top-section-img {
+    display: none;
+  }
+  .nintendo-switch-lineup-top-section-video {
+    display: none;
+  }
+  .nintendo-switch-lineup-top-section-content {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .nintendo-switch-lineup-top-section-content h3 {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
