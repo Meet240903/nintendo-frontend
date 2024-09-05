@@ -5,6 +5,12 @@ import LineUpSectionTopBottomSection from './NintendoSwitchLineupPage/LineUpSect
 import LineUpPortabilitySection from './NintendoSwitchLineupPage/LineUpPortabilitySection'
 import LineUpMiddleSection from './NintendoSwitchLineupPage/LineUpMiddleSection'
 import LineUpHomeofMarioSection from './NintendoSwitchLineupPage/LineUpHomeofMarioSection'
+import LineUpCompareSystemSection from './NintendoSwitchLineupPage/LineUpCompareSystemSection'
+import LineUpGetStartedSection from './NintendoSwitchLineupPage/LineUpGetStartedSection'
+import hardwareNintendoSwitchSystemData from '../../data/HardwareNintendoSwitchSystemData'
+import hardwareJoyConControllerData from '../../data/HardwareJoyConControllersData'
+import hardwareCaseandMoreData from '../../data/HardwareCaseMoreData'
+import LineUpOnlineServiceSection from './NintendoSwitchLineupPage/LineUpOnlineServiceSection'
 
 const NintendoSwitchLineup = () => {
   return (
@@ -15,6 +21,9 @@ const NintendoSwitchLineup = () => {
       <LineUpPortabilitySection />
       <LineUpMiddleSection />
       <LineUpHomeofMarioSection />
+      <LineUpCompareSystemSection />
+      <LineUpGetStartedSection hardwareData={hardwareNintendoSwitchSystemData} controllerData={hardwareJoyConControllerData} accessoriesData={hardwareCaseandMoreData} />
+      <LineUpOnlineServiceSection />
     </>
   )
 }

@@ -1,0 +1,22 @@
+.nintendo-switch-lineup-online-service-section{
+    max-width: 1000px;
+    margin: 4rem auto;
+}
+
+.lineup-online-service-left-section-img img,
+.lineup-online-service-right-section-img img{
+    border-radius: 12px;
+}
+
+.nintendo-switch-lineup-online-service-section button{
+    background-color: #e60012;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+.nintendo-switch-lineup-online-service-section button:hover{
+    background-color: #86050f;
+}
