@@ -1,0 +1,158 @@
+.nintendo-switch-lineup-homeofmario-container {
+  background-color: #e60012;
+  padding: 4rem 14rem;
+}
+.nintendo-switch-lineup-homeofmario-content-title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.nintendo-switch-lineup-homeofmario-content-title h2 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.nintendo-switch-lineup-homeofmario-content-title img {
+  height: 100px;
+}
+.nintendo-switch-lineup-homeofmario-content-title p {
+  text-align: center;
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.nintendo-switch-lineup-homeofmario-content {
+  background-color: rgba(172, 0, 13, 0.5);
+  padding: 3rem 10rem;
+  border-radius: 100px;
+}
+
+.nintendo-switch-lineup-homeofmario-content-flex {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.nintendo-switch-lineup-homeofmario-content-box-img img {
+  height: 300px;
+}
+.nintendo-switch-lineup-homeofmario-section-video {
+  position: absolute;
+  width: 460px;
+  left: 140px;
+  bottom: -75px;
+  height: 450px;
+}
+
+.nintendo-switch-lineup-homeofmario-section-video-element {
+  width: 100%;
+  height: 100%;
+}
+
+/* Container for the slider */
+.homeofmario-slider {
+  width: 100%;
+  overflow: hidden; /* Hide overflow to only show one image at a time */
+  position: relative;
+  margin: 2rem 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Optional: Background color for better visibility */
+}
+
+/* Slider wrapper to handle animation */
+.homeofmario-slider-wrapper {
+  display: flex;
+  transition: transform 1s ease-in-out; /* Smooth transition for sliding */
+  width: 100%; /* Ensure the wrapper takes full width */
+}
+
+/* Style for each slider item */
+.homeofmario-slider-item {
+  min-width: 100%; /* Ensure each item takes full width */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scale up the active image */
+.homeofmario-slider-item img {
+  height: 100px; /* Adjust height as needed */
+  width: auto;
+  transition: transform 1s ease-in-out; /* Smooth transition for scaling */
+  margin: 0;
+}
+
+.homeofmario-slider-item.active img {
+  transform: scale(1.1); /* Slightly larger than the inactive images */
+}
+
+/* Animation for sliding */
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+    .nintendo-switch-lineup-homeofmario-container {
+        padding: 1rem 2rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content {
+        padding: 1rem 2rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content-title h2 {
+        font-size: 2rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content-title p {
+        margin-top: 1.5rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content-box-img img {
+        height: 200px;
+    }
+
+    .nintendo-switch-lineup-homeofmario-video {
+        width: 250px;
+        height: 250px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nintendo-switch-lineup-homeofmario-container {
+        padding: 2rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content {
+        padding: 2rem;
+        border-radius: 12px;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content-title h2 {
+        font-size: 2rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content-title p {
+        margin-top: 1.5rem;
+    }
+
+    .nintendo-switch-lineup-homeofmario-content-box img {
+        height: 120px;
+    }
+
+    .nintendo-switch-lineup-homeofmario-section-video {
+        width: 180px;
+        height: fit-content;
+        left: 33px;
+        top: 10px;
+    }
+}

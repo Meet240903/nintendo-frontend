@@ -1,0 +1,176 @@
+.nintendo-switch-lineup-section-two-container {
+  background-color: #e60012;
+  padding: 4rem 14rem;
+}
+.nintendo-switch-lineup-section-two-content-title {
+  margin-bottom: 3rem;
+}
+.nintendo-switch-lineup-section-two-content-title h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.nintendo-switch-lineup-section-two-content {
+  background-color: rgba(172, 0, 13, 0.5);
+  padding: 10rem;
+  border-radius: 100px;
+}
+
+.nintendo-switch-lineup-section-two-content-flex {
+  display: flex;
+  text-align: center;
+}
+
+.nintendo-switch-lineup-section-two-content-box {
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+/* section two second section css */
+.nintendo-switch-lineup-section-two-second-container {
+  background-color: #e60012;
+  padding: 4rem 14rem;
+}
+.nintendo-switch-lineup-section-two-second-content-title {
+  margin-bottom: 3rem;
+}
+.nintendo-switch-lineup-section-two-second-content-title h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.nintendo-switch-lineup-section-two-second-content-title p {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+.nintendo-switch-lineup-section-two-second-content {
+  background-color: rgba(172, 0, 13, 0.5);
+  padding: 10rem;
+  border-radius: 100px;
+}
+
+.nintendo-switch-lineup-section-two-second-video {
+  text-align: center;
+  background-color: #000;
+  width: 700px;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+}
+.nintendo-switch-lineup-section-two-second-video-element {
+  width: 100%;
+  height: 100%;
+}
+.lineup-section-two-second-video-img1,
+.lineup-section-two-second-video-img2 {
+  position: absolute;
+}
+.lineup-section-two-second-video-img1 {
+  left: -30px;
+  height: 120px;
+  bottom: -20px;
+}
+.lineup-section-two-second-video-img2 {
+  height: 150px;
+  bottom: -100px;
+  left: 220px;
+}
+
+.lineup-section-two-second-img3 {
+  margin-top: 6.2rem;
+}
+
+.lineup-section-two-second-tv-mode{
+    text-align: center;
+    color: #fff;
+}
+
+.lineup-section-two-second-tv-mode img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .nintendo-switch-lineup-section-two-container {
+    padding: 2rem 2rem;
+  }
+  .nintendo-switch-lineup-section-two-content {
+    padding: 2rem;
+    border-radius: 20px;
+  }
+  .nintendo-switch-lineup-section-two-content-title h2 {
+    font-size: 20px;
+  }
+  .nintendo-switch-lineup-section-two-second-container {
+    padding: 2rem 2rem;
+  }
+  .nintendo-switch-lineup-section-two-second-content {
+    padding: 2rem;
+    border-radius: 20px;
+  }
+  .nintendo-switch-lineup-section-two-second-content-title h2 {
+    font-size: 20px;
+  }
+  .nintendo-switch-lineup-section-two-second-video {
+    width: 100%;
+  }
+  .lineup-section-two-second-video-img1 {
+    display: none;
+  }
+  .lineup-section-two-second-video-img2 {
+    height: 70px;
+    bottom: -50px;
+    left: 60px;
+  }
+  .nintendo-switch-lineup-section-two-second-content-title p {
+    text-align: justify;
+  }
+  .lineup-section-two-second-img3 {
+    margin-top: 3.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .nintendo-switch-lineup-section-two-container {
+    padding: 2rem 1rem;
+  }
+  .nintendo-switch-lineup-section-two-content {
+    padding: 2rem;
+    border-radius: 20px;
+  }
+  .nintendo-switch-lineup-section-two-content-title h2 {
+    font-size: 20px;
+  }
+  .nintendo-switch-lineup-section-two-second-container {
+    padding: 2rem 2rem;
+  }
+  .nintendo-switch-lineup-section-two-second-content {
+    padding: 2rem;
+    border-radius: 20px;
+  }
+  .nintendo-switch-lineup-section-two-second-content-title h2 {
+    font-size: 20px;
+  }
+  .nintendo-switch-lineup-section-two-second-video {
+    width: 100%;
+  }
+  .lineup-section-two-second-video-img1 {
+    display: none;
+  }
+  .lineup-section-two-second-video-img2 {
+    height: 70px;
+    bottom: -50px;
+    left: 60px;
+  }
+  .nintendo-switch-lineup-section-two-second-content-title p {
+    text-align: justify;
+  }
+  .lineup-section-two-second-img3 {
+    margin-top: 3.1rem;
+  }
+}
