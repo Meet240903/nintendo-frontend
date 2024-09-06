@@ -1,0 +1,20 @@
+.nintendo-switch-online-service-middle-section-container{
+    max-width: 1200px;
+    margin: 4rem auto;
+}
+
+.nintendo-switch-online-service-middle-section-content-boxs p{
+    text-align: justify;
+}
+
+.nintendo-switch-online-service-middle-section-content-boxs h4{
+    font-size: 20px;
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+}
+
+.nintendo-switch-online-service-middle-section-content-boxs span{
+    color: #e60012;
+    text-decoration: underline;
+    font-weight: bold;
+}

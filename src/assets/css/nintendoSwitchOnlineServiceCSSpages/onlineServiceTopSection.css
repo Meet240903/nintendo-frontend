@@ -1,0 +1,101 @@
+/* Existing CSS */
+.nintendo-switch-online-service-top-section-container {
+    background-color: #e60012;
+    padding: 2rem 10rem;
+}
+
+.nintendo-switch-online-service-top-section-content {
+    align-items: center;
+}
+
+.nintendo-switch-online-service-top-section-content-left img {
+    width: 100%;
+}
+
+.online-service-free-trial-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 0;
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.online-service-free-trial-section button {
+    background-color: #e60012;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+}
+
+.online-service-free-trial-section h4 {
+    color: rgb(72, 72, 72);
+    font-size: 18px;
+}
+
+.online-service-free-trial-section button:hover {
+    background-color: #a20714;
+}
+
+/* top section two css */
+.nintendo-switch-online-service-top-section-two-container{
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
+
+.nintendo-switch-online-service-top-section-two-content{
+    align-items: center;
+}
+
+/* New Media Queries for Responsiveness */
+
+/* For tablet screens (min-width: 768px) */
+@media (min-width: 768px) {
+    .nintendo-switch-online-service-top-section-container {
+        padding: 2rem 3rem;
+    }
+}
+
+/* For large screens (min-width: 992px) */
+@media (min-width: 992px) {
+    .nintendo-switch-online-service-top-section-container {
+        padding: 2rem 6rem;
+    }
+}
+
+/* For extra-large screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .nintendo-switch-online-service-top-section-container {
+        padding: 2rem 10rem;
+    }
+}
+
+/* For mobile screens (max-width: 576px) */
+@media (max-width: 576px) {
+    .nintendo-switch-online-service-top-section-container {
+        padding: 1rem;
+    }
+
+    .online-service-free-trial-section {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .online-service-free-trial-section button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nintendo-switch-online-service-top-section-content-right img {
+        margin-bottom: 1rem;
+    }
+    .nintendo-switch-online-service-top-section-two-content-right p{
+        text-align: left;
+    }
+}
