@@ -14,6 +14,7 @@
     border-radius: 10px;
     margin-top: 2rem;
     margin-bottom: 4rem;
+    align-items: center;
 }
 
 .compare-system-game-compability-section-content-left img{
@@ -22,8 +23,6 @@
 }
 
 .compare-system-game-compability-section-content-right{
-    height: fit-content;
-    margin: auto 0;
     padding: 0 3rem;
 }
 
