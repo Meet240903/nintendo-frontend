@@ -1,0 +1,105 @@
+.nintendo-switch-compare-system-top-section-container{
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.nintendo-switch-compare-system-top-section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nintendo-switch-compare-system-top-section-title img{
+    height: 80px;
+}
+
+.nintendo-switch-compare-system-top-section-title h2{
+    font-size: 2.5rem;
+    color: rgb(72, 72, 72);
+}
+
+.compare-system-top-section-first-row-content {
+    display: flex !important;
+    margin-top: 3rem !important;
+}
+
+.compare-system-top-section-first-row-content-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.compare-system-top-section-first-row-content-right {
+    flex-grow: 1; /* This will ensure the right content expands to take available space */
+}
+
+.compare-system-top-section-first-row-content-right-inner-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.compare-system-top-section-first-row-content-right-inner-content{
+    align-items: flex-end;
+}
+
+.compare-system-top-section-first-row-content-right-inner-content img{
+    height: auto;
+}
+
+.compare-system-top-section-second-row-content-right-inner-content img{
+    height: 40px;
+}
+
+.compare-system-top-section-fourth-row-content-right-inner-content img,
+.compare-system-top-section-fifth-row-content-right-inner-content img
+{
+    height: 40px;
+}
+
+.compare-system-top-section-third-row-content-right-inner-content p{
+    color: #e60012;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Mobile screens */
+@media (max-width: 576px) {
+    .nintendo-switch-compare-system-top-section-title h2{
+        font-size: 24px;
+    }
+    .compare-system-top-section-first-row-content p{
+        font-size: x-small;
+    }
+
+    .compare-system-top-section-first-row-content-left p{
+        font-size: small;
+    }
+    .compare-system-top-section-second-row-content-right-inner-content img{
+        height: 30px;
+    }
+    .compare-system-top-section-fourth-row-content-right-inner-content img,
+    .compare-system-top-section-fifth-row-content-right-inner-content img
+    {
+        height: 20px;
+    }
+    .compare-system-top-section-first-row-content-right-inner-content p,
+    .compare-system-top-section-second-row-content-right-inner-content p,
+    .compare-system-top-section-third-row-content-right-inner-content p,
+    .compare-system-top-section-fourth-row-content-right-inner-content p,
+    .compare-system-top-section-fifth-row-content-right-inner-content p,
+    .compare-system-top-section-sixth-row-content-right-inner-content p,
+    .compare-system-top-section-seven-row-content-right-inner-content p,
+    .compare-system-top-section-eight-row-content-right-inner-content p,
+    .compare-system-top-section-nine-row-content-right-inner-content p,
+    .compare-system-top-section-tenth-row-content-right-inner-content p{
+        font-size: 10px;
+    }
+}

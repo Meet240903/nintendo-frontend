@@ -1,0 +1,84 @@
+.nintendo-switch-lineup-bottom-section-container{
+    background-color: #e60012;
+    padding: 2rem 10rem;
+}
+
+.lineup-bottom-section-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 20px;
+}
+
+.lineup-bottom-section-content-left{
+    width: 300px;
+}
+
+.lineup-bottom-section-content-left h5{
+    font-size: 16px;
+}
+
+.lineup-bottom-section-content-left p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.lineup-bottom-section-content-right{
+    text-align: center;
+}
+
+.lineup-bottom-section-content-right img{
+    height: 150px;
+    width: 250px;
+}
+
+.lineup-bottom-section-content-right h5{
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+
+/* Media Queries for different screen sizes */
+
+/* Tablets and small desktops */
+@media (max-width: 992px) {
+    .nintendo-switch-lineup-bottom-section-container {
+        padding: 2rem;
+    }
+
+    .lineup-bottom-section-content {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        gap: 1rem;
+    }
+
+    .lineup-bottom-section-content-left, 
+    .lineup-bottom-section-content-right {
+        width: 100%; /* Take full width */
+    }
+
+    .lineup-bottom-section-content-right img {
+        max-width: 300px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 576px) {
+    .nintendo-switch-lineup-bottom-section-container {
+        padding: 1rem;
+    }
+
+    .lineup-bottom-section-content-left h5,
+    .lineup-bottom-section-content-right h5 {
+        font-size: 1rem; /* Smaller text for mobile */
+    }
+
+    .lineup-bottom-section-content-left p {
+        font-size: 0.875rem; /* Adjusted font-size */
+    }
+
+    .lineup-bottom-section-content-right img {
+        max-width: 150px;
+        height: 100px;
+    }
+}

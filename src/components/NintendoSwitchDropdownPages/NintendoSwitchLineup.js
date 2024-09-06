@@ -11,8 +11,41 @@ import hardwareNintendoSwitchSystemData from '../../data/HardwareNintendoSwitchS
 import hardwareJoyConControllerData from '../../data/HardwareJoyConControllersData'
 import hardwareCaseandMoreData from '../../data/HardwareCaseMoreData'
 import LineUpOnlineServiceSection from './NintendoSwitchLineupPage/LineUpOnlineServiceSection'
+import LineUpBottomSection from './NintendoSwitchLineupPage/LineUpBottomSection'
+import sectionImg1 from '../../assets/images/nintendoSwitchLineUpImgs/bottomSectionImgs/sectionImg1.avif'
+import sectionImg2 from '../../assets/images/nintendoSwitchLineUpImgs/bottomSectionImgs/sectionImg2.avif'
+import sectionImg3 from '../../assets/images/nintendoSwitchLineUpImgs/bottomSectionImgs/sectionImg3.avif'
 
 const NintendoSwitchLineup = () => {
+  const lineUpBottomSectionData = {
+    leftTitle: "Find the Nintendo Switch system that's right for you and your family",
+    listContent: [
+      {
+        content: "Compare features",
+      },
+      {
+        content: "Shop all systems",
+      },
+      {
+        content: "Find family-friendly games",
+      },
+    ],
+    rightContent: [
+      {
+        sectionImg: sectionImg1,
+        title: "Nintendo Switch – OLED Model",
+      },
+      {
+        sectionImg: sectionImg2,
+        title: "Nintendo Switch",
+      },
+      {
+        sectionImg: sectionImg3,
+        title: "Nintendo Switch Lite",
+      },
+    ]
+  }
+
   return (
     <>
       <LineUpTopSection />
@@ -24,6 +57,7 @@ const NintendoSwitchLineup = () => {
       <LineUpCompareSystemSection />
       <LineUpGetStartedSection hardwareData={hardwareNintendoSwitchSystemData} controllerData={hardwareJoyConControllerData} accessoriesData={hardwareCaseandMoreData} />
       <LineUpOnlineServiceSection />
+      <LineUpBottomSection lineUpBottomSectionData={lineUpBottomSectionData} />
     </>
   )
 }
