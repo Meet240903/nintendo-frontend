@@ -1,0 +1,79 @@
+.kids-home-page-character-section-container{
+    background-image: url('../../../images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/bgimg.png');
+    background-size: auto;
+    background-repeat: repeat;
+    padding: 3rem 1.5rem;
+}
+
+.kids-home-page-character-section-title h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d32c69;
+}
+
+.kids-home-page-character-section-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.kids-home-page-character-section-content-box,
+.kids-home-page-character-section-content-box-2
+{
+    text-align: center;
+}
+
+.kids-home-page-character-section-content-box img {
+    border: 5px solid black;
+    border-bottom: 9px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px; /* Ensure images are always circular */
+    object-fit: cover; /* Ensure image fits within the circle */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+.kids-home-page-character-section-content-box img:hover {
+    transform: rotateY(180deg); /* 3D rotation on hover */
+}
+
+
+.kids-home-page-character-section-content-box p,
+.kids-home-page-character-section-content-box-2 p
+{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.kids-home-page-character-section-content-box-2 img{
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.kids-home-page-character-section-content-box-2 img:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width:768px){
+    .kids-home-page-character-section-title h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .kids-home-page-character-section-content{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:576px){
+    .kids-home-page-character-section-title h2{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .kids-home-page-character-section-content{
+        flex-direction: column;
+    }
+}

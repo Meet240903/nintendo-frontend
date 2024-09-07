@@ -15,8 +15,13 @@ import sectionRowImg7 from '../../assets/images/nintendoSwitchOnlineServiceImgs/
 import sectionRowImg8 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg8.avif'
 import sectionRowImg9 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg9.avif'
 import sectionRowImg10 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg10.avif'
+import sectionRowImg11 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg11.avif'
+import sectionRowImg12 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg12.avif'
+import sectionRowImg13 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg13.avif'
+import sectionRowImg14 from '../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg14.avif'
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons'
 import { faClose } from '@fortawesome/free-solid-svg-icons'
+import OnlineServiceFAQsSection from './NintendoSwitchOnlineServicePages/OnlineServiceFAQsSection'
 
 const NintendoSwitchOnlineService = () => {
   const onlineServiceMiddleSectionData = [
@@ -110,12 +115,94 @@ const NintendoSwitchOnlineService = () => {
       fontIconMiddleColor: 'rgb(114, 114, 114)',
       fontIconRightCol: faCheckCircle,
     },
+    {
+      sectionImg: sectionRowImg11,
+      title: "Mario Kart™ 8 Deluxe – Booster Course Pass**",
+      content: "Play additional courses from throughout the Mario Kart™ series.",
+      fontIconMiddleCol: faClose,
+      fontIconMiddleColor: 'rgb(114, 114, 114)',
+      fontIconRightCol: faCheckCircle,
+    },
+    {
+      sectionImg: sectionRowImg12,
+      title: "Animal Crossing™: New Horizons - Happy Home Paradise**",
+      content: "Join Lottie and her team on a distant resort archipelago.",
+      fontIconMiddleCol: faClose,
+      fontIconMiddleColor: 'rgb(114, 114, 114)',
+      fontIconRightCol: faCheckCircle,
+    },
+    {
+      sectionImg: sectionRowImg13,
+      title: "Splatoon™ 2: Octo Expansion**",
+      content: "Play as an Octoling in this full-on single-player adventure.",
+      fontIconMiddleCol: faClose,
+      fontIconMiddleColor: 'rgb(114, 114, 114)',
+      fontIconRightCol: faCheckCircle,
+    },
+    {
+      sectionImg: sectionRowImg14,
+      title: "SEGA Genesis™ – Nintendo Switch Online",
+      content: "Access a collection of SEGA Genesis games like Sonic the Hedgehog 2 and Golden Axe.",
+      fontIconMiddleCol: faClose,
+      fontIconMiddleColor: 'rgb(114, 114, 114)',
+      fontIconRightCol: faCheckCircle,
+    },
+  ]
+
+  const onlineServieFAQsData = [
+    {
+      title: 'What is Nintendo Switch Online?',
+      contentData: [
+        {
+          content: "Nintendo Switch Online is a paid service that launched on September 18, 2018, that lets members enjoy online play in compatible Nintendo Switch games, access a selection of classic NES games with online functionality, back up save data for most games, and use additional features for the Nintendo Switch Online smartphone app.",
+        },
+        {
+          content: "Additionally, Nintendo Switch Online members can take advantage of exclusive special offers from Nintendo.",
+        },
+      ]
+    },
+    {
+      title: 'What is Nintendo Switch Online + Expansion Pack?',
+      contentData: [
+        {
+          content: "A paid Nintendo Switch Online + Expansion Pack membership includes libraries of classic Nintendo 64 and SEGA Genesis games with added online play, access to the Animal Crossing: New Horizons - Happy Home Paradise and Mario Kart 8 Deluxe - Booster Course Pass DLCs at no additional cost, and all the benefits of a Nintendo Switch Online membership. Full version of game required to use DLC for that game. Sold separately.",
+        },
+      ]
+    },
+    {
+      title: 'How do you cancel a Nintendo Switch Online membership?',
+      contentData: [
+        {
+          content: 'Auto-renewal can be turned off through "Your Subscriptions" in your Nintendo eShop or Nintendo Account settings. Once its turned off, it cannot be turned on again.',
+        },
+      ]
+    },
+    {
+      title: 'Can you change a Nintendo Switch Online membership to Nintendo Switch Online + Expansion Pack?',
+      contentData: [
+        {
+          content: 'You can change an individual Nintendo Switch Online membership to an individual or family Nintendo Switch Online + Expansion Pack membership, or from a family Nintendo Switch Online membership to a family Nintendo Switch Online + Expansion Pack membership through "Your Subscriptions" in your Nintendo eShop or Nintendo Account settings. Additional cost may apply.',
+        },
+      ]
+    },
+    {
+      title: 'Can I access Nintendo Switch Online from my Nintendo Switch?',
+      contentData: [
+        {
+          content: 'Yes, you can get the latest info on Nintendo Switch Online, complete member-exclusive missions, and redeem Nintendo Platinum™ Points for icon elements, right from the Nintendo Switch HOME menu.',
+        },
+        {
+          content: 'Want to know more about Nintendo Switch Online and Nintendo Switch Online + Expansion Pack? Head over to the Nintendo Support Page for lots of helpful information.',
+        },
+      ]
+    },
   ]
   return (
     <>
       <OnlineServiceTopSection />
       <OnlineServiceMiddleSection sectionData={onlineServiceMiddleSectionData} />
       <OnlineServiceCompareMembershipSection sectionData={compareMembershipData} />
+      <OnlineServiceFAQsSection sectionData={onlineServieFAQsData} />
     </>
   )
 }

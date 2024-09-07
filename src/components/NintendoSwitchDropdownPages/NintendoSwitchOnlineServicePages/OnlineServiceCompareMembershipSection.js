@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../../../assets/css/nintendoSwitchOnlineServiceCSSpages/onlineServiceCompareMembershipSection.css'
 import sectionImg4 from '../../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionImg4.avif'
 import sectionImg5 from '../../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionImg5.avif'
+import sectionRowImg1 from '../../../assets/images/nintendoSwitchOnlineServiceImgs/middleSectionImgs/sectionRowImg1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const OnlineServiceCompareMembershipSection = ({ sectionData }) => {
@@ -72,11 +73,23 @@ const OnlineServiceCompareMembershipSection = ({ sectionData }) => {
                     <div className='col-12 col-md-6 online-service-compare-mambership-section-table-bottom-row-left'>
                         <p>Watch these videos to learn more about the features included in each membership option.</p>
                     </div>
-                    <div className='col-6 col-md-3 online-service-compare-mambership-section-table-bottom-row-right'>
+                    <div className='col-6 col-md-3 online-service-compare-mambership-section-table-bottom-row-middle'>
                         <img src={sectionImg4} className='img-fluid' alt='img' />
                     </div>
                     <div className='col-6 col-md-3 online-service-compare-mambership-section-table-bottom-row-right'>
                         <img src={sectionImg5} className='img-fluid' alt='img' />
+                    </div>
+                </div>
+                <div className='nintendo-switch-online-service-compare-mambership-section-two-container'>
+                    <div className='online-service-compare-mambership-section-two-img'>
+                        <img src={sectionRowImg1} className='img-fluid' alt='online-nintendo' />
+                    </div>
+                    <div className='online-service-compare-mambership-section-two-middle'>
+                        <h5>Try Nintendo Switch Online for free!</h5>
+                        <p>Want to try before you buy? Test out a Nintendo Switch Online membership with a free 7-day trial.</p>
+                    </div>
+                    <div className='online-service-compare-mambership-section-two-right'>
+                        <button>Get started</button>
                     </div>
                 </div>
             </div>

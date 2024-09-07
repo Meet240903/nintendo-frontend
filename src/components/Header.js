@@ -28,6 +28,7 @@ const Header = () => {
         {
             img: playNintendoImg1,
             title: 'For kids',
+            link: '/kids-home',
         },
         {
             img: playNintendoImg2,
@@ -197,12 +198,14 @@ const Header = () => {
                             <div className='game-dropdown-box'>
                                 {
                                     playNintendoDropdownData?.map((data, index) => (
-                                        <div className='game-dropdown-content' key={index}>
-                                            <div className='switch-dropdown-img-div'>
-                                                <img src={data?.img} className='switch-dropdown-img' alt='witch-dropdown-img' />
-                                            </div><br />
-                                            <p>{data?.title}</p>
-                                        </div>
+                                        <Link to={`${data?.link}`} key={index} className='router-link text-center'>
+                                            <div className='game-dropdown-content'>
+                                                <div className='switch-dropdown-img-div'>
+                                                    <img src={data?.img} className='switch-dropdown-img' alt='witch-dropdown-img' />
+                                                </div><br />
+                                                <p>{data?.title}</p>
+                                            </div>
+                                        </Link>
                                     ))
                                 }
                             </div>

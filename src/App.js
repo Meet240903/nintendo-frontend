@@ -24,6 +24,9 @@ import NintendoSwitchCompareSystem from './components/NintendoSwitchDropdownPage
 import NintendoSwitchOnlineService from './components/NintendoSwitchDropdownPages/NintendoSwitchOnlineService';
 import NintendoSwitchHardware from './components/NintendoSwitchDropdownPages/NintendoSwitchHardware';
 import NintendoSwitchShopSystem from './components/NintendoSwitchDropdownPages/NintendoSwitchShopSystem';
+import KidsFirstHeader from './components/playKidsComponents/KidsFirstHeader';
+import KidsHomePage from './components/playKidsComponents/KidsHomePage';
+import KidsFooter from './components/playKidsComponents/KidsFooter';
 
 function App() {
   return (
@@ -124,6 +127,14 @@ function App() {
                 <Header />
                 <NintendoSwitchShopSystem />
                 <Footer />
+              </>
+            } />
+          <Route exact path='/kids-home'
+            element={
+              <>
+                <KidsFirstHeader />
+                <KidsHomePage />
+                <KidsFooter />
               </>
             } />
           <Route exact path='/nintendo-account'

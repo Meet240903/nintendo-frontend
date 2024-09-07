@@ -1,0 +1,107 @@
+.kids-home-page-top-section-container{
+    background-image: radial-gradient(circle at 50% 55%, #e62d18 0%, #a80b04 73%);
+    padding: 3rem 0;
+}
+
+.kids-home-page-top-section-title{
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.kids-home-page-top-section-title .kids-home-top-section-img{
+    height: 300px;
+    margin: 2rem 0;
+    border: 5px solid black;
+    border-bottom: 9px solid black;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3), -2px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kids-home-page-top-section-title button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.kids-home-page-top-section-title button:hover{
+    background-color: #000;
+    font-weight: bold;
+}
+
+.kids-home-top-section-img1{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    height: 150px;
+}
+
+.kids-home-top-section-img2{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    height: auto;
+}
+
+.kids-home-top-section-img3{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    height: auto;
+}
+
+.kids-home-top-section-img4{
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    height: 100px;
+}
+
+.kids-home-top-section-img5{
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .kids-home-page-top-section-container{
+        padding: 10rem 0;
+    }
+    .kids-home-top-section-img {
+        height: 150px;
+    }
+
+    .kids-home-top-section-img3 {
+        right: 20px;
+        top: -150px;
+        height: 100px;
+    }
+
+    .kids-home-top-section-img4 {
+        right: 150px;
+        top: -120px;
+        height: 70px;
+    }
+
+    .kids-home-top-section-img1 {
+        left: 20px;
+        top: -140px;
+        height: 90px;
+    }
+
+    .kids-home-top-section-img5 {
+        right: 0;
+        height: 150px;
+        top: 550px;
+    }
+
+    .kids-home-top-section-img2 {
+        left: 0;
+        top: 580px;
+        height: 170px;
+    }
+
+}
