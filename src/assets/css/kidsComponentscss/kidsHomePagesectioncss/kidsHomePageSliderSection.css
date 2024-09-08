@@ -1,0 +1,113 @@
+.kids-home-page-slider-section-container {
+  background-image: radial-gradient(circle at 50% 50%, #fff000 0%, #ffdc00 71%);
+  padding: 4rem 3rem;
+  padding-bottom: 6rem;
+  overflow: hidden;
+}
+
+.kids-home-page-slider-section-title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.kids-home-page-slider-section-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.kids-home-page-slider-section-slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.kids-home-page-slider-section-left-arrow {
+  left: 20px;
+}
+
+.kids-home-page-slider-section-right-arrow span {
+  font-size: 50px;
+}
+
+.kids-home-page-slider-section-left-arrow span {
+  font-size: 50px;
+}
+
+.kids-home-page-slider-section-right-arrow {
+  right: 20px;
+}
+
+.kids-home-page-slider-section-slider-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.kids-home-page-slider-section-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid black;
+  border-bottom: 9px solid black;
+  margin: 0 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  transition: all 0.5s ease;
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.kids-home-page-slider-section-icon {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  top: -35px;
+  left: 43%;
+}
+
+.kids-home-page-slider-section-icon img {
+  height: 60px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .kids-home-page-slider-section-container {
+    padding: 1rem;
+  }
+  .kids-home-page-slider-section-slide {
+    padding: 10px;
+  }
+  .kids-home-page-slider-section-title h2 {
+    font-size: 1.5rem;
+  }
+  .kids-home-page-slider-section-slider-arrow.kids-home-page-slider-section-left-arrow,
+  .kids-home-page-slider-section-slider-arrow.kids-home-page-slider-section-right-arrow
+  {
+    display: none;
+  }
+  .kids-home-page-slider-section-slider-content{
+    flex-direction: column;
+  }
+  .kids-home-page-slider-section-slide{
+    width: 300px;
+    margin: 2rem 0;
+  }
+  .kids-home-page-slider-section-container-flex{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .kids-home-page-slider-section-slide {
+    padding: 5px;
+  }
+}
