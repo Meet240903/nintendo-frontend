@@ -39,7 +39,9 @@ const KidsFirstHeader = () => {
             {/* Second Header */}
             <div className={`kids-second-header-container ${isMenuOpen ? 'open' : ''}`}>
                 <div className="kids-second-header-list">
-                    <li>Friends</li>
+                    <Link to='/friends' className='router-link'>
+                        <li>Friends</li>
+                    </Link>
                     <li>Activities</li>
                     <li>Media</li>
                     <Link to="/kids-home">

@@ -6,6 +6,7 @@ import characterImg3 from '../../../assets/images/kidsComponentsImgs/kidsHomePag
 import characterImg4 from '../../../assets/images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/characterImg4.png'
 import characterImg5 from '../../../assets/images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/characterImg5.png'
 import characterImg6 from '../../../assets/images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/characterImg6.png'
+import { Link } from 'react-router-dom'
 
 const KidsHomePageCharacterSection = () => {
     const characterData = [
@@ -45,10 +46,12 @@ const KidsHomePageCharacterSection = () => {
                             </div>
                         ))
                     }
-                    <div className='kids-home-page-character-section-content-box-2'>
-                        <img src={characterImg6} className='img-fluid' alt='character-img' />
-                        <p>See more character</p>
-                    </div>
+                    <Link to='/friends' className='router-link'>
+                        <div className='kids-home-page-character-section-content-box-2'>
+                            <img src={characterImg6} className='img-fluid' alt='character-img' />
+                            <p>See more character</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </>

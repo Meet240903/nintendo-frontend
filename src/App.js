@@ -27,6 +27,7 @@ import NintendoSwitchShopSystem from './components/NintendoSwitchDropdownPages/N
 import KidsFirstHeader from './components/playKidsComponents/KidsFirstHeader';
 import KidsHomePage from './components/playKidsComponents/KidsHomePage';
 import KidsFooter from './components/playKidsComponents/KidsFooter';
+import KidsFreindsPage from './components/playKidsComponents/KidsFreindsPage';
 
 function App() {
   return (
@@ -134,6 +135,14 @@ function App() {
               <>
                 <KidsFirstHeader />
                 <KidsHomePage />
+                <KidsFooter />
+              </>
+            } />
+          <Route exact path='/friends'
+            element={
+              <>
+                <KidsFirstHeader />
+                <KidsFreindsPage />
                 <KidsFooter />
               </>
             } />

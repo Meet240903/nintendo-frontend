@@ -1,0 +1,75 @@
+.kids-friends-page-section-container {
+  background-image: url("../../images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/bgimg.png");
+  background-size: auto;
+  background-repeat: repeat;
+  padding: 3rem 7rem;
+}
+
+.kids-friends-page-section-content {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 3rem;
+}
+
+.kids-friends-page-section-content-box,
+.kids-friends-page-section-content-box-2 {
+  text-align: center;
+}
+
+.kids-friends-page-section-content-box img {
+  border: 5px solid black;
+  border-bottom: 9px solid black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px; /* Ensure images are always circular */
+  object-fit: cover; /* Ensure image fits within the circle */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+.kids-friends-page-section-content-box img:hover {
+  transform: rotateY(180deg); /* 3D rotation on hover */
+}
+
+.kids-friends-page-section-content-box p,
+.kids-friends-page-section-content-box-2 p {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.kids-friends-page-section-content-box-2 img {
+  height: 200px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.kids-friends-page-section-content-box-2 img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .kids-friends-page-section-container {
+    padding: 1.5rem;
+  }
+  .kids-friends-page-section-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  .kids-friends-page-section-content-box img {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .kids-friends-page-section-container {
+    padding: 1.5rem;
+  }
+  .kids-friends-page-section-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  .kids-friends-page-section-content-box img {
+    height: auto;
+  }
+}
