@@ -161,7 +161,7 @@ const KidsHomePageBottomSection = () => {
                                 >
 
                                     <div className='kids-home-page-bottom-section-content-boxs-body-span'>
-                                        <p>{data?.spanTitle}</p>
+                                        <p>{data?.spanTitle?.toUpperCase()}</p>
                                     </div>
                                     <p className='fw-bold'>{data?.title}</p>
                                     <p className='body-content'>{data?.content}</p>
