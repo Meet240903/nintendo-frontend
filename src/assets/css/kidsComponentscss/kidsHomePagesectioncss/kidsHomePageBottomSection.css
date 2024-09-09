@@ -1,0 +1,84 @@
+.kids-home-page-bottom-section-container{
+    background-image: url('../../../images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/bgimg.png');
+    background-size: auto;
+    background-position: cover;
+    background-repeat: repeat;
+    padding: 2rem;
+}
+
+.kids-home-page-bottom-section-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6,1fr);
+    row-gap: 30px;
+}
+
+.kids-home-page-bottom-section-content-boxs{
+    width: 200px;
+    border: 3px solid black;
+    border-bottom: 6px solid black;
+    position: relative;
+}
+
+.kids-home-page-bottom-section-content-boxs-img{
+    width: 100%;
+}
+
+.kids-home-page-bottom-section-content-boxs-img img{
+    width: 100%;
+}
+
+.kids-home-page-bottom-section-icon{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 5px solid #b42ff5;
+    top: 170px;
+    transform: translateX(100%);
+}
+
+.kids-home-page-bottom-section-icon img{
+    height: 50px;
+}
+
+.kids-home-page-bottom-section-content-boxs-body{
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #b42ff5;
+}
+
+.kids-home-page-bottom-section-content-boxs-body-span{
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;
+    width: fit-content;
+    margin: 1.5rem auto;
+    padding: 0 10px;
+}
+
+.kids-home-page-bottom-section-content-boxs-body-span p{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.kids-home-page-bottom-section-content-boxs-body .body-content{
+    font-size: 12px;
+}
+
+@media (max-width:768px) {
+    .kids-home-page-bottom-section-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .kids-home-page-bottom-section-content-boxs{
+        width: 300px;
+    }
+    .kids-home-page-bottom-section-icon{
+        top: 270px;
+        left: 50px;
+    }
+}
