@@ -49,7 +49,9 @@ const KidsFirstHeader = () => {
                     <Link to="/kids-home">
                         <img src={headerLogo1} className="fluid-img" alt="header-logo" />
                     </Link>
-                    <li>Printables</li>
+                    <Link to='/printables' className='router-link'>
+                        <li>Printables</li>
+                    </Link>
                     <li>News & Tips</li>
                 </div>
             </div>
