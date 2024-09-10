@@ -45,7 +45,9 @@ const KidsFirstHeader = () => {
                     <Link to='/activities' className='router-link'>
                         <li>Activities</li>
                     </Link>
-                    <li>Media</li>
+                    <Link to='/media' className='router-link'>
+                        <li>Media</li>
+                    </Link>
                     <Link to="/kids-home">
                         <img src={headerLogo1} className="fluid-img" alt="header-logo" />
                     </Link>

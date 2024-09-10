@@ -1,0 +1,78 @@
+.kids-media-page-section-container {
+    background-image: url("../../images/kidsComponentsImgs/kidsHomePageImgs/charactetSectionImgs/bgimg.png");
+    background-size: auto;
+    background-repeat: repeat;
+    padding: 2rem 1rem;
+}
+
+.kids-media-page-section-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Three equal columns */
+    grid-auto-rows: 200px; /* Base row height */
+    gap: 1.5rem; /* Space between grid items */
+    margin-top: 2rem;
+}
+
+.media-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.media-item:hover {
+    transform: scale(1.05);
+}
+
+.media-thumbnail {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Thumbnail height can be adjusted */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.media-content {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent background for text */
+    border-radius: 0 0 8px 8px;
+}
+
+.media-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.media-type {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1024px) {
+    .media-grid {
+        grid-template-columns: repeat(2, 1fr); /* Adjust columns for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .media-grid {
+        grid-template-columns: 1fr; /* Single column for mobile screens */
+    }
+}

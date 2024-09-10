@@ -1,7 +1,7 @@
 .kids-news-tips-top-section-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 3rem 0;
+  max-width: 1150px;
+  margin: 0 auto !important;
+  padding-top: 3rem;
 }
 
 .kids-news-tips-top-section-title H2 {
@@ -114,7 +114,7 @@
 .kids-news-tips-top-section-content-game-release-box-icon {
   position: absolute;
   top: 230px;
-  left: 70px;
+  left: 120px;
   background-color: #fff;
   border: 6px solid #1d9f1d;
   border-radius: 50%;
@@ -145,7 +145,7 @@
 
 .kids-news-tips-top-section-content-game-release-box-img img {
   width: 100%;
-  height: 100%;
+  height: 220px;
 }
 
 .kids-news-tips-top-section-content-game-release-box-body-title {
@@ -189,7 +189,7 @@
 .kids-news-tips-top-section-content-tips-tricks-box-icon {
   position: absolute;
   top: 230px;
-  left: 70px;
+  left: 120px;
   background-color: #fff;
   border: 6px solid #1ddb81;
   border-radius: 50%;
