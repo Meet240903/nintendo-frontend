@@ -52,7 +52,9 @@ const KidsFirstHeader = () => {
                     <Link to='/printables' className='router-link'>
                         <li>Printables</li>
                     </Link>
-                    <li>News & Tips</li>
+                    <Link to='/news-tips' className='router-link'>
+                        <li>News & Tips</li>
+                    </Link>
                 </div>
             </div>
         </>

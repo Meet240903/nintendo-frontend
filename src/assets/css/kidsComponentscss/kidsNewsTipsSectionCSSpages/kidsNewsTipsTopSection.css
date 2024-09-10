@@ -1,0 +1,281 @@
+.kids-news-tips-top-section-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.kids-news-tips-top-section-title H2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kids-news-tips-top-section-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  max-width: 1300px;
+  margin: 3rem auto !important;
+}
+
+.kids-news-tips-top-section-content-news-boxs {
+  background-image: url("../../../images/kidsComponentsImgs/kidsNewsTipsPagesImgs/topSectionImgs/sectionImg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  border: 4px solid black;
+  border-bottom: 6px solid black;
+  padding: 1rem;
+  transition: transform 0.6s ease-in-out;
+  position: relative;
+  color: #fff;
+}
+
+.kids-news-tips-top-section-content-news-boxs:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.kids-news-tips-top-section-content-news-boxs-span {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 0 10px;
+}
+
+.kids-news-tips-top-section-content-news-boxs-span p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.kids-news-tips-top-section-content-title-content-section {
+  width: 300px;
+}
+
+.kids-news-tips-top-section-content-news-boxs-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px !important;
+}
+
+.kids-news-tips-top-section-content-news-boxs-content {
+  font-size: 12px;
+}
+
+.kids-news-tips-top-section-content-img {
+  position: absolute;
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 80px;
+  text-align: center;
+  top: 20px;
+  right: 0;
+}
+
+.kids-news-tips-top-section-content-img img {
+  height: 60px;
+}
+
+/* game-release section css */
+
+.kids-news-tips-top-section-content-game-release-box {
+  height: 500px;
+  width: auto;
+  border: 4px solid black;
+  border-bottom: 6px solid black;
+  transition: transform 0.6s ease-in-out;
+  position: relative;
+  color: #fff;
+}
+
+.kids-news-tips-top-section-content-game-release-box:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.kids-news-tips-top-section-content-game-release-box-body {
+  background-color: #1d9f1d;
+  padding: 10px;
+  height: 270px;
+  text-align: center;
+}
+
+.kids-news-tips-top-section-content-game-release-box-body-part {
+  height: fit-content;
+  margin: 2.4rem 0;
+}
+
+.kids-news-tips-top-section-content-game-release-box-icon {
+  position: absolute;
+  top: 230px;
+  left: 70px;
+  background-color: #fff;
+  border: 6px solid #1d9f1d;
+  border-radius: 50%;
+}
+
+.kids-news-tips-top-section-content-game-release-box-icon img {
+  height: 60px;
+}
+
+.kids-news-tips-top-section-content-game-release-box-body-span {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.kids-news-tips-top-section-content-game-release-box-body-span p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.kids-news-tips-top-section-content-game-release-box-img {
+  width: 100%;
+}
+
+.kids-news-tips-top-section-content-game-release-box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.kids-news-tips-top-section-content-game-release-box-body-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.kids-news-tips-top-section-content-game-release-box-body-content {
+  font-size: 12px;
+}
+
+/* tips and tricks section css */
+
+.kids-news-tips-top-section-content-tips-tricks-box {
+  height: 500px;
+  width: auto;
+  border: 4px solid black;
+  border-bottom: 6px solid black;
+  transition: transform 0.6s ease-in-out;
+  position: relative;
+  color: #000;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-body {
+  background-color: #1ddb81;
+  padding: 10px;
+  text-align: center;
+  height: 220px;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-body-part {
+  height: fit-content;
+  margin: 2rem 0;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-icon {
+  position: absolute;
+  top: 230px;
+  left: 70px;
+  background-color: #fff;
+  border: 6px solid #1ddb81;
+  border-radius: 50%;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-icon img {
+  height: 60px;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-body-span {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  color: #000;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-body-span p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-img {
+  width: 100%;
+  height: 270px;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-body-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.kids-news-tips-top-section-content-tips-tricks-box-body-content {
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .kids-news-tips-top-section-title H2 {
+    font-size: 1.5rem;
+  }
+  .kids-news-tips-top-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .kids-news-tips-top-section-content-news-boxs {
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+  }
+  .kids-news-tips-top-section-content-img {
+    width: 60px;
+    top: 10px;
+  }
+  .kids-news-tips-top-section-content-img img {
+    height: 40px;
+  }
+
+  /* game release section css */
+
+  .kids-news-tips-top-section-content-game-release-box {
+    width: 300px;
+    height: auto;
+  }
+
+  /* tips trick section css */
+
+  .kids-news-tips-top-section-content-tips-tricks-box {
+    width: 300px;
+    height: auto;
+  }
+  .kids-news-tips-top-section-content-tips-tricks-box-icon,
+  .kids-news-tips-top-section-content-game-release-box-icon {
+    left: 120px;
+    top: 240px;
+  }
+
+  .kids-news-tips-top-section-content-tips-tricks-box-icon img,
+  .kids-news-tips-top-section-content-game-release-box-icon img {
+    height: 40px;
+  }
+}
