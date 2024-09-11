@@ -32,6 +32,7 @@ import KidsActivitiesPage from './components/playKidsComponents/KidsActivitiesPa
 import KidsPrintablePage from './components/playKidsComponents/KidsPrintablePage';
 import KidsNewsAndTipsPage from './components/playKidsComponents/KidsNewsAndTipsPage';
 import KidsMediaPage from './components/playKidsComponents/KidsMediaPage';
+import ParentsPage from './components/playKidsComponents/ParentsPage';
 
 function App() {
   return (
@@ -179,6 +180,14 @@ function App() {
               <>
                 <KidsFirstHeader />
                 <KidsMediaPage />
+                <KidsFooter />
+              </>
+            } />
+          <Route exact path='/parents'
+            element={
+              <>
+                <KidsFirstHeader />
+                <ParentsPage />
                 <KidsFooter />
               </>
             } />

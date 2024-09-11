@@ -38,6 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .kids-second-header-list {
@@ -67,6 +68,24 @@
 
 .kids-second-header-list img:hover {
     transform: scale(1.1);
+}
+
+.kids-second-header-parent-link{
+    position: absolute;
+    right: 0;
+    padding: 30px;
+    border-left: 1px solid;
+}
+
+.kids-second-header-parent-link:hover{
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+
+.kids-second-header-parent-link p{
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* Media Queries for Responsiveness */
@@ -104,6 +123,13 @@
 
     .kids-second-header-list img {
         height: 50px;
+    }
+    .kids-second-header-parent-link{
+        position: relative;
+        padding: 10px;
+        border-top: 1px solid;
+        border-left: none;
+        width: 100%;
     }
 }
 

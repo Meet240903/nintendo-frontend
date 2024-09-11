@@ -1,0 +1,54 @@
+.parents-home-page-section-title{
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+    color: #5f89bb;
+}
+
+.parents-home-page-section-container-two{
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.parents-home-page-section-content-left-list-box {
+    background-color: #dadada;
+    padding: 20px 30px;
+    border-bottom: 2px solid #9f9c9c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.parents-home-page-section-content-left-list-box:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.02); /* Slightly scale the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    background-color: #c1c1c1; /* Change background color */
+}
+
+.parents-greater-than-icon{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.parents-content-left-side-span{
+    position: absolute;
+    padding: 10px 8px;
+    height: 75px;
+    left: 0;
+}
+
+.parents-home-page-section-content-left-list-box p{
+    margin: 0 !important;
+    font-size: 24px;
+}
+
+.parents-home-page-section-content-right-inner{
+    border: 1px solid lightgray;
+    padding: 10px;
+}

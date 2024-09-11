@@ -1,0 +1,22 @@
+.parents-page-right-bottom-section-container{
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.parents-page-right-bottom-section-title{
+    text-align: center;
+    color: #5f89bb;
+}
+
+.parents-page-right-bottom-section-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 2rem;
+}
+
+.parents-page-right-bottom-section-imgs img{
+    height: 70px;
+}

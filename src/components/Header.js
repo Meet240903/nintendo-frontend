@@ -33,6 +33,7 @@ const Header = () => {
         {
             img: playNintendoImg2,
             title: 'For parents',
+            link: '/parents',
         },
     ]
 

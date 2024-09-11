@@ -58,6 +58,11 @@ const KidsFirstHeader = () => {
                         <li>News & Tips</li>
                     </Link>
                 </div>
+                <div className='kids-second-header-parent-link'>
+                    <Link to='/parents' className='router-link'>
+                        <p>Parents</p>
+                    </Link>
+                </div>
             </div>
         </>
     );
