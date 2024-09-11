@@ -62,34 +62,31 @@ const mediaData = [
 
 const KidsMediaPage = () => {
   return (
-    // <div className='kids-media-page-section-container'>
-    //   <div className='kids-media-page-section-title'>
-    //     <h2>Videos, images, and sounds</h2>
-    //   </div>
+    <div className='kids-media-page-section-container'>
+      <div className='kids-media-page-section-title'>
+        <h2>Videos, images, and sounds</h2>
+      </div>
 
-    //   <div className='media-grid'>
-    //     {mediaData.map((media, index) => (
-    //       <div
-    //         key={index}
-    //         className='media-item'
-    //         style={{
-    //           backgroundColor: media.color,
-    //           gridColumn: media.gridColumnSpan,
-    //           gridRow: media.gridRowSpan,
-    //         }}
-    //       >
-    //         <img src={media.thumbnail} alt={media.title} className='media-thumbnail' />
-    //         <div className='media-content'>
-    //           <h3>{media.title}</h3>
-    //           {media.type === 'video' && <span className='media-type'>VIDEO</span>}
-    //           {media.type === 'wallpaper' && <span className='media-type'>WALLPAPER</span>}
-    //         </div>
-    //       </div>
-    //     ))}
-    //   </div>
-    // </div>
-    <div>
-        <h1>This page is undermaintainance.</h1>
+      <div className='media-grid'>
+        {mediaData.map((media, index) => (
+          <div
+            key={index}
+            className='media-item'
+            style={{
+              backgroundColor: media.color,
+              gridColumn: media.gridColumnSpan,
+              gridRow: media.gridRowSpan,
+            }}
+          >
+            <img src={media.thumbnail} alt={media.title} className='media-thumbnail' />
+            <div className='media-content'>
+              <h3>{media.title}</h3>
+              {media.type === 'video' && <span className='media-type'>VIDEO</span>}
+              {media.type === 'wallpaper' && <span className='media-type'>WALLPAPER</span>}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
