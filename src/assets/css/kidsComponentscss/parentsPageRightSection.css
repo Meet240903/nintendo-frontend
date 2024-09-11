@@ -33,3 +33,24 @@
     text-align: center;
     cursor: pointer;
 }
+
+@media (max-width:768px) {
+    .parents-home-page-section-content-right-content {
+        flex-direction: column;
+    }
+    .parents-home-page-section-content-right-content-body h2{
+        font-size: 1.2rem;
+    }
+    .parents-home-page-section-content-right-content-body p{
+        text-align: justify;
+    }
+    .parents-right-main-content{
+        text-align: justify;
+    }
+    .parents-home-page-section-content-right-game-finder-link h2{
+        font-size: 1rem
+    }
+    .parents-home-page-section-content-right-img img{
+        height: 200px;
+    }
+}

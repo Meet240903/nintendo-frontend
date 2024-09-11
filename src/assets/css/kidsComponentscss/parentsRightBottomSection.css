@@ -20,3 +20,9 @@
 .parents-page-right-bottom-section-imgs img{
     height: 70px;
 }
+
+@media (max-width:768px) {
+    .parents-page-right-bottom-section-imgs img{
+        height: 60px;
+    }
+}

@@ -12,7 +12,7 @@ const ParentsPageRightSection = ({ sectionData }) => {
                 </div>
             }
             <h1 className='my-5'>{sectionData?.rightSectionData?.mainTitle}</h1>
-            <p>{sectionData?.rightSectionData?.mainContent}</p>
+            <p className='parents-right-main-content'>{sectionData?.rightSectionData?.mainContent}</p>
             <img src={borderImg} className='img-fluid' alt='border-img' />
             {
                 sectionData?.rightSectionData?.mainSectionImg2 &&
